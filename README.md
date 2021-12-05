@@ -1,7 +1,7 @@
 # KevFR.github.io
 <h2> Qu'est-ce que kevfr.github.io ? </h2>
 
-"kevfr.github.io", "projet Aqua", est un site internet crée par KevFR, annoncée en Décembre 2021. Il succède à Firewave et aux premiers site que KevFR a pu faire. Ce site internet ce base sur la chaine Youtube de KevFR, en proposant des packs, des actualités et d'autres concepts à venir. Pour l'instant le projet n'est pas ouvert au publique, seul des captures d'écrans sont montrées car le site n'est pas encore pret.
+"kevfr.github.io", "projet Aqua", est un site internet crée par KevFR, annoncée en Décembre 2021. Il succède à Firewave et aux premiers site que KevFR a pu faire auparavant. Ce site internet ce base sur la chaine Youtube de KevFR, en proposant des packs, des actualités et d'autres concepts à venir. Pour l'instant le projet n'est pas ouvert au publique, seul des captures d'écrans sont montrées car le site n'est pas encore pret.
 
 <h2> Informations </h2>
 
