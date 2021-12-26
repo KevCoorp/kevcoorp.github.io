@@ -17,7 +17,7 @@ Je ne peux dire quand il sortira exactement, mais selon moi vers début été 20
 
 Q3 - Quelle logiciel utilise-tu ? Et quelle extensions (VS:Code)
 
-J'utilise Visual Studio Code pour la partie programmation, comme extensions j'utilise un thème personnalisée, Live server, Prettier. Pour les images j'utilises Paint.NET ou Photopea
+J'utilise Visual Studio Code pour la partie programmation, comme extensions j'utilise un thème personnalisée, Live server, Prettier. Pour les images j'utilises Paint.NET ou Photoshop
 
 Q4 - Pourquoi avoir réalisez ce site et ne pas gardez FireWave ?
 
