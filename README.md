@@ -1,19 +1,20 @@
 # KevFR.github.io
 <h2> Qu'est-ce que kevfr.github.io ? </h2>
 
-"kevfr.github.io", ou FireAqua, est un site internet crée par KevFR, annoncée en Décembre 2021. Il succède à Firewave et aux premiers site que KevFR a pu faire auparavant. Ce site internet ce base sur la chaine Youtube de KevFR, en proposant des packs, des actualités et d'autres concepts à venir. Pour l'instant le projet n'est pas ouvert au publique, seul des captures d'écrans sont montrées car le site n'est pas encore pret.
+"KevFR.github.io", "FireAqua" (Ou Projet Aqua, nom de code), est un site internet crée et gérée par le youtubeur KevFR. FireAqua, succède au projet FireWave, suite à l'abandon du développement et des conflits internes. En novembre 2021, FireAqua, était encore en développement et étais, limité, aujourd'hui le site, est plus accessible mais, il n'est que pour l'instant, inaccessible au publique, seul des captures de développement sont postés. 
 
-<h2> Informations </h2>
+<h2> FAQ </h2>
 
 Voici quelques questions, que vous pourriez posez:
 
 Q1 - Depuis quand développe tu ce site ?
 
-Depuis Novembre 2021 
+Le développement du site à commencée le Mercredi 3 Novembre 2021
 
-Q2 - Quand sortira t-il ?
+Q2 - Quelle serra sa date de sortie ?
 
-Je ne peux dire quand il sortira exactement, mais selon moi vers début été 2022, ou si je bosse plus que prévu, vers le milieu du printemps
+Le site serra accès au publique, en printemps ou en fin juin. Mais, durant le mois entre Mai-Juin, je dois passer le brevet des collèges, par conséquent le site sortira sois, 
+plus tôt, sois plus tard.
 
 Q3 - Quelle logiciel utilise-tu ? Et quelle extensions (VS:Code)
 
@@ -21,7 +22,7 @@ J'utilise Visual Studio Code pour la partie programmation, comme extensions j'ut
 
 Q4 - Pourquoi avoir réalisez ce site et ne pas gardez FireWave ?
 
-J'ai voulu réalisez ce site, car je peux, facilement partagez des fichiers, présentez mes packs, et aussi d'une autre part pour mon futur métier qui est dans la programamation. Et j'ai abandonnée, Firewave suite à plusieurs conflit interne, et aussi car le site était en constant changement pour au finale tombez dans un trou qui mène à nulle-part
+J'ai réalisée FireAqua, car le développement de FireWave était mise en pause, et suites à plusieurs conflits internes, j'ai préférée faire un nouveau site tout seul et abandonné FireWave. Et j'ai réalisée, FireAqua, afin de vous partagez mes packs, et des actualités à propos de ma chaine Youtube !
 
 <h2> Images du site </h2>
 
