@@ -25,6 +25,8 @@ J'ai voulu r√©alisez ce site, car je peux, facilement partagez des fichiers, pr√
 
 <h2> Images du site </h2>
 
-![image](https://user-images.githubusercontent.com/70813133/145669610-b4676765-5a72-4bc4-93ef-4dd2815e85e3.png)
-![image](https://user-images.githubusercontent.com/70813133/145669625-544b739a-fbdf-44b5-b1a7-e03aca82100d.png)
+![image](https://user-images.githubusercontent.com/70813133/147409973-fdb04d7d-5fa7-460f-a3b0-2c3fd0b34b9e.png)
+![image](https://user-images.githubusercontent.com/70813133/147409989-6b27aa33-dd86-44cf-9090-6408c1459daf.png)
+![image](https://user-images.githubusercontent.com/70813133/147409998-da4a213b-5af7-47e7-afdd-02efd7618f60.png)
+
 
