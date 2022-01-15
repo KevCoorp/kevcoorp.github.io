@@ -26,8 +26,7 @@ J'ai réalisée FireAqua, car le développement de FireWave était mise en pause
 
 <h2> Images du site </h2>
 
-![image](https://user-images.githubusercontent.com/70813133/147409973-fdb04d7d-5fa7-460f-a3b0-2c3fd0b34b9e.png)
-![image](https://user-images.githubusercontent.com/70813133/147409989-6b27aa33-dd86-44cf-9090-6408c1459daf.png)
-![image](https://user-images.githubusercontent.com/70813133/147409998-da4a213b-5af7-47e7-afdd-02efd7618f60.png)
+![image](https://user-images.githubusercontent.com/70813133/149623804-b20dbdf7-abd9-4cac-b4f5-d296a4c069e4.png)
+![image](https://user-images.githubusercontent.com/70813133/149623821-f1a6becf-751d-4718-a8ad-473a7946a9fe.png)
 
 
