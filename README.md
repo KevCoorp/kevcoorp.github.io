@@ -43,7 +43,21 @@ A: The development started on November 3rd, 2021.
 
 Q: When will it be released?
 
-A: It will be released in between Spring and June, but due to exams, it might be delayed 
+A: The site will release of June 24th, 2022.
 
+
+Q: What software do you use?
+
+A: I use Visual Studio Code for programming, and Paint.NET and Photoshop for the images.
+
+
+Q: Why did you discontinue FireWave?
+
+A: The development of FireWave was vague, and I wanted to go for an ordinary website, instead of a browser OS.
+
+<h2> Images </h2>
+
+![image](https://user-images.githubusercontent.com/70813133/150676616-1668dc69-eb20-49b1-8540-a8514db8ea7f.png)
+![image](https://user-images.githubusercontent.com/70813133/149623821-f1a6becf-751d-4718-a8ad-473a7946a9fe.png)
 
 
