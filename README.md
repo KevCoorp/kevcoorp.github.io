@@ -40,16 +40,13 @@ Q: When did you start development?
 
 A: The development started on November 3rd, 2021.
 
-
 Q: When will it be released?
 
-A: The site will release of June 24th, 2022.
-
+A: The site will release on June 24th, 2022.
 
 Q: What software do you use?
 
 A: I use Visual Studio Code for programming, and Paint.NET and Photoshop for the images.
-
 
 Q: Why did you discontinue FireWave?
 
