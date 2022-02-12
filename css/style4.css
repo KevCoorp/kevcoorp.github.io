@@ -19,7 +19,7 @@ body {
 }
 
 nav.home {
-  background-image: url("/images/misc/nav-bar.png");
+  background-image: url("/images/misc/nav-bar3.png");
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -43,10 +43,14 @@ nav.home {
   color: rgb(112, 112, 112);
 }
 
-.titre {
+.titre-news {
   text-align: center;
+  font-size: 80px;
+  text-shadow: solid #333 10px;
+  text-shadow: 1px 1px 10px black;
   justify-content: center;
 }
+
 
 #info-1 {
   padding: 50px;
@@ -56,4 +60,5 @@ nav.home {
 
 section {
   padding: 50px;
+  position: sticky;
 }

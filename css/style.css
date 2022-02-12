@@ -8,7 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url(/images/bg/wallpapers5.jpg);
+  background-image: url(/images/bg/wallpaper1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,7 +34,7 @@ header {
 }
 
 nav {
-  background-image: url("/images/misc/nav-bar.png");
+  background: linear-gradient(#0018a3, rgb(0, 0, 78));
   background-repeat: no-repeat;
   background-size: cover;
   display: table;
@@ -54,11 +54,11 @@ nav {
 }
 
 .nav-item:hover {
-  color: rgb(112, 112, 112);
+  color: rgb(199, 199, 199);
 }
 
 .titre {
-  font-size: 80px;
+  font-size: 100px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: solid #333 10px;
   text-shadow: 1px 1px 10px black;
@@ -76,10 +76,12 @@ a {
 
 .titre2 {
   color: #0026ff;
+  font-size: 100px;
+  text-shadow: 1px 10px 10px rgb(0, 7, 102);
 }
 
 .titre3 {
-  font-size: 40px;
+  font-size: 50px;
   text-shadow: solid #333 10px;
   text-shadow: 1px 1px 10px black;
 }
@@ -180,4 +182,8 @@ footer {
   bottom: 0px;
   left: 0px;
   right: 0px;
+}
+
+.beta {
+  color: rgb(0, 255, 0);
 }
