@@ -25,7 +25,6 @@ header {
 }
 
 nav {
-  background: rgba(0, 0, 255, 0.712);
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -35,7 +34,8 @@ nav {
   padding: 15px;
   width: 100%;
   table-layout: fixed;
-  box-shadow: 0 3px 2px black;
+  box-shadow: 0 5px 15px rgba(0,0,0.5);
+  overflow: hidden;
 }
 
 .nav-item {
