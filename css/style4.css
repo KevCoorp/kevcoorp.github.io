@@ -19,7 +19,7 @@ body {
 }
 
 nav.home {
-    background-image: url("/images/misc/nav-bar3.png");
+    background: linear-gradient(to right, blue, green);
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@ nav.home {
     padding: 15px;
     width: 100%;
     table-layout: fixed;
-    box-shadow: 0 3px 5px black;
+     box-shadow: 0 3px 5px black;
 }
 
 .nav-item {
@@ -47,7 +47,7 @@ nav.home {
     text-align: center;
     font-size: 80px;
     text-shadow: solid #333 10px;
-    text-shadow: 1px 1px 10px black;
+    text-shadow: 1px 5px 10px black;
     justify-content: center;
 }
 
