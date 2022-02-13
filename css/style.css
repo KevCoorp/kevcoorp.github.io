@@ -1,191 +1,189 @@
 body {
-  margin: 0%;
-  text-shadow: 1px 1px 2px black;
-  color: white;
-  height: 100%;
-  overflow: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url(/images/bg/wallpaper1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 64px;
-  background-attachment: fixed;
+    margin: 0 0 64px;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('/images/bg/wallpaper1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 10%;
-  width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    width: 100%;
 }
 
 /* navbar */
 
 * {
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 nav {
-  background: linear-gradient(#0018a3, rgb(0, 0, 78));
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: table;
-  padding: 10px;
-  width: 100%;
-  table-layout: fixed;
-  box-shadow: 0 3px 5px black;
+    background: linear-gradient(#0018a3, rgb(0, 0, 78));
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    padding: 10px;
+    width: 100%;
+    table-layout: fixed;
+    box-shadow: 0 3px 5px black;
 }
 
 .nav-item {
-  float: right;
-  padding: 15px;
-  left: 100%;
-  color: white;
-  margin: 0 6px;
-  transition: all ease-in-out 0.5s;
+    float: right;
+    padding: 15px;
+    left: 100%;
+    color: white;
+    margin: 0 6px;
+    transition: all ease-in-out 0.5s;
 }
 
 .nav-item:hover {
-  color: rgb(199, 199, 199);
+    color: rgb(199, 199, 199);
 }
 
 .titre {
-  font-size: 100px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: solid #333 10px;
-  text-shadow: 1px 1px 10px black;
+    font-size: 100px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: solid #333 10px;
+    text-shadow: 1px 1px 10px black;
 }
 
 a {
-  color: white;
-  cursor: pointer;
+    color: white;
+    cursor: pointer;
 }
 
 .intro {
-  display: flex;
-  border-radius: 2px solid red;
+    display: flex;
+    border-radius: 2px solid red;
 }
 
 .titre2 {
-  color: #0026ff;
-  font-size: 100px;
-  text-shadow: 1px 10px 10px rgb(0, 7, 102);
+    color: #0026ff;
+    font-size: 100px;
+    text-shadow: 1px 10px 10px rgb(0, 7, 102);
 }
 
 .titre3 {
-  font-size: 50px;
-  text-shadow: solid #333 10px;
-  text-shadow: 1px 1px 10px black;
+    font-size: 50px;
+    text-shadow: solid #333 10px;
+    text-shadow: 1px 1px 10px black;
 }
 
 .intro {
-  text-align: center;
-  justify-content: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .intro-2 {
-  border: 2px solid white;
-  border-radius: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 img {
-  width: 32px;
-  height: 32px;
-  line-height: 100px;
+    width: 32px;
+    height: 32px;
+    line-height: 100px;
 }
 
 div.header {
-  text-align: center;
+    text-align: center;
 }
 
 h2 {
-  text-align: center;
-  list-style-type: none;
-  display: block;
+    text-align: center;
+    list-style-type: none;
+    display: block;
 }
 
 span.conseil {
-  color: red;
-  text-decoration: underline;
+    color: red;
+    text-decoration: underline;
 }
 
 /* Fin pop-up  */
 
 .logoaqua {
-  float: left;
-  width: 117px;
-  height: 51px;
-  margin: auto;
+    float: left;
+    width: 117px;
+    height: 51px;
+    margin: auto;
 }
-
 
 
 /* Bas de page */
 
 footer {
-  position: fixed;
-  height: 50px;
-  background-color: rgba(26, 26, 26, 0.562);
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+    position: fixed;
+    height: 50px;
+    background-color: rgba(26, 26, 26, 0.562);
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #link {
-  display: flex;
-  float: right;
-  height: 40px;
-  padding: 15px;
-  justify-content: space-between;
-  cursor: pointer;
-  color: white;
-  transition: all ease-in-out 0.5s;
-  margin-left: 50px;
+    display: flex;
+    float: right;
+    height: 40px;
+    padding: 15px;
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+    transition: all ease-in-out 0.5s;
+    margin-left: 50px;
 }
 
 .twiter {
-  padding: 0 6px;
-  cursor: pointer;
-  transition: all ease-in-out 0.5s;
+    padding: 0 6px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
 }
 
 .twiter:hover {
-  color: #1da1f2;
+    color: #1da1f2;
 }
 
 .youtube {
-  transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.5s;
 }
 
 .youtube:hover {
-  color: red;
+    color: red;
 }
 
 .git {
-  transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.5s;
 }
 
 .git:hover {
-  color: rgb(192, 192, 192);
+    color: rgb(192, 192, 192);
 }
 
 .build {
-  position: fixed;
-  text-align: center;
-  height: 50px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+    position: fixed;
+    text-align: center;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .beta {
-  color: rgb(0, 255, 0);
+    color: rgb(0, 255, 0);
 }
