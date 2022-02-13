@@ -7,7 +7,7 @@ body {
   justify-content: center;
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url(/images/bg/wallpaper3.jpg);
+  background-image: url(/images/bg/wallpapers3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,7 @@ header {
 }
 
 nav {
-  background-image: url("/images/misc/nav-bar3.png");
+  background: rgba(0, 0, 255, 0.712);
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -35,7 +35,7 @@ nav {
   padding: 15px;
   width: 100%;
   table-layout: fixed;
-  box-shadow: 0 3px 5px black;
+  box-shadow: 0 3px 2px black;
 }
 
 .nav-item {
