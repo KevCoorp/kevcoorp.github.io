@@ -26,8 +26,8 @@ J'ai réalisée, FireAqua, car le développement de FireWave, était assez vague
 
 <h2> Images du site </h2>
 
-![image](https://user-images.githubusercontent.com/70813133/150676616-1668dc69-eb20-49b1-8540-a8514db8ea7f.png)
-![image](https://user-images.githubusercontent.com/70813133/149623821-f1a6becf-751d-4718-a8ad-473a7946a9fe.png)
+![image](https://user-images.githubusercontent.com/70813133/153780165-998c8d99-31b8-456f-b388-f2b5d3e4bc38.png)
+![image](https://user-images.githubusercontent.com/70813133/153780173-c54c2bc9-97d4-416c-a6dd-97dc28589c60.png)
 
 # English
 <h2> What is kevfr.github.io? </h2>
@@ -54,7 +54,7 @@ A: The development of FireWave was vague, and I wanted to go for an ordinary web
 
 <h2> Images </h2>
 
-![image](https://user-images.githubusercontent.com/70813133/150676616-1668dc69-eb20-49b1-8540-a8514db8ea7f.png)
-![image](https://user-images.githubusercontent.com/70813133/149623821-f1a6becf-751d-4718-a8ad-473a7946a9fe.png)
+![image](https://user-images.githubusercontent.com/70813133/153780165-998c8d99-31b8-456f-b388-f2b5d3e4bc38.png)
+![image](https://user-images.githubusercontent.com/70813133/153780174-524f5a9e-993c-47e5-aca8-0745cefcc302.png)
 
 
