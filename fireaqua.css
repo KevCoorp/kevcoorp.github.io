@@ -11,16 +11,6 @@ body {
   animation: transitionIn 0.75s;
 }
 
-@keyframes transitionIn {
-  from {
-    opacity: 0;
-    transform: translate(0, -1%);
-  }
-  to {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
-}
 
 header {
   text-align: center;
@@ -35,7 +25,8 @@ header {
 
 
 nav {
-  background: linear-gradient(to right, rgb(32,1,130), rgb(5,34,238));
+
+  background: linear-gradient(rgb(32,1,130), rgb(5,34,238));
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
@@ -43,7 +34,6 @@ nav {
   padding: 10px;
   width: 100%;
   height: 50px;
-
   table-layout: fixed;
   box-shadow: 0 3px 5px black;
 }
@@ -113,7 +103,7 @@ span.conseil {
   text-decoration: underline;
 }
 
-/* Fin pop-up  */
+
 
 .logoaqua {
   float: left;
@@ -180,9 +170,9 @@ footer {
   right: 0px;
 }
 
-.beta {
-  color: rgb(0, 255, 0);
-}
+/* Fin index.html */
+
+/* Scrollbar */
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -212,8 +202,10 @@ html {
   height:100%
 }
 
-/* navbar */
+/* Scrollbar Fin */
 
+
+/* About.html */
 
 /* Effet Vague */
 .section {
@@ -281,10 +273,6 @@ html {
   }
 }
 
-
-
-
-
 .titre-small {
   text-align: center;
   align-items: center;
@@ -297,6 +285,18 @@ html {
   z-index: 2000;
 }
 
+nav {
+  background: linear-gradient(to right, blue, rgb(0, 255, 0));
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+  table-layout: fixed;
+  box-shadow: 0 5px 15px rgba(0,0,0.5);
+  overflow: hidden;
+}
+
 .nav-item {
   padding: 15px;
   color: white;
@@ -306,6 +306,11 @@ html {
 
 .nav-item:hover {
   color: rgb(112, 112, 112);
+}
+
+packs-navbar {
+  height: 50px;
+  width: 50px;
 }
 
 
@@ -332,6 +337,8 @@ hr {
   box-shadow: 5px 5px 5px black;
 }
 
+/* Fin about.html */
+
 .table-padding {
   padding: 100px;
 }
@@ -349,4 +356,16 @@ hr {
   text-align: center;
   font-size: 50px;
   text-shadow: 1px 1px 10px black;
+}
+
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translate(0, -1%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
 }
