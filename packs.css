@@ -20,7 +20,13 @@ header {
   }
   
 img {
-    border-radius: 10px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+ 
+  box-shadow: rgba(0, 0, 0, 0.616) 0px 5px 15px;
 }
 
 * {
@@ -98,5 +104,4 @@ span.conseil {
     text-shadow: 1px 1px 10px black;
 }
   
-
 
