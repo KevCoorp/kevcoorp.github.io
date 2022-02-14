@@ -148,7 +148,7 @@ footer {
 }
 
 .twiter {
-  padding: 0 6px;
+  padding: 0 10px;
   cursor: pointer;
   transition: all ease-in-out 0.5s;
 }
@@ -158,6 +158,7 @@ footer {
 }
 
 .youtube {
+  cursor: pointer;
   transition: all ease-in-out 0.5s;
 }
 
@@ -166,10 +167,12 @@ footer {
 }
 
 .git {
+  cursor: pointer;
   transition: all ease-in-out 0.5s;
 }
 
 .git:hover {
+  cursor: pointer;
   color: black;
 }
 
