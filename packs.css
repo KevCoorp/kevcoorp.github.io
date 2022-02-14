@@ -1,0 +1,107 @@
+body {
+    margin: 0%;
+    color: white;
+    height: 100%;
+    overflow: auto;
+    text-shadow: 1px 1px 2px black;
+    justify-content: center;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(/images/bg/wallpapers3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+header {
+    text-align: center;
+    justify-content: center;
+  }
+  
+img {
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+ 
+  box-shadow: rgba(0, 0, 0, 0.616) 0px 5px 15px;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+nav {
+    background: linear-gradient(to right, blue, rgb(0, 255, 0));
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    table-layout: fixed;
+    box-shadow: 0 5px 15px rgba(0,0,0.5);
+    overflow: hidden;
+}
+
+.nav-item {
+    padding: 15px;
+    color: white;
+    margin: 0 6px;
+    transition: all ease-in-out 0.5s;
+  }
+  
+  .nav-item:hover {
+    color: rgb(112, 112, 112);
+  }
+  
+  /* Button */
+  
+  li {
+    text-shadow: 1px 1px 2px black;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    border: none !important;
+    color: blue;
+  }
+  
+  #nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  
+  .info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 100px;
+    height: 30px;
+  }
+  
+  .column {
+    float: left;
+    padding: 5px;
+    height: 10px;
+  }
+  
+span.conseil {
+    color: red;
+    text-decoration: underline;
+  }
+  
+.titre {
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    text-shadow: solid #333 10px;
+    text-shadow: 1px 1px 10px black;
+}
+  
+
