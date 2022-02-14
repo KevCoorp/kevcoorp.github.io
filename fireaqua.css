@@ -1,8 +1,8 @@
 body {
+  margin: 0;
   height: 100%;
   color: white;
   text-shadow: 1px 1px 2px black;
-  justify-content: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,11 +14,11 @@ body {
 @keyframes transitionIn {
   from {
     opacity: 0;
-    transform: rotateX(-10deg);
+    transform: translate(0, -1%);
   }
   to {
     opacity: 1;
-    transform: rotateX(0);
+    transform: translate(0, 0);
   }
 }
 
@@ -28,21 +28,22 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  width: 100%;
+  width:110%
 }
 
 /* navbar */
 
 
 nav {
-  background: linear-gradient(#0018a3, rgb(0, 0, 78));
+  background: linear-gradient(to right, rgb(32,1,130), rgb(5,34,238));
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
   position:relative;
-  left:12%;
   padding: 10px;
   width: 100%;
+  height: 50px;
+
   table-layout: fixed;
   box-shadow: 0 3px 5px black;
 }
@@ -69,6 +70,7 @@ nav {
 
 a {
   color: white;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -102,7 +104,6 @@ div.header {
 }
 
 h2 {
-  text-align: center;
   list-style-type: none;
   display: block;
 }
@@ -218,9 +219,9 @@ html {
 .section {
   position: relative;
   left: -10px;
-  width: 30vw;
+  width: 105%;
   height: 30vh;
-  background: linear-gradient(rgba(153, 0, 153, 0.726), rgb(0, 0, 156));
+  background: linear-gradient(rgba(0, 3, 153, 0.726), rgb(38, 8, 94));
   overflow: hidden;
   box-shadow: 0px 22px 10px white;
 }
@@ -296,20 +297,6 @@ html {
   z-index: 2000;
 }
 
-nav.home {
-  text-align: center;
-  background: linear-gradient(to right, blue, rgb(255, 0, 140));
-  align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: table;
-  padding: 15px;
-  width: 100%;
-  table-layout: fixed;
-  box-shadow: 0 1px 5px black;
-}
-
 .nav-item {
   padding: 15px;
   color: white;
@@ -343,4 +330,23 @@ hr {
   border:none;
   background-color: white;
   box-shadow: 5px 5px 5px black;
+}
+
+.table-padding {
+  padding: 100px;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titre-news {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 1px 1px 10px black;
 }
