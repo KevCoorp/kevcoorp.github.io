@@ -1,0 +1,352 @@
+body {
+  margin: 0;
+  height: 100%;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translate(0, -1%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+header {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  width:110%
+}
+
+/* navbar */
+
+
+nav {
+  background: linear-gradient(to right, rgb(32,1,130), rgb(5,34,238));
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  position:relative;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+
+  table-layout: fixed;
+  box-shadow: 0 3px 5px black;
+}
+
+.nav-item {
+  float: right;
+  padding: 15px;
+  left: 100%;
+  color: white;
+  margin: 0 6px;
+  transition: all ease-in-out 0.5s;
+}
+
+.nav-item:hover {
+  color: rgb(199, 199, 199);
+}
+
+.titre {
+  font-size: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: solid #333 10px;
+  text-shadow: 1px 1px 10px black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.intro {
+  display: flex;
+  border-radius: 2px solid red;
+  text-align: center;
+  justify-content: center;
+}
+
+.titre2 {
+  color: #0026ff;
+  font-size: 100px;
+  text-shadow: 1px 10px 10px rgb(0, 7, 102);
+}
+
+.titre3 {
+  font-size: 50px;
+  text-shadow: solid #333 10px;
+  text-shadow: 1px 1px 10px black;
+}
+
+.intro-2 {
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+
+div.header {
+  text-align: center;
+}
+
+h2 {
+  list-style-type: none;
+  display: block;
+}
+
+span.conseil {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Fin pop-up  */
+
+.logoaqua {
+  float: left;
+  width: 117px;
+  height: 51px;
+  margin: auto;
+}
+
+/* Bas de page */
+
+footer {
+  position: fixed;
+  height: 50px;
+  background-color: rgba(26, 26, 26, 0.562);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#link {
+  display: flex;
+  float: right;
+  height: 40px;
+  padding: 15px;
+  justify-content: space-between;
+  cursor: pointer;
+  color: white;
+  transition: all ease-in-out 0.5s;
+  margin-left: 50px;
+}
+
+.twiter {
+  padding: 0 6px;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+
+.twiter:hover {
+  color: #1da1f2;
+}
+
+.youtube {
+  transition: all ease-in-out 0.5s;
+}
+
+.youtube:hover {
+  color: red;
+}
+
+.git {
+  transition: all ease-in-out 0.5s;
+}
+
+.git:hover {
+  color: black;
+}
+
+.build {
+  position: fixed;
+  text-align: center;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.beta {
+  color: rgb(0, 255, 0);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-button {
+  width: 8px;
+  height: 0px;
+}
+::-webkit-scrollbar-track {
+  background:rgb(66, 65, 65);
+  border: thin solid rgba(31, 31, 31, 0.562);
+  box-shadow: 0px 0px 3px #616161 inset;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background:rgb(122, 122, 122);
+  border: thin solid rgba(31, 31, 31, 0.562);
+  border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background:#535353;
+}
+
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+  height:100%
+}
+
+/* navbar */
+
+
+/* Effet Vague */
+.section {
+  position: relative;
+  left: -10px;
+  width: 105%;
+  height: 30vh;
+  background: linear-gradient(rgba(0, 3, 153, 0.726), rgb(38, 8, 94));
+  overflow: hidden;
+  box-shadow: 0px 22px 10px white;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(/images/misc/wave.png);
+  background-size: 1000px 100px;
+}
+
+.wave.wave1 {
+  animation: wave-animate 15s linear infinite;
+  z-index: 10;
+  opacity: 1;
+  animation-delay: 0%;
+  position: absolute;
+  bottom: 0;
+}
+
+.wave.wave4 {
+  animation: wave-animate2 5s linear infinite;
+  z-index: 8;
+  opacity: 0.5;
+  animation-delay: -5s;
+  position: absolute;
+  bottom: 20px;
+}
+
+
+@keyframes wave-animate
+{
+  0%
+  {
+    background-position-x: 0;
+  }
+
+  100%
+  {
+    background-position-x: 1000px;
+  }
+}
+
+@keyframes wave-animate2
+{
+  0%
+  {
+    background-position-x: 0;
+  }
+
+  100%
+  {
+    background-position-x: -1000px;
+  }
+}
+
+
+
+
+
+.titre-small {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family:  Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 5vw;
+  text-shadow: solid #333 10px;
+  text-shadow: 1px 1px 10px black;
+  position: relative;
+  z-index: 2000;
+}
+
+.nav-item {
+  padding: 15px;
+  color: white;
+  margin: 0 6px;
+  transition: all ease-in-out 0.5s;
+}
+
+.nav-item:hover {
+  color: rgb(112, 112, 112);
+}
+
+
+
+.dev-img{
+  margin: 0 20px 0 0;
+  align-items: flex-end;
+  height: 50px;
+  border-radius: 50px;
+  vertical-align: auto;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.dev-img:hover {
+  height: 57px;
+  box-shadow: 0px 0px 10px black;
+}
+
+hr {
+  height:1px;
+  border:none;
+  background-color: white;
+  box-shadow: 5px 5px 5px black;
+}
+
+.table-padding {
+  padding: 100px;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titre-news {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 1px 1px 10px black;
+}
