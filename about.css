@@ -84,8 +84,6 @@ section {
     color: blue;
   }
   
-  
-  
   .titre {
     text-align: center;
     align-items: center;
@@ -142,21 +140,23 @@ a {
   vertical-align: middle;
   }
   
-  img{
-    margin: 0 20px 0 0;
+img{
+    margin: 0 10px 0 0;
     align-items: flex-end;
     height: 50px;
     border-radius: 50px;
     vertical-align: auto;
     transition: all 0.3s ease-in-out;
     cursor: pointer;    
-  }
-  
+  } 
+
 img:hover {
-    height: 57px;
-    box-shadow: 5px 7px 10px black;
-  }
+  height: 57px;
+  box-shadow: 5px 7px 10px black;
+  box-sizing: content-box;
+  padding: 3px;
+}
   
   hr {
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 3px 3px 3px black;
   }  
