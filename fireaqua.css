@@ -46,7 +46,6 @@ nav {
 }
 
 .nav-item {
-  float: right;
   padding: 15px;
   left: 100%;
   color: #fff;
@@ -327,4 +326,18 @@ hr {
   text-align: center;
   font-size: 50px;
   text-shadow: 1px 1px 10px #000
+}
+
+.right2 {
+  float: right;
+}
+
+nav.center2 {
+  text-align: center;
+}
+
+.nav-item.center2 {
+  position: relative;
+  left: auto;
+  bottom: -15px;
 }
