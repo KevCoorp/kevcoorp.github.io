@@ -212,7 +212,7 @@ html {
   left: -10px;
   width: 105%;
   height: 30vh;
-  background: linear-gradient(rgba(0, 3, 153, .726), #09085e);
+  background: linear-gradient(rgba(153, 0, 120, 0.726), #09085e);
   overflow: hidden;
   box-shadow: 0 22px 10px #fff
 }
