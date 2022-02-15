@@ -111,7 +111,7 @@ span.conseil {
 
 .logoaqua {
   float: left;
-  width: 117px;
+  width: 158px;
   height: 51px;
   margin: auto
 }
@@ -213,7 +213,7 @@ html {
   left: -10px;
   width: 105%;
   height: 30vh;
-  background: linear-gradient(rgba(0, 3, 153, .726), #26085e);
+  background: linear-gradient(rgba(0, 3, 153, .726), #09085e);
   overflow: hidden;
   box-shadow: 0 22px 10px #fff
 }
