@@ -1,3 +1,4 @@
+@import url(/about.css);
 body {
   margin: 0;
   height: 100%;
@@ -58,6 +59,7 @@ nav {
   color: #c7c7c7
 }
 
+
 .titre {
   font-size: 100px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -111,9 +113,9 @@ span.conseil {
 
 .logoaqua {
   float: left;
-  width: 158px;
+  width: 117px;
   height: 51px;
-  margin: auto
+  margin: auto;
 }
 
 footer {
@@ -172,9 +174,6 @@ footer {
   right: 0
 }
 
-.beta {
-  color: #0f0
-}
 
 ::-webkit-scrollbar {
   width: 8px
