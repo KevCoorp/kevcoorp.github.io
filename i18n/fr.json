@@ -2,6 +2,7 @@
     "packs-link": "<div style='display: inline-block' class='famfamfam-silk drive'></div> Mes packs",
     "news-link": "<div style='display: inline-block' class='famfamfam-silk feed'></div> Actus",
     "about-link": "<div style='display: inline-block' class='famfamfam-silk information'></div> A propos",
+    "home-page": "<div style='display: inline-block' class='famfamfam-silk house'></div> Page d'accueil",
     "welcome-main": "<h1 class='titre'>Bienvenue sur <span class='titre2'>FireAqua</span></h2>",
     "vid-pres": "Vidéo de présentation",
     "a-propos": "A propos de <strong style='color:blue'>FireAqua</strong>",
@@ -14,5 +15,8 @@
     "zai": "Développeur, traducteur",
     "luihum": "Développeur & aide",
     "pivin": "Développeur & aide",
-    "stuartt": "Aide"
+    "stuartt": "Aide",
+    "packs-title": "Mes packs",
+    "password": "<strong>Pour des raisons de sécuritée, nous avons décidée de mettre un mot de passe. Le mot de passe est<span class='conseil'>kevfriscool</span></strong>",
+    "torrent": "<strong><span class='conseil'>Les fichiers qui sont supérieur à 100MO, sont en .torrent</span>. Merci de votre compréhension</p></strong>"
 }

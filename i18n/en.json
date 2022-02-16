@@ -2,6 +2,7 @@
     "packs-link": "<div style='display: inline-block' class='famfamfam-silk drive'></div> My packs",
     "news-link": "<div style='display: inline-block' class='famfamfam-silk feed'></div> News",
     "about-link": "<div style='display: inline-block' class='famfamfam-silk information'></div> About",
+    "home-page": "<div style='display: inline-block' class='famfamfam-silk house'></div> Home page",
     "welcome-main": "<h1 class='titre'>Welcome to <span class='titre2'>FireAqua</span></h2>",
     "vid-pres": "Video presentation",
     "a-propos": "About <strong style='color:blue'>FireAqua</strong>",
@@ -14,5 +15,8 @@
     "zai": "Developer, translator",
     "luihum": "Developer & help",
     "pivin": "Developer & help",
-    "stuartt": "Help"
+    "stuartt": "Help",
+    "packs-title": "My packs",
+    "password": "<strong>For security reasons, I've decided to put a password. The password is <span class='conseil'>kevfriscool</span></strong>",
+    "torrent": "<strong><span class='conseil'>Files larger than 100MB are in .torrent.</span>. Thank you for your understanding.</p></strong>"
 }
