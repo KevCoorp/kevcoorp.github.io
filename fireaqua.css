@@ -333,11 +333,12 @@ hr {
 }
 
 nav.center2 {
+  height: 30px;
   text-align: center;
 }
 
 .nav-item.center2 {
   position: relative;
   left: auto;
-  bottom: -15px;
+  bottom: -7px;
 }
