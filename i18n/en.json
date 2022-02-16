@@ -4,6 +4,7 @@
     "about-link": "<div style='display: inline-block' class='famfamfam-silk information'></div> About",
     "home-page": "<div style='display: inline-block' class='famfamfam-silk house'></div> Home page",
     "welcome-main": "<h1 class='titre'>Welcome to <span class='titre2'>FireAqua</span></h2>",
+    "retour": "<div style='display: inline-block' class='famfamfam-silk arrow_turn_left'></div> Back",
     "vid-pres": "Video presentation",
     "a-propos": "About <strong style='color:blue'>FireAqua</strong>",
     "histoire-title": "History of FireAqua",
@@ -18,5 +19,15 @@
     "stuartt": "Help",
     "packs-title": "My packs",
     "password": "<strong>For security reasons, I've decided to put a password. The password is <span class='conseil'>kevfriscool</span></strong>",
-    "torrent": "<strong><span class='conseil'>Files larger than 100MB are in .torrent.</span>. Thank you for your understanding.</p></strong>"
-}
+    "torrent": "<strong><span class='conseil'>Files larger than 100MB are in .torrent</span>. Thank you for your understanding.</p></strong>",
+    "news-title": "The latest news",
+    "youtube-title": "My projects on YouTube this year!",
+    "youtube-description": "Here are my future goals on YouTube for 2022. It summarizes the video \"My future projects for 2022\"",
+    "youtube-header-1": "What's new for my channel",
+    "youtube-header-2": "Summary and conclusion",
+    "youtube-content-1": "New year, new resolution! This year, I sent my cards, and as you can see, I've created a website, which you know as FireAqua. It is also time to announce my other projects. To start, I have to pass my college exams (which validates our skills when college is over). Moreover, I have to write an internship report which will waste my time. I have to make sure to have a good grade, and have consistent uploads on YouTube in order to stay active.<br>To start, outside of school, I will imporve my steup and buy myself new appliances for my videos.",
+    "youtube-content-2": "After that, I will try to reach 500 subscribers. For this year I want to go for 1000 subscribers, which seems like an impossible challenge at the moment. I will try to make more videos in English. I'm also going to start two new projects. The first is related to computers, and the second is related to the Python programming language. I can only tell you what these are once FireAqua opens.",
+    "youtube-content-3": "For 2022, I will move forward on YouTube, and I will improve the quality of my setup. Even with an exam, as hellish as getting a BSOD in Progressbar95 is, I'll prepare to have 1,000 subscribers. Videos in English, a new site, and interesting projects. This year, I will give everything!",
+    "youtube-list-1": "<li>An RGB keyboard</li><li>A new microphone for future videos</li>",
+    "youtube-list-2": "<li>A new microphone and keyboard to improve the quality of my setup</li> <li>Pass my exams and get a certificate</li> <li>Pass 500 subscribers and go foor 1000</li> <li>Two new very interesting projects</li> <li>More videos in English</li>"
+} 
