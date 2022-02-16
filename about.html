@@ -14,15 +14,19 @@
 <body  style="background: linear-gradient(rgb(51, 0, 172), rgb(206, 7, 146)) fixed">
   <nav class="center2" style="background: linear-gradient(to left, rgb(190, 0, 174), rgb(7, 0, 99));">
     <a href="/" class="nav-item center2"><div style="display: inline-block" class="famfamfam-silk house"></div> Page d'acceuil</a>
+    <select data-i18n-switcher class="locale-switcher right2" style="position:relative;right:15px;top:7px;">
+      <option value="fr">Français</option>
+      <option value="en">English</option>
+    </select>
   </nav>
     <div class="section">
-      <h1 class="titre-small">A propos de <strong style="color:blue">FireAqua</strong></h1>
+      <h1 data-i18n-key="a-propos" class="titre-small">A propos de <strong style="color:blue">FireAqua</strong></h1>
       <div class="wave wave1"></div>
       <div class="wave wave4"></div>
     </div>
   <div style="padding:15px;">
-    <h2>L'histoire de FireAqua</h2>
-    <p>FireAqua, est un site internet crée par KevFR. Il succède à FireWave, un site avec une apparence d'un système
+    <h2 data-i18n-key="histoire-title" >L'histoire de FireAqua</h2>
+    <p data-i18n-key="histoire-content" >FireAqua, est un site internet crée par KevFR. Il succède à FireWave, un site avec une apparence d'un système
       d'exploitation. Le projet Aqua, à démarrée, le 3 novembre 2021 <br> et lors des périodes de Noel, le site à
       changer de nom pour FireAqua. Le site à était refait en janvier 2022 et les anciens développeurs de FireWave, sont
       venus prêter main forte <br> au développement du site.
@@ -30,8 +34,8 @@
       anglophone. FireAqua, est finalement sorti, le <br> 24 juin 2022, après plus de 7 mois de développement.
     </p>
 
-    <h2>Quelle est l'objectif de FireAqua</h2>
-    <p>L'objectif principale, de FireAqua, est de permettre d'étendre ma communauté, sans restez sur une plateforme
+    <h2 data-i18n-key="objectif-title" >Quelle est l'objectif de FireAqua</h2>
+    <p data-i18n-key="objectif-content" >L'objectif principale, de FireAqua, est de permettre d'étendre ma communauté, sans restez sur une plateforme
       restreinte (Youtube). Vous pouvez lire les dernières actualités <br> (Seulement en français), et de téléchargez
       mes packs, afin d'installer d'ancienne version de Windows.
       Le site bénéficie d'une traduction en anglais écrite par Zai afin de regrouper <br> deux communauté différente sur
@@ -43,56 +47,30 @@
     <table >
       <tr>
         <td><a href="https://github.com/KevFR8"> <img src="/images/dev/KevFR.png" class="dev-img" title="KevFR"></img></a></td>
-        <td>Fondateur de FireAqua, et ancien fondateur de FireWave</td>
+        <td data-i18n-key="kevfr">Fondateur de FireAqua, et ancien fondateur de FireWave</td>
       </tr>
       <tr>
         <td><a href="https://github.com/markverb1"> <img src="/images/dev/mark.png" class="dev-img" title="markverb1"></img></a></td>
-        <td>Développeur, testeur & aide</td>
+        <td data-i18n-key="markverb">Développeur, testeur & aide</td>
       </tr>
       <tr>
         <td><a href="https://github.com/zai-tm"> <img src="/images/dev/zai.png" class="dev-img"></img></a></td>
-        <td>Développeur, traducteur</td>
+        <td data-i18n-key="zai">Développeur, traducteur</td>
       </tr>
       <tr>
         <td><a href="https://github.com/luihum"> <img src="/images/dev/luihum.png" class="dev-img"></img></a></td>
-        <td>Développeur & aide</td>
+        <td data-i18n-key="luihum">Développeur & aide</td>
       </tr>
       <tr>
         <td><a href="https://github.com/pivinx1"> <img src="/images/dev/pivin.png" class="dev-img"></img></a></td>
-        <td>Développeur & aide</td>
+        <td data-i18n-key="pivin">Développeur & aide</td>
       </tr>
       <tr>
         <td><a href="https://github.com/RealMCoded"> <img src="/images/dev/stuartt.png" class="dev-img"></img></a></td>
-        <td>Aide</td>
+        <td data-i18n-key="stuartt">Aide</td>
     </table>
-
-    <!--
-    <span><a href="https://github.com/KevFR8"> <img src="/images/dev/KevFR.png" class="dev-img"></img></a></span>
-    <span>
-      Fondateur de FireAqua, et ancien fondateur de FireWave<br>
-    </span>
-    <span><a href="https://github.com/markverb1"> <img src="/images/dev/mark.png" class="dev-img"></img></a></span>
-    <span>
-      Développeur, testeur & aide <br>
-    </span>
-    <span><a href="https://github.com/zai-tm"> <img src="/images/dev/zai.png" class="dev-img"></img></a></span>
-    <span>
-      Développeur, traducteur <br>
-    </span>
-  <span><a href="https://github.com/luihum"> <img src="/images/dev/luihum.png" class="dev-img"></img></a></span>
-  <span>
-    Développeur & aide<br>
-  </span>
-    <span><a href="https://github.com/pivinx1"> <img src="/images/dev/pivin.png" class="dev-img"></img></a></span>
-    <span>
-      Développeur & aide<br>
-    </span>
-    <span><a href="https://github.com/RealMCoded"> <img src="/images/dev/stuartt.png" class="dev-img"></img></a></span>
-    <span>
-      Aide<br>
-    </span>
-    -->
   </div>
 </body>
+<script src="/js/script.js"></script>
 
 </html>

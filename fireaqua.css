@@ -61,7 +61,7 @@ nav {
   font-size: 100px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: solid #333 10px;
-  text-shadow: 1px 1px 10px #000
+  text-shadow: 1px 1px 10px #000;
 }
 
 a {
@@ -270,7 +270,7 @@ html {
   align-items: center;
   justify-content: center;
   font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 5vw;
+  font-size: 100px;
   text-shadow: solid #333 10px;
   text-shadow: 1px 1px 10px #000;
   position: relative;
