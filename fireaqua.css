@@ -33,7 +33,7 @@ header {
 }
 
 nav {
-  background: linear-gradient(to right, #200182, #0522ee);
+  background: linear-gradient(to right rgb(0, 0, 207), rgb(0, 0, 126));
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
