@@ -57,6 +57,12 @@ nav {
   color: #c7c7c7
 }
 
+select {
+  position:relative;
+  left:auto;
+  top:15px;
+}
+
 .titre {
   font-size: 100px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
