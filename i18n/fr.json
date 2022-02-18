@@ -4,7 +4,7 @@
     "about-link": "<div style='display: inline-block' class='famfamfam-silk information'></div> A propos",
     "home-page": "<div style='display: inline-block' class='famfamfam-silk house'></div> Page d'accueil",
     "welcome-main": "<h1 class='titre'>Bienvenue sur <span class='titre2'>FireAqua</span></h2>",
-    "retour": "<div style='display: inline-block' class='famfamfam-silk arrow_turn_left'></div> Retour",
+    "retour": "<div style='display: inline-block' class='famfamfam-silk famfamfam-silk book_previous'></div> Retour",
     "vid-pres": "Vidéo de présentation",
     "a-propos": "A propos de <strong style='color:blue'>FireAqua</strong>",
     "histoire-title": "L'histoire de FireAqua",

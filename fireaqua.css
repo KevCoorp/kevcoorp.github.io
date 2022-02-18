@@ -350,3 +350,7 @@ nav.center2 {
   left: auto;
   bottom: -7px;
 }
+
+.section-3 {
+  border: thick double #ffffff;
+}
