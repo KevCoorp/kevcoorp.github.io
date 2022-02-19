@@ -1,0 +1,14 @@
+name: CSS Minifier
+
+on: [workflow_dispatch]
+
+jobs:
+  minify:
+    runs-on: ubuntu-18.04
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Minify CSS
+      uses: ./
+      with:
+        folder: '/'
