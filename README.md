@@ -1,6 +1,6 @@
 # KevFR.github.io
 # Français
-<h2> Qu'est-ce que kevfr.github.io ? </h2>
+<h2> Qu'est-ce que KevFR.github.io ? </h2>
 
 "KevFR.github.io", "FireAqua" (Ou Projet Aqua, nom de code), est un site internet crée et gérée par le youtubeur KevFR. FireAqua, succède au projet FireWave, suite à l'abandon du développement et des conflits internes. En novembre 2021, FireAqua, était encore en développement et étais, limité, aujourd'hui le site, est plus accessible mais, il n'est que pour l'instant, inaccessible au publique, seul des captures de développement sont postés, une campagne de Beta Test est prévu pour le 7 mars jusqu'au 7 avril. 
 
@@ -30,7 +30,7 @@ J'ai réalisée, FireAqua, car le développement de FireWave, était assez vague
 ![image](https://user-images.githubusercontent.com/70813133/153780173-c54c2bc9-97d4-416c-a6dd-97dc28589c60.png)
 
 # English
-<h2> What is kevfr.github.io? </h2>
+<h2> What is KevFR.github.io? </h2>
 "KevFR.github.io", "FireAqua" (codenamed Project Aqua) is a website created and managed by the YouTuber KevFR. FireAqua is the successor to the FireWave project, because of abandonment and internal conflicts. 
 
 In November 2021, FireAqua started development and was extremely limited. Today, the site has more features but is currently inaccessible to the public.
