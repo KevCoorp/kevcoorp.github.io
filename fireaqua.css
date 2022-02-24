@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   height: 100%;
@@ -94,7 +95,7 @@ a {
 .titre3 {
   font-size: 50px;
   text-shadow: solid #333 10px;
-  text-shadow: 1px 1px 10px #000
+  text-shadow: 1px 1px 10px #000;
 }
 
 .intro-2 {
@@ -354,3 +355,4 @@ nav.center2 {
 .section-3 {
   border: thick double #ffffff;
 }
+
