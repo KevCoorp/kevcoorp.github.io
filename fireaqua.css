@@ -86,6 +86,8 @@ a {
   justify-content: center
 }
 
+
+
 .titre2 {
   color: #0026ff;
   font-size: 110px;
@@ -113,6 +115,11 @@ h2 {
 }
 
 span.conseil {
+  color: red;
+  text-decoration: underline
+}
+
+span {
   color: red;
   text-decoration: underline
 }
