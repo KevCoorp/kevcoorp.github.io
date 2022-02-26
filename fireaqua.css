@@ -363,3 +363,10 @@ nav.center2 {
   border: thick double #ffffff;
 }
 
+section {
+  position: sticky;
+  background-color: rgb(0, 105, 0);
+  bottom: 0;
+  left: 0;
+  right: 0
+}
