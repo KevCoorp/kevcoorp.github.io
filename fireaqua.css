@@ -94,6 +94,10 @@ a {
   text-shadow: 5px 10px 10px #000766
 }
 
+span.titre2 {
+  text-decoration: none;
+}
+
 .titre3 {
   font-size: 50px;
   text-shadow: solid #333 10px;
@@ -103,6 +107,13 @@ a {
 .intro-2 {
   border: 2px solid #fff;
   border-radius: 10px
+}
+
+.intro {
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 2px 3px 10px #000;
 }
 
 div.header {
