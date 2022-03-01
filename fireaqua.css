@@ -45,6 +45,7 @@ nav {
   table-layout: fixed;
   box-shadow: 0 3px 5px rgba(0,0,0,.5);
   background-color: rgba(255, 255, 255, 0.322);
+  -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
 }
 
@@ -91,6 +92,7 @@ a {
 
 .intro {
   display: flex;
+  background-color: rgba(255,255,255,0.25);
   box-shadow: 0 10px 15px rgba(0,0,0,.5);
   overflow: hidden;
   color: #fff;
@@ -99,6 +101,7 @@ a {
   width:75%;
   margin:auto;
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
 
 .intro::before {
