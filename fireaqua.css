@@ -368,7 +368,7 @@ hr {
 }
 
 .table-padding {
-  padding: 100px
+  padding: 10px
 }
 
 .right {
@@ -412,3 +412,11 @@ section {
   left: 0;
   right: 0
 }
+
+table{
+  border-collapse: collapse;
+}
+.line td{
+  border-bottom: 2px solid white;
+}
+  
