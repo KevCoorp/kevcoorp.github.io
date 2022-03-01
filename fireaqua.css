@@ -54,7 +54,7 @@ nav {
   color: #fff;
   margin: 0 6px;
   transition: all ease-in-out .5s;
-  animation: fadein 5s;
+  animation: fadein 3s;
 }
 
 @keyframes fadein {
