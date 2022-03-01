@@ -91,14 +91,19 @@ a {
 
 .intro {
   display: flex;
-  background-color: rgba(255,255,255,0.25);
-  padding:25px;
+  box-shadow: 0 10px 15px rgba(0,0,0,.5);
+  overflow: hidden;
+  color: #fff;
+  padding:15px;
   border-radius: 5px;
-  width:45%;
+  width:75%;
   margin:auto;
   backdrop-filter: blur(15px);
 }
 
+.intro::before {
+  filter: blur(2px);
+}
 
 
 .titre2 {
