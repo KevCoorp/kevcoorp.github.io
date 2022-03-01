@@ -91,9 +91,11 @@ a {
 
 .intro {
   display: flex;
-  border-radius: 2px solid red;
-  text-align: center;
-  justify-content: center
+  border: 5px solid rgba(255,255,255,0.25);
+  padding:25px;
+  border-radius: 5px;
+  width:45%;
+  margin:auto
 }
 
 
