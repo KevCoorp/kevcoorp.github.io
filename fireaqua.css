@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Roboto Thin;
+  src: url(/font/roboto-thin.ttf);
+}
 
 body {
   margin: 0;
@@ -92,7 +96,7 @@ a {
 
 .intro {
   display: flex;
-  background-color: rgba(255,255,255,0.25);
+  background-color: rgba(0, 0, 0, 0.25);
   box-shadow: 0 10px 15px rgba(0,0,0,.5);
   overflow: hidden;
   color: #fff;
@@ -166,7 +170,7 @@ span {
 footer {
   position: fixed;
   height: 50px;
-  background-color: rgba(26, 26, 26, .562);
+  background-color: rgba(0, 0, 0, 0.45);
   bottom: 0;
   left: 0;
   right: 0;
@@ -220,6 +224,10 @@ footer {
   color: #000
 }
 
+.company {
+  font-family: Roboto Thin;
+}
+
 .build {
   position: fixed;
   text-align: center;
@@ -227,10 +235,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0
-}
-
-.beta {
-  color: #0f0
 }
 
 ::-webkit-scrollbar {
