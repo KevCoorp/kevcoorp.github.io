@@ -16,17 +16,6 @@ body {
     animation: transitionIn 0.75s
 }
 
-@keyframes transitionIn {
-    from {
-        opacity: 0;
-        transform: translate(0, -1%)
-    }
-
-    to {
-        opacity: 1;
-        transform: translate(0, 0)
-    }
-}
 
 header {
     text-align: center;
@@ -424,8 +413,8 @@ table {
     border-bottom: 2px solid white;
 }
 .dropbtn {
-    margin-top: 13px;
-    background-image: linear-gradient(to bottom,darkblue,rgb(0, 0, 206));
+    margin-top: 17px;
+    background-image: linear-gradient(to right,darkblue,rgb(0, 0, 206));
     color: white;
     padding: 2px;
     border: none;
@@ -442,12 +431,12 @@ table {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: rgb(0, 0, 141);
     min-width: 160px;
     z-index: 1;
 }
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 1.5px 2px;
     text-decoration: none;
     display: block;
@@ -455,7 +444,7 @@ table {
     text-shadow: none !important;
 }
 .dropdown-content a:hover {
-    background-color: #ddd
+    background-color: white
 }
 .show {
     display: block;
