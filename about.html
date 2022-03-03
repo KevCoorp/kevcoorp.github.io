@@ -20,11 +20,17 @@
       Page d'acceuil
     </a>
 
-    <select data-i18n-switcher="data-i18n-switcher" class="locale-switcher right2"
+    <select data-i18n-switcher="data-i18n-switcher" class="locale-switcher right2">
       style="position:relative;right:15px;top:7px;">
       <option value="fr">Français</option>
       <option value="en">English</option>
     </select>
+    <div class="dropdown locale-switcher right2">
+      <button onclick="showDropdown()" class="dropbtn" id="dropbtn">&#9660; Language</button>
+      <div class="dropdown-content" id="i18n-dropdown">
+        <a href="javascript:setLocale('fr')"><span class="flag-icon fr"></span> Français</a>
+        <a href="javascript:setLocale('en')"><span class="flag-icon us"></span> English</a>
+      </div>
   </nav>
   <div class="section">
     <h1 data-i18n-key="a-propos" class="titre-small">A propos de
@@ -181,6 +187,8 @@
   </div>
 </body>
 <script src="./js/script.js"></script>
+<script src="./js/dropdown.js"></script>
+
 
 </html>
 </p>
