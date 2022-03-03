@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./fireaqua.min.css" />
   <link rel="stylesheet" href="./sprite/fugue/icons_fugue_16x16.css" />
   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css">
+  <link rel="stylesheet" href="./sprite/flags/flags-sprite.min.css">
   <script type="text/javascript" src="https://livejs.com/live.js"></script>
 </head>
 
@@ -28,11 +29,18 @@
     <a data-i18n-key="about-link" href="./about" class="nav-item right2">
       <div style="display: inline-block" class="icon_fugue_information-frame"></div>A propos
     </a>
-    <select data-i18n-switcher="data-i18n-switcher" class="locale-switcher right2"
+<!--     <select data-i18n-switcher="data-i18n-switcher" class="locale-switcher right2"
       style="position:relative;right:15px;top:16px;">
       <option value="fr">Français</option>
       <option value="en">English</option>
-    </select>
+    </select> -->
+    <div class="dropdown locale-switch right2">
+      <button onclick="showDropdown()" class="dropbtn" id="dropbtn">&#9660; Language</button>
+      <div class="dropdown-content" id="i18n-dropdown">
+        <a href="javascript:setLocale('fr')"><span class="flag-icon fr"></span> Français</a>
+        <a href="javascript:setLocale('en')"><span class="flag-icon us"></span> English</a>
+      </div>
+    </div>
   </nav>
 
 
@@ -80,6 +88,7 @@
     </div>
   </footer>
   <script src="./js/script.js"></script>
+  <script src="./js/dropdown.js"></script>
 </body>
 
 </html>
