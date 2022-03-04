@@ -444,11 +444,17 @@ table {
     text-shadow: none !important;
 }
 .dropdown-content a:hover {
-    background-color: white
+    background-color: rgba(0, 0, 240, 0.329)
 }
 .show {
     display: block;
 }
 .flag-icon {
     margin-top: 5px;
+}
+
+.introduction {
+   font-family: 'Segoe UI';
+   text-shadow: #000 3px 1px 10px;
+   font-size: 17px
 }
