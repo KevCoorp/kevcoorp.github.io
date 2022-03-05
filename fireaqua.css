@@ -384,14 +384,18 @@ hr {
 }
 
 nav.center2 {
-    height: 50px;
+    padding: 15px;
+    color: #fff;
+    margin: 0 6px;
+    transition: all ease-in-out 0.5s;
+    animation: fadein 3s;
     text-align: center;
 }
 
 .nav-item.center2 {
     position: relative;
     left: auto;
-    bottom: -7px;
+    
 }
 
 .section-3 {
@@ -400,7 +404,8 @@ nav.center2 {
 
 section {
     position: sticky;
-    background-color: rgb(0, 105, 0);
+    -webkit-backdrop-filter: blur(70px);
+    backdrop-filter: blur(70px);
     bottom: 0;
     left: 0;
     right: 0

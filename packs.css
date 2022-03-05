@@ -35,7 +35,8 @@ img:hover {
 }
 
 nav {
-    background: linear-gradient(to right, blue, rgb(0, 255, 0));
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
     text-align: center;
     align-items: center;
     justify-content: center;
