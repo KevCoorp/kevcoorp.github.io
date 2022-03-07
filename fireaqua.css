@@ -414,12 +414,14 @@ section {
   color: white;
   padding: 2px;
   border: none;
+  transition: all ease-in-out 0.3s;
   cursor: pointer;
 }
-.dropbtn:hover,
-.dropbtn:focus {
-  background-image: linear-gradient(to bottom, rgb(0, 0, 206), darkblue);
+
+.dropbtn::after {
+  color: #000;
 }
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -427,6 +429,7 @@ section {
 .dropdown-content {
   display: none;
   position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.377) 5px 1px 7px;
   background-color: rgb(0, 0, 141);
   min-width: 160px;
   z-index: 1;
@@ -438,9 +441,10 @@ section {
   display: block;
   box-shadow: none !important;
   text-shadow: none !important;
+  transition: all ease-in-out 0.5s;
 }
 .dropdown-content a:hover {
-  background-color: rgba(0, 0, 240, 0.329);
+  color: grey;
 }
 .show {
   display: block;
