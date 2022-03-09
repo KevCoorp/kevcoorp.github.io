@@ -384,9 +384,6 @@ hr {
 nav.center2 {
   padding: 15px;
   color: #fff;
-  width: auto;
-  border-radius: 10px;
-  margin: 0 200px;
   transition: all ease-in-out 0.5s;
   animation: fadein 3s;
   text-align: center;
