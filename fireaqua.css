@@ -3,12 +3,14 @@
   src: url("./font/roboto-thin.ttf");
 }
 
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 body {
   margin: 0;
   height: 100%;
   color: #fff;
   text-shadow: 1px 1px 2px #000;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -407,54 +409,22 @@ section {
   right: 0;
 }
 
-.dropbtn {
-  margin-top: 17px;
-  background-image: linear-gradient(to right, darkblue, rgb(0, 0, 206));
-  color: white;
-  padding: 2px;
-  border: none;
-  transition: all ease-in-out 0.3s;
-  cursor: pointer;
-}
-
-.dropbtn::after {
-  color: #000;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  box-shadow: rgba(0, 0, 0, 0.377) 5px 1px 7px;
-  background-color: rgb(0, 0, 141);
-  min-width: 160px;
-  z-index: 1;
-}
-.dropdown-content a {
-  color: white;
-  padding: 1.5px 2px;
-  text-decoration: none;
-  display: block;
-  box-shadow: none !important;
-  text-shadow: none !important;
-  transition: all ease-in-out 0.5s;
-}
-.dropdown-content a:hover {
-  color: grey;
-}
-.show {
-  display: block;
-}
-.flag-icon {
-  margin-top: 5px;
-}
-
 .introduction {
   font-family: "Segoe UI";
   text-shadow: #000 3px 1px 10px;
   font-size: 17px;
   border-radius: 120px;
+}
+
+.icon {
+    display:inline-block;
+}
+
+nav.short {
+  height: 17px;
+}
+select.short {
+  position:relative;
+  top: -3px;
+  left: -20px;
 }

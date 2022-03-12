@@ -21,27 +21,24 @@
     <a href="./" onclick="location.reload() = true;">
       <img src="./images/misc/navbar-logo2.png" alt="Logo" class="logoaqua"></a>
     <a data-i18n-key="packs-link" href="./packs" class="nav-item right2">
-      <div style="display: inline-block" class="icon_fugue_drive-download"></div>Mes packs
+      <div class="icon icon_fugue_drive-download"></div>Mes packs
     </a>
     <a data-i18n-key="news-link" href="./news/" class="nav-item right2">
-      <div style="display: inline-block" class="icon_fugue_feed"></div>AquaNews
+      <div class="icon icon_fugue_feed"></div>AquaNews
     </a>
     <a data-i18n-key="about-link" href="./about" class="nav-item right2">
-      <div style="display: inline-block" class="icon_fugue_information-frame"></div>A propos
+      <div class="icon icon_fugue_information-frame"></div>A propos
     </a>
-    <div class="dropdown locale-switch right2">
-      <button onclick="showDropdown()" class="dropbtn" id="dropbtn">&#9660; Language</button>
-      <div class="dropdown-content" id="i18n-dropdown" style="top: 20px;">
-        <a href="javascript:setLocale('fr')"><span class="flag-icon fr"></span> Français</a>
-        <a href="javascript:setLocale('en')"><span class="flag-icon us"></span> English</a>
-      </div>
+    <select data-i18n-switcher="data-i18n-switcher" class="right2">
+    <option value="fr">Français</option>
+    <option value="en">English</option>
+  </select>
     </div>
   </nav>
 
 
   <div style="text-align: center;">
-    <p style="text-decoration: underline 0.5px;">Beta 2.4.5 - Traduction UI Update
-    </p>
+    <p style="text-decoration: underline 0.5px;">Beta 2.4.5 - Traduction UI Update</p>
     <h1 data-i18n-key="welcome-main" class="titre"><a href="./welcome">Bienvenue</a> sur <span class="titre2">FireAqua</span></h2>
       <div class="intro">
         <p data-i18n-key="introduction" class="introduction">
@@ -83,7 +80,6 @@
     </div>
   </footer>
   <script src="./js/script.js"></script>
-  <script src="./js/dropdown.js"></script>
 </body>
 
 </html>
@@ -95,3 +91,9 @@
 </html>
 
 </html>
+        <!-- 
+            About the translation switcher:
+            I actually might remove the switcher later and set the defualt language to English. Don't worry though, it sets the language
+            based on your browser's settings. So basically, it looks at your browser's language. If it's set to any kind of French, it will
+            use French. Anything else, it will be English. I'm going to set English as the default language just because most people speak it. 
+          -->
