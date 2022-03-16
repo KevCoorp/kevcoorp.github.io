@@ -43,5 +43,7 @@
   "fermeture": "Fermeture de Firewave",
   "fermeture-desc": "Après presque plus de 11 mois d’activités, le site FireWave se coupera de ses services à partir du jeudi 23 juin 2022. Le github serra supprimer après sa fermeture. Nous vous recommandons de profitez du site avant sa fermeture définitif. Merci aux nombreux développeurs, contributeurs d’avoir participée au développement de FireWave",
   "comment": "Comment se déroule la fermeture de FireWave ?",
-  "firewave-end-list": "<li>Décembre 2021 : Annonce de FireAqua (projet Aqua)</li><li>Milieu décembre 2021 : Annonce de fermeture progressive des services de FireWave. </li><li>Janvier 2022 : Mise en archive publique de FireWave et suppression des liens de promotions</li><li>Milieu Février 2022 : Rappel de fermeture de FireWave </li><li>Milieu Juin 2022 : Fermeture définitif de FireWave & Ouverture de FireAqua</li><li>Aout 2022 : Mise au public de l’archive de FireWave (Anniversaire)</li>"
+  "firewave-end-list": "<li>Décembre 2021 : Annonce de FireAqua (projet Aqua)</li><li>Milieu décembre 2021 : Annonce de fermeture progressive des services de FireWave. </li><li>Janvier 2022 : Mise en archive publique de FireWave et suppression des liens de promotions</li><li>Milieu Février 2022 : Rappel de fermeture de FireWave </li><li>Milieu Juin 2022 : Fermeture définitif de FireWave & Ouverture de FireAqua</li><li>Aout 2022 : Mise au public de l’archive de FireWave (Anniversaire)</li>",
+  "free": "Les packs sont t-il gratuit ?",
+  "yes-free": "Oui, les packs sont gratuit"
 }
