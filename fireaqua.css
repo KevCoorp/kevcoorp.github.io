@@ -262,7 +262,7 @@ html {
   position: relative;
   left: -10px;
   width: 105%;
-  height: 30vh;
+  height: 300px;
   background: linear-gradient(rgba(153, 0, 153, 0.726), rgb(0, 0, 156));
   overflow: hidden;
   box-shadow: 0 22px 10px #fff;
@@ -398,15 +398,18 @@ nav.center2 {
 
 .section-3 {
   border: thick double #ffffff;
+  padding: 10px;
 }
 
 section {
+  background-color: #ffffff55;
   position: sticky;
-  -webkit-backdrop-filter: blur(70px);
-  backdrop-filter: blur(70px);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   bottom: 0;
   left: 0;
   right: 0;
+  padding-bottom: 10px;
 }
 
 .introduction {
@@ -427,4 +430,21 @@ select.short {
   position:relative;
   top: -3px;
   left: -20px;
+}
+
+
+td.right {
+  max-width: 400px !important;
+  right: 50px;
+}
+
+.img-btn {
+  width: 300px;
+  border-radius: 20px;
+  transition: transform 100ms ease-in-out;
+}
+
+.img-btn:hover {
+  transform-origin: center;
+  transform: scale(calc(75 / 70)) 
 }
