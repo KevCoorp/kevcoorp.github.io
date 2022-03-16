@@ -48,17 +48,6 @@ nav {
   left: 100%;
   color: #fff;
   margin: 0 6px;
-  transition: all ease-in-out 0.5s;
-  animation: fadein 3s;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 .nav-item:hover {
@@ -163,16 +152,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  animation: fadein 5s;
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 #link {
@@ -332,7 +311,6 @@ html {
   padding: 15px;
   color: #fff;
   margin: 0 6px;
-  transition: all ease-in-out 0.5s;
 }
 
 .nav-item:hover {
@@ -398,6 +376,7 @@ nav.center2 {
 
 .section-3 {
   border: thick double #ffffff;
+  border-radius: 10px;
   padding: 10px;
 }
 
@@ -447,4 +426,17 @@ td.right {
 .img-btn:hover {
   transform-origin: center;
   transform: scale(calc(75 / 70)) 
+}
+
+.center3 {
+  border-spacing: 20px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.readable {
+  width:45%;
+  position: relative;
+  left:300px;
 }
