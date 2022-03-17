@@ -45,5 +45,6 @@
   "comment": "Timeline",
   "firewave-end-list": "<li>December 2021: Announcement of FireAqua</li><li>Mid-December 2021: Announcement of the closure of FireWave</li><li>January 2022: FireWave is archived</li><li>Mid-February 2022: FireWave shutdown reminder</li><li>Mid-June 2022: Shutdown of FireAqua & opening of FireAqua</li><li>August 2022: Release of FireWave archive</li>",
   "free": "Are the packs free?",
-  "yes-free": "Yes, they are free!"
+  "yes-free": "Yes, they are free!",
+  "why-pass": "Why is there a password?"
 }
