@@ -46,6 +46,7 @@ function translateElement(element) {
   const key = element.getAttribute("data-i18n-key");
   const translation = translations[key];
   element.innerHTML = translation;
+  document.getElementsByTagName('html')[0].lang = locale;
 }
 
 function browserLocales(languageCodeOnly = false) {
