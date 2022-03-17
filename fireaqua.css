@@ -440,3 +440,7 @@ td.right {
   position: relative;
   left:300px;
 }
+
+.noalign {
+  left:0px !important;
+}
