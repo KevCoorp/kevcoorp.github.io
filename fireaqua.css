@@ -399,18 +399,17 @@ section {
 }
 
 .icon {
-    display:inline-block;
+  display: inline-block;
 }
 
 nav.short {
   height: 17px;
 }
 select.short {
-  position:relative;
+  position: relative;
   top: -3px;
   left: -20px;
 }
-
 
 td.right {
   max-width: 400px !important;
@@ -425,7 +424,7 @@ td.right {
 
 .img-btn:hover {
   transform-origin: center;
-  transform: scale(calc(75 / 70)) 
+  transform: scale(calc(75 / 70));
 }
 
 .center3 {
@@ -436,11 +435,11 @@ td.right {
 }
 
 .readable {
-  width:45%;
+  width: 45%;
   position: relative;
-  left:300px;
+  left: 300px;
 }
 
 .noalign {
-  left:0px !important;
+  left: 0px !important;
 }
