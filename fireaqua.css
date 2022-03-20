@@ -353,7 +353,7 @@ hr {
 
 .titre-news {
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   text-shadow: 1px 1px 10px #000;
 }
 
@@ -375,9 +375,7 @@ nav.center2 {
 }
 
 .section-3 {
-  border: thick double #ffffff;
-  border-radius: 10px;
-  padding: 10px;
+  text-decoration: none !important;
 }
 
 section {
@@ -435,9 +433,8 @@ td.right {
 }
 
 .readable {
-  width: 45%;
+  text-align: center;
   position: relative;
-  left: 300px;
 }
 
 .noalign {
