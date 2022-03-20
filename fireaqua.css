@@ -433,8 +433,9 @@ td.right {
 }
 
 .readable {
-  text-align: center;
+  width:45%
   position: relative;
+  left:20%
 }
 
 .noalign {
