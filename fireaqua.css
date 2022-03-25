@@ -353,7 +353,7 @@ hr {
 
 .titre-news {
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   text-shadow: 1px 1px 10px #000;
 }
 
@@ -370,14 +370,13 @@ nav.center2 {
 }
 
 .nav-item.center2 {
+  text-align: center;
   position: relative;
   left: auto;
 }
 
 .section-3 {
-  border: thick double #ffffff;
-  border-radius: 10px;
-  padding: 10px;
+  text-decoration: none !important;
 }
 
 section {
@@ -435,11 +434,25 @@ td.right {
 }
 
 .readable {
-  width:45%;
+  text-align: center;
   position: relative;
-  left:20%
 }
 
 .noalign {
   left: 0px !important;
+}
+
+.info {
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 255, 0.493);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
