@@ -457,3 +457,53 @@ td.right {
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
 }
+
+/* Slideshow */
+
+.slider-frame {
+  overflow: hidden;
+}
+
+@-webkit-keyframes slide_animation {
+  0% {
+    left: 0px;
+  }
+  10% {
+    left: 0px;
+  }
+  20% {
+    left: 1200px;
+  }
+  30% {
+    left: 1200px;
+  }
+  40% {
+    left: 2400px;
+  }
+  50% {
+    left: 2400px;
+  }
+  60% {
+    left: 1200px;
+  }
+  70% {
+    left: 1200px;
+  }
+  80% {
+    left: 0px;
+  }
+  90% {
+    left: 0px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.slide-images {
+  height: 3px;
+  width: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
