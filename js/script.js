@@ -31,15 +31,13 @@ async function setLocale(newLocale) {
 }
 
 async function fetchTranslationsFor(newLocale) {
-    const response = await fetch(`./i18n/${newLocale}.json`);
+    const response = await fetch(`/i18n/${newLocale}.json`);
     const translations = await response.json();
     return translations;
 }
 
 function translatePage() {
-    document
-        .querySelectorAll("[data-i18n-key]")
-        .forEach(translateElement);
+    document.querySelectorAll("[data-i18n-key]").forEach(translateElement);
 }
 
 function translateElement(element) {
