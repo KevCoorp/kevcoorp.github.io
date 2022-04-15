@@ -8,7 +8,7 @@ var i = 0;
 var timer = 30000;
 
 function changeImage() {
-  document.diapo.src = images[i];
+  document.body.style.backgroundImage = `url(${images[i]})`;
   if (i < images.length - 1) {
     i++;
   } else {
