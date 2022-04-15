@@ -5,7 +5,7 @@ images[2] = "/images/slide/wallpaper3.jpg";
 images[3] = "/images/slide/wallpaper4.jpg";
 images[4] = "/images/slide/wallpaper5.jpg";
 var i = 0;
-var timer = 30000;
+var timer = 10000;
 
 function changeImage() {
   document.body.style.backgroundImage = `url(${images[i]})`;
