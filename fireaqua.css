@@ -437,25 +437,10 @@ td.right {
 }
 
 .readable {
-  text-align: center;
   position: relative;
+  width: 1000px;
 }
 
 .noalign {
   left: 0 !important;
-}
-
-.info {
-  text-align: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 255, 0.493);
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  color: #fff;
-  padding: 15px;
-  border-radius: 10px;
-  width: 50%;
-  margin: auto;
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
 }
