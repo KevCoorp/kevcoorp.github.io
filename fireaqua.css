@@ -30,7 +30,6 @@ header {
 }
 
 nav {
-  background: linear-gradient(to right #0000cf, #00007e);
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
@@ -49,6 +48,7 @@ nav {
   padding: 15px;
   left: 100%;
   color: #fff;
+  transition: all ease-in-out 0.3s;
   margin: 0 6px;
 }
 
@@ -82,6 +82,7 @@ a {
   overflow: hidden;
   color: #fff;
   padding: 15px;
+  border: 2px outset black;
   border-radius: 5px;
   width: 75%;
   margin: auto;
@@ -396,6 +397,7 @@ section {
   font-family: "Segoe UI";
   text-shadow: #000 3px 1px 10px;
   font-size: 17px;
+
   border-radius: 150px;
 }
 
