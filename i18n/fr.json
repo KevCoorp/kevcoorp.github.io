@@ -5,7 +5,7 @@
   "home-page": "<div style='display:inline-block' class='icon_fugue_home'></div> Page d'accueil",
   "welcome-main": "<h1 class='titre'><a href='welcome'>Bienvenue</a> sur <span class='titre2'>FireAqua</span></h2>",
   "retour": "<div style='display:inline-block' class='icon_fugue_arrow-curve-180'></div> Retour",
-  "vid-pres": "Vidéo de présentation",
+  "vid-pres": "Mes dernières vidéos",
   "a-propos": "À propos de <strong style='color:blue'>FireAqua</strong>",
   "histoire-title": "L'histoire de FireAqua",
   "histoire-content": "FireAqua, est un site internet crée par KevFR. Il succède à FireWave, un site avec une apparence d'un système d'exploitation. Le projet Aqua, à démarrée, le 3 novembre 2021 et lors des périodes de Noel, le site à changer de nom pour FireAqua. Le site à était refait en janvier 2022 et les anciens développeurs de FireWave, sont venus prêter main forte au développement du site. En février 2022, le site à était traduit en Anglais par Zai, afin que le site soit adaptée, pour un publique anglophone. FireAqua, est finalement sorti, le 24 juin 2022, après plus de 7 mois de développement.",
@@ -64,5 +64,6 @@
   "intro-discord": "Après presque plus de 2 ans d'activité, le serveur discord officiel fermera ses portes le 31 mars 2022.",
   "why-discord": "Cela fait depuis le 8 novembre 2020, que mon serveur discord est en marche. Au fil du temps il a évolué, et puis petit à petit le serveur discord à commencer à stagnez. Les raisons de cette stagnation sont un manque d'activité, et le manque de membres. Plus récemment le serveur discord a subi un mass ping générale. Et aujourd'hui une baisse des membres.",
   "new-discord": "Il n'y aura pas de troisième serveur discord. En effet, la création d'un serveur discord requis beaucoup d'organisation et de temps pour au final avoir peu de monde. Nous tenons sincèrement à nous excusez pour cette fermeture, mais comprenez bien que ce serveur discord était « vide ».",
-  "thanks-discord": "Merci d'avoir partagée de bon moment ensemble sur = KevFR Server's [FR]=."
+  "thanks-discord": "Merci d'avoir partagée de bon moment ensemble sur = KevFR Server's [FR]=.",
+  "contact": "Me conctactez"
 }
