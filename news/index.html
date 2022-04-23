@@ -1,47 +1,101 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="icon" href="/images/misc/icon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style4.css" />
-    <link
-      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://free-fontawesome-pro.markverb1.repl.co/pro-icons.js"></script>
-    <link rel="stylesheet" href="anim.css" />
-    <title>Actualités</title>
-  </head>
-  <nav class="home">
-    <a href="/index.html" class="nav-item"
-      ><i class="fas fa-home"></i>Page d'acceuil</a
-    >
-  </nav>
-  <body>
-    <header>
-      <h1 class="titre">Les dernières actualités</h1>
-      <hr />
-    </header>
-    <section>
-      <a href="/news-betatest.html"
-        ><img src="/images/bg/betadev.png" alt="Beta-dev"
-      /></a>
-      <div id="info-1">
-        <h2>Ouverture de la Beta Test, pour les volontaires !</h2>
-        <p>Pour en savoir plus, cliquez sur l'image...</p>
-      </div>
-    </section>
 
-    <section>
-      <a href="/news-ytb.html"
-        ><img src="/images/bg/ytb.png" alt="Youtube"
-      /></a>
-      <div id="info-1">
-        <h2>Mes futures projets, pour Youtube en 2022</h2>
-        <p>Pour en savoir plus, cliquez sur l'image...</p>
-      </div>
-    </section>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" href="../images/misc/icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../fireaqua.min.css" />
+  <link rel="stylesheet" href="../sprite/fugue/icons_fugue_16x16.css" />
+  <script type="text/javascript" src="https://livejs.com/live.js"></script>
+  <title data-i18n-key="news-title">Actualités</title>
+</head>
+<nav class="center2 short">
+  <a href="../" class="nav-item center2" data-i18n-key="home-page">
+    <div class="icon icon_fugue_home"></div>
+    Page d'acceuil
+  </a>
+
+  <select data-i18n-switcher="data-i18n-switcher" class="short right2">
+    <option value="fr">Français</option>
+    <option value="en">English</option>
+  </select>
+</nav>
+
+<body style="background-image: url(../images/bg/wallpaper4.jpg)">
+
+  <h1 class="titre-small" data-i18n-key="news-title">Actualités</h1>
+  <table class="center">
+    <tr>
+      <td class="table-padding left">
+        <a href="./rpi"><img src="../images/bg/rpi.png" alt="Vaut t-il le coup d'acheter un Raspberry Pi en 2022 ?" class="img-btn"/></a>
+      </td>
+      <td class="table-padding right">
+        <a href="./rpi">
+          <h2 data-i18n-key="rasp-title">Vaut t-il le coup d'acheter un Raspberry Pi en 2022 ?</h2>
+          <p data-i18n-key="rasp-desc">Le Raspberry Pi est un micro-ordinateur petit et pas cher,
+            est-ce une bonne idée d'en acheter un ? </p>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td class="table-padding left">
+        <a href="./firewave-end"><img src="../images/bg/firewave-down.png" alt="Rappel de fermeture firewave" class="img-btn"/></a>
+      </td>
+      <td class="table-padding right">
+        <a href="./firewave-end">
+          <h2 data-i18n-key="firewave-end-title">Rappel de fermeture de FireWave</h2>
+          <p data-i18n-key="firewave-end-desc">Cette article, est un rappel concernant la fermeture prochaine de FireWave</p>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td class="table-padding left">
+        <a href="./youtube"><img src="../images/bg/ytb.png" alt="Youtube" class="img-btn"/></a>
+      </td>
+      <td class="table-padding right">
+        <a href="./youtube">
+          <h2 data-i18n-key="youtube-title">Mes projets sur Youtube pour cette année !</h2>
+          <p data-i18n-key="youtube-desc">Voici, mes futures objectifs sur Youtube pour 2022, il résume la vidéo
+            "Mes futures projets pour 2022"</p>
+        </a>
+      </td>
+    </tr>
+
+     <tr>
+      <td class="table-padding left">
+        <a href="./vista"><img src="../images/bg/vista-news.png" alt="Youtube" class="img-btn"/></a>
+      </td>
+      <td class="table-padding right">
+        <a href="./vista">
+          <h2 data-i18n-key="vista-title">Est-il encore possible d'utiliser Windows Vista en 2022 ?</h2>
+          <p data-i18n-key="vista-desc">Windows Vista sortie en 2006, vaut-il encore le coup d'etre utiliser en 2022 ?</p>
+        </a>
+      </td>
+    </tr>
+
+    
+     <tr>
+      <td class="table-padding left">
+        <a href="./discord-news"><img src="../images/bg/discord-news.png" alt="Youtube" class="img-btn"/></a>
+      </td>
+      <td class="table-padding right">
+        <a href="./discord-news">
+          <h2 data-i18n-key="discord-title">Fermeture prochaine de KevFR Server's</h2>
+          <p data-i18n-key="discord-desc">Après plusieurs années de loyaux services, le serveur discord officiel ferme ses portes,
+            le jeudi 31 mars 2022.
+          </p>
+        </a>
+      </td>
+    </tr>
+     
+
+  </table>
+
+</body>
+<script src="/js/translate.js"></script>
+
+</html>
+
 </html>

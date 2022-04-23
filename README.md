@@ -1,60 +1,45 @@
-# KevFR.github.io
-# Français
-<h2> Qu'est-ce que kevfr.github.io ? </h2>
+# Présentation de kevfr8.github.io
 
-"KevFR.github.io", "FireAqua" (Ou Projet Aqua, nom de code), est un site internet crée et gérée par le youtubeur KevFR. FireAqua, succède au projet FireWave, suite à l'abandon du développement et des conflits internes. En novembre 2021, FireAqua, était encore en développement et étais, limité, aujourd'hui le site, est plus accessible mais, il n'est que pour l'instant, inaccessible au publique, seul des captures de développement sont postés, une campagne de Beta Test est prévu pour le 7 mars jusqu'au 7 avril. 
+### Sommaire
+1. [Introduction](#introduction)
+2. [Développeurs](#développeurs)
+3. [FAQ](#faq)
 
-<h2> FAQ </h2>
 
-Voici quelques questions, que vous pourriez posez:
+### Introduction
 
-Q1 - Depuis quand développe tu ce site ?
+kevfr8.github.io, ou FireAqua est un site internet crée le 3 novembre 2021. **Il permet de pouvoir téléchargez des packs, de lire des revues, etc...**
+Le site à était développée entre une période de 7 mois au totale et sortie au publique le 24 juin 2022, et il se compose de plusieurs fonctionalités comme, une traduction en Anglais. Le site à était principalement codée en HTML/CSS/JS.
 
-Le développement du site à commencée le Mercredi 3 Novembre 2021
+### Développeurs
 
-Q2 - Quelle serra sa date de sortie ?
+Les principaux développeurs de FireAqua sont les suivants:
 
-Le site sortira, le 24 Juin 2022
+Développeurs | Objectifs
+------------ | -------------
+KevFR | Créateur et fondateur de FireAqua.
+Zai | Développeur, traducteur.
+markverb | Développeur, testeur.
+Luihum | Développeur, testeur.
+Pivinx1 | Développeur, testeur.
+RealMCoded | Helper
+Fugue Icons | Icons
+Vista | Fonds d'écrans
 
-Q3 - Quelle logiciel utilise-tu ? Et quelle extensions (VS:Code)
+### FAQ
 
-J'utilise Visual Studio Code pour la partie programmation, comme extensions j'utilise un thème personnalisée, Live server, Prettier. Pour les images j'utilises Paint.NET ou Photoshop
+**Q:** Pourquoi avoir réalisée FireAqua ?
 
-Q4 - Pourquoi avoir réalisez ce site et ne pas gardez FireWave ?
+**R:** Je voulais crée un site internet afin de partagez mes avis sur différents sujets en informatique. J'ai appris à utiliser du HTML/CSS/JS, et j'ai commençez à développer FireWave, avec l'aide de développeurs compétent. Mais FireWave, n'était plus de mon gout, à cause de son design, donc j'ai préférée faire un site assez "classique" et quelques mois plus tard, les anciens développeurs de FireWave sont revenus m'aider tout au long du développement jusqu'à la sortie du site le 24 juin 2022.
 
-J'ai réalisée, FireAqua, car le développement de FireWave, était assez vague, et j'allais réalisée, un site-OS et je quittais l'idée de base, de conçevoir un site internet classique.
+**Q:** Quelle est le mot de passe utilisée dans tes archives ?
 
-<h2> Images du site </h2>
+**R:** Le mot de passe est **kevfriscool**. Lis-bien les pages avant de demander.
 
-![image](https://user-images.githubusercontent.com/70813133/150676616-1668dc69-eb20-49b1-8540-a8514db8ea7f.png)
-![image](https://user-images.githubusercontent.com/70813133/149623821-f1a6becf-751d-4718-a8ad-473a7946a9fe.png)
+**Q:** Quelles sont tes extansions que tu a mis sur Visual Studio Code ?
 
-# English
-<h2> What is kevfr.github.io? </h2>
-"KevFR.github.io", "FireAqua" (codenamed Project Aqua) is a website created and managed by the YouTuber KevFR. FireAqua is the successor to the FireWave projecy, because of abandonment and internal conflicts. 
+**R:** Minify, un thème pour VS:Code, un plugin pour discord, et j'utilise XAMPP à la plaçe de Live Server.
 
-In November 2021, FireAqua started development and was extremely limited. Today, the site has more features but is currently inaccessible to the public.
-
-<h2> FAQ </h2>
-Q: When did you start development?
-
-A: The development started on November 3rd, 2021.
-
-Q: When will it be released?
-
-A: The site will release on June 24th, 2022.
-
-Q: What software do you use?
-
-A: I use Visual Studio Code for programming, and Paint.NET and Photoshop for the images.
-
-Q: Why did you discontinue FireWave?
-
-A: The development of FireWave was vague, and I wanted to go for an ordinary website, instead of a browser OS.
-
-<h2> Images </h2>
-
-![image](https://user-images.githubusercontent.com/70813133/150676616-1668dc69-eb20-49b1-8540-a8514db8ea7f.png)
-![image](https://user-images.githubusercontent.com/70813133/149623821-f1a6becf-751d-4718-a8ad-473a7946a9fe.png)
+**kCorp's® 2016 - 2022 Tout droits, réservés.**
 
 
