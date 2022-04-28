@@ -3,8 +3,8 @@ let images = [
   "/images/slide/wallpaper2.jpg",
   "/images/slide/wallpaper3.jpg",
   "/images/slide/wallpaper4.jpg",
-  "/images/slide/wallpaper5.jpg"
-]
+  "/images/slide/images5.jpg",
+];
 var i = 0;
 var timer = 10000;
 
