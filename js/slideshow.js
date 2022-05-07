@@ -1,8 +1,8 @@
 let images = [
-  "/images/slide/wallpaper1.jpg",
-  "/images/slide/wallpaper2.jpg",
-  "/images/slide/wallpaper3.jpg",
-  "/images/slide/wallpaper4.jpg",
+  "/images/slide/images1.jpg",
+  "/images/slide/images2.jpg",
+  "/images/slide/images3.jpg",
+  "/images/slide/images4.jpg",
   "/images/slide/images5.jpg",
 ];
 var i = 0;
