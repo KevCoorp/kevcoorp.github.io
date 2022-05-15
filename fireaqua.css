@@ -18,6 +18,9 @@ body {
   background-repeat: no-repeat;
   line-height: 1.5;
   background-size: cover;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-attachment: fixed;
   animation: transitionIn 0.75s;
 }
@@ -160,9 +163,15 @@ span {
 footer {
   height: 50px;
   bottom: 0;
+  width: 100%;
   left: 0;
-  nav-down: auto;
   background-color: rgba(0, 0, 0, 0.45);
+}
+
+#footer-404 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 #link {
@@ -246,6 +255,9 @@ html {
   max-width: 100%;
   overflow-x: hidden;
   height: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .section {
