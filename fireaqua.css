@@ -390,6 +390,9 @@ nav.center2 {
   transition: all ease-in-out 0.5s;
   animation: fadein 3s;
   text-align: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
 }
 
 .nav-item.center2 {
