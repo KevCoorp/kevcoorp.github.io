@@ -170,8 +170,9 @@ span {
 }
 
 footer {
+  position: static;
   height: 50px;
-  bottom: 0;
+  bottom: 0 !important;
   width: 100%;
   overflow: hidden;
   left: 0;
@@ -180,8 +181,12 @@ footer {
 
 #footer-404 {
   position: absolute;
+  height: 50px;
   bottom: 0;
   width: 100%;
+  overflow: hidden;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.45);
 }
 
 #footer-msn {
