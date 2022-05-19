@@ -199,6 +199,15 @@ footer {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
+#footer-idk {
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
 #link {
   display: flex;
   float: right;
@@ -546,13 +555,4 @@ title-contact {
   display: none;
   padding: 5px;
   font-size: 20px;
-}
-
-.footer-idk {
-  height: 50px;
-  bottom: 0;
-  width: 100%;
-  overflow: hidden;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.45);
 }
