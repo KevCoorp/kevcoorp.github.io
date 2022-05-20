@@ -103,7 +103,6 @@ a {
   overflow: hidden;
   color: #fff;
   padding: 15px;
-  border: 2px outset #000;
   border-radius: 5px;
   width: 75%;
   margin: auto;
@@ -555,4 +554,18 @@ title-contact {
   display: none;
   padding: 5px;
   font-size: 20px;
+}
+
+.li-changelog {
+  font-size: 20px;
+}
+
+.changelog-strong {
+  color: #0000ff;
+}
+
+.intro-changelog {
+  border: #000 solid;
+  border-radius: 5px;
+  text-shadow: 0 0 5px black;
 }
