@@ -169,7 +169,6 @@ span {
 }
 
 footer {
-  position: static;
   height: 50px;
   bottom: 0 !important;
   width: 100%;
@@ -565,7 +564,7 @@ title-contact {
 }
 
 .intro-changelog {
-  border: #000 solid;
-  border-radius: 5px;
+  border: dashed #fff;
+  border-radius: 30px;
   text-shadow: 0 0 5px black;
 }
