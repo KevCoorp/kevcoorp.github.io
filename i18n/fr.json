@@ -3,9 +3,8 @@
   "news-link": "<div style='display:inline-block' class='icon_fugue_feed'></div> AquaNews",
   "about-link": "<div style='display:inline-block' class='icon_fugue_information-frame'></div> À propos",
   "home-page": "<div style='display:inline-block' class='icon_fugue_home'></div> Page d'accueil",
-  "welcome-main": "<h1 class='titre'><a href='welcome'>Bienvenue</a> sur <span class='titre2'>FireAqua</span></h2>",
+  "welcome-main": "<h1 class='titre'><a href='build'>Bienvenue</a> sur <span class='titre2'>FireAqua</span></h2>",
   "retour": "<div style='display:inline-block' class='icon_fugue_arrow-curve-180'></div> Retour",
-  "popular-video": "La vidéo du moment",
   "a-propos": "À propos de <strong style='color:blue'>FireAqua</strong>",
   "histoire-title": "L'histoire de FireAqua",
   "histoire-content": "FireAqua, est un site internet crée par KevFR. Il succède à FireWave, un site avec une apparence d'un système d'exploitation. Le projet Aqua, à démarrée, le 3 novembre 2021 et lors des périodes de Noel, le site à changer de nom pour FireAqua. Le site à était refait en janvier 2022 et les anciens développeurs de FireWave, sont venus prêter main forte au développement du site. En février 2022, le site à était traduit en Anglais par Zai, afin que le site soit adaptée, pour un publique anglophone. FireAqua, est finalement sorti, le 24 juin 2022, après plus de 7 mois de développement.",
@@ -50,6 +49,7 @@
   "vista-title": "Est-il encore possible d'utiliser Windows Vista en 2022 ?",
   "vista-desc": "Windows Vista sortie en 2006, vaut-il encore le coup d'etre utiliser en 2022 ?",
   "discord-title": "Fermeture prochaine de KevFR Server's",
+  "discord-desc": "Après plusieurs années de loyaux services, le serveur discord officiel ferme ses portes, le jeudi 31 mars 2022.",
   "rpi-title": "Faut-il acheter un Raspberry Pi en 2022 ?",
   "rpi-title-1": "Qu'est-ce qu'un Raspberry Pi",
   "intro-rpi": "Le Raspberry Pi est un nano-ordinateur crée par la Fondation Raspberry Pi. Il utilise l'architecture ARM et tourne sous Linux. En plus de coutez pas cher, il est transportable partout et permet de faire de l'émulation ! Aujourd'hui je vais vous convaincre d'acheter un RPi, en 2022 !",
@@ -74,5 +74,7 @@
   "rc3": "Appliquez-vous lorsque vous écrivez, nous ne lisons pas de choses illisibles.",
   "rc4": "Merci de bien suivre ces trois règles, si contre votre demande serra rejetée.",
   "5jiji": "Développeur, traducteur",
-  "#Guigui": "Aide"
+  "#Guigui": "Help",
+  "translate-title": "Annonce concernant la traduction de FireAqua",
+  "translate-desc": "Ceci est une annonce concernant la traduction de FireAqua. Merci de le lire attentivement."
 }
