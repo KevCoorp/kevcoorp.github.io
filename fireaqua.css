@@ -171,6 +171,7 @@ span {
 footer {
   height: 50px;
   bottom: 0 !important;
+  position: fixed;
   width: 100%;
   overflow: hidden;
   left: 0;
@@ -178,7 +179,7 @@ footer {
 }
 
 #footer-404 {
-  position: absolute;
+  position: fixed;
   height: 50px;
   bottom: 0;
   width: 100%;
@@ -198,6 +199,7 @@ footer {
 }
 
 #footer-idk {
+  position: fixed;
   height: 50px;
   bottom: 0;
   width: 100%;
