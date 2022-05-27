@@ -570,3 +570,7 @@ title-contact {
   border-radius: 30px;
   text-shadow: 0 0 5px black;
 }
+
+.dev-title {
+  font-size: 35px;
+}
