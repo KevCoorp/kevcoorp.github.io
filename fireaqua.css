@@ -296,6 +296,7 @@ html {
 
 .section {
   position: relative;
+  bottom: 0;
   left: -10px;
   width: 105%;
   height: 300px;
@@ -354,6 +355,7 @@ html {
   text-align: center;
   align-items: center;
   justify-content: center;
+  position: fixed;
   font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
   font-size: 5.5vw;
   text-shadow: solid #333 10px;
