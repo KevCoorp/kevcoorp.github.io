@@ -2,14 +2,26 @@
 
 ### Sommaire
 1. [Introduction](#introduction)
-2. [Développeurs](#développeurs)
+2. [Fonctionnalités](#fonctionnalités)
+3. [Crédits](#crédits)
 
-### Introduction
+## Introduction
 :wave:Bienvenue sur le répo de FireAqua, où se trouve les fichiers sources du site et les potentielles annonces du site. FireAqua est un site internet crée en début novembre 2021, et sortie le 24 juin 2022. Le thème est autour du domaine de l'informatique.
 * N'hésitez-pas à me suivre sur [YouTube](https://www.youtube.com/channel/UCCPSET9zTIvoaK-WwoAe-Gw)
 * Ou sur [Twitter](https://twitter.com/KevFR2)
 
-### Développeurs
+## Fonctionnalités
+
+Fonctionnalités |
+------------ | 
+Deux langues supportés 🚩 | 
+Packs & Actualités 📰 |
+Animations sympa 🖥️ | 
+Et bien plus 👍 | 
+
+
+
+## Crédits
 :smiley: FireAqua n'aurrait jamais vu le jour sans ses développeurs:
 * moi [[YouTube](https://www.youtube.com/channel/UCCPSET9zTIvoaK-WwoAe-Gw)), [GitHub](https://github.com/KevFR8)]
 * zai-tm [[GitHub](https://github.com/zai-tm)]
