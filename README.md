@@ -1,7 +1,19 @@
-![navbar-logo2](https://user-images.githubusercontent.com/70813133/174731368-43d52675-8916-4f56-8341-4495c435d075.png)
-# Qu'est-ce que FireAqua ?
-FireAqua ou KevFR8.github.io, est un site internet publiée le 24 juin 2022, il se repose sur un domaine: l'informatique.
+# FireAqua 
 
-# Que peut-on trouver ?
-Le site propose deux catégories, la première une partie dédiée aux packs, il permet en outre de pouvoir télécharger des packs en ligne gratuitement comme par,
-exemple des iSO d'ancienne version de Windows. Et une seconde partie, consacrée à l’actualité, afin d'avoir un retour sur des produits, ou des annonces.
+### Sommaire
+1. [Introduction](#introduction)
+2. [Développeurs](#développeurs)
+
+### Introduction
+Bienvenue sur le répo de FireAqua, où se trouve les fichiers sources du site et les potentielles annonces du site. FireAqua est un site internet crée en début novembre 2021, et sortie le 24 juin 2022. Le thème est autour du domaine de l'informatique.
+* N'hésitez-pas à me suivre sur [YouTube](https://www.youtube.com/channel/UCCPSET9zTIvoaK-WwoAe-Gw)
+* Ou sur [Twitter](https://twitter.com/KevFR2)
+
+### Développeurs
+FireAqua n'aurrait jamais vu le jour sans ses développeurs:
+* moi [[YouTube](https://www.youtube.com/channel/UCCPSET9zTIvoaK-WwoAe-Gw)), [GitHub](https://github.com/KevFR8)]
+* zai-tm [[GitHub](https://github.com/zai-tm)]
+* markverb1 [[GitHub](https://github.com/markverb1)]
+* luihum [[GitHub](https://github.com/luihum)]
+
+**© Tout droits réservés, kCorp's 2016 - 2022**
