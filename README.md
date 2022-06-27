@@ -30,4 +30,4 @@ Et bien plus 👍 |
 
 **© Tout droits réservés, kCorp's 2016 - 2022**
 
-![image](https://user-images.githubusercontent.com/70813133/175318558-92fa4d7d-97bd-4789-924a-aa237a4bd755.png)
+![image](https://user-images.githubusercontent.com/70813133/175997676-efcaa3f2-2da5-47c6-9136-9ef75d772680.png)
