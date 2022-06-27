@@ -6,18 +6,7 @@ let translations = {};
 document.addEventListener("DOMContentLoaded", () => {
     const initialLocale = supportedOrDefault(browserLocales(true));
     setLocale(initialLocale);
-    bindLocaleSwitcher(initialLocale);
 });
-
-function bindLocaleSwitcher(initialValue) {
-    const switcher = document.querySelector("[data-i18n-switcher]");
-
-    switcher.value = initialValue;
-
-    switcher.onchange = (e) => {
-        setLocale(e.target.value);
-    }
-}
 
 async function setLocale(newLocale) {
     if (newLocale === locale) return;
