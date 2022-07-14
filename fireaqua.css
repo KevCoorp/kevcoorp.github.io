@@ -581,13 +581,3 @@ title-contact {
 .dev-title {
   font-size: 35px;
 }
-
-@media screen and (min-width: 800px) {
-  .nav-item {
-    padding: 1px;
-    left: 100%;
-    color: #fff;
-    transition: all ease-in-out 0.3s;
-    column-width: 10em;
-  }
-}
