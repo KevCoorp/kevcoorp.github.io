@@ -308,7 +308,7 @@ html {
   height: 300px;
   background: linear-gradient(rgba(153, 0, 153, 0.726), #00009c);
   overflow: hidden;
-  box-shadow: 0 22px 10px #fff;
+  box-shadow: 0 22px 10px rgba(44, 44, 44, 0.445);
 }
 
 .wave {
@@ -444,8 +444,8 @@ nav.center2 {
   text-decoration: none !important;
 }
 
-section {
-  background-color: #ffffff55;
+.pop {
+  background-color: rgba(0, 0, 0, 0.432);
   position: sticky;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
