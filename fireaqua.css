@@ -497,6 +497,14 @@ td.right {
   width: 50%;
   margin-right: auto;
   margin-left: auto;
+  max-width: 150px;
+  text-align: center;
+  border: 2px solid #bbbbbb60;
+  background-color: rgba(37, 37, 37, 0.521);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0.25);
+  border-radius: 3px;
+  transition: 0.2s all ease-in-out;
+  align-content: center;
 }
 
 body {
@@ -581,3 +589,31 @@ title-contact {
 .dev-title {
   font-size: 35px;
 }
+
+/* ABOUT */
+
+body {
+  margin: 0;
+  height: 100%;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  line-height: 1.5;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-image: url("/images/test.jpg");
+  background-attachment: fixed;
+  animation: transitionIn 0.75s;
+}
+
+/* .part-2 {
+ 
+}
+
+.header-about {
+} */
+
+/* Animation pack CSS */
