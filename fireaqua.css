@@ -45,6 +45,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
+  max-width: 105%;
+  min-width: 500px;
   width: 110%;
 }
 
