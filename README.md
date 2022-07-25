@@ -1,9 +1,9 @@
-# FireAqua 
+# :fire:FireAqua 
 
 ### Sommaire
-1. [Introduction](#introduction)
-2. [Fonctionnalités](#fonctionnalités)
-3. [Crédits](#crédits)
+* [Introduction](#introduction)
+* [Fonctionnalités](#fonctionnalités)
+* [Crédits](#crédits)
 
 ## Introduction
 :wave:Bienvenue sur le répo de FireAqua, où se trouve les fichiers sources du site et les potentielles annonces du site. FireAqua est un site internet crée en début novembre 2021, et sortie le 24 juin 2022. Le thème est autour du domaine de l'informatique.
@@ -17,6 +17,7 @@ Fonctionnalités |
 Deux langues supportés 🚩 | 
 Packs & Actualités 📰 |
 Animations sympa 🖥️ | 
+Rapide & Fluide :fast_forward:| 
 Et bien plus 👍 | 
 
 
