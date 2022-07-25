@@ -10,6 +10,8 @@
 * N'hésitez-pas à me suivre sur [YouTube](https://www.youtube.com/channel/UCCPSET9zTIvoaK-WwoAe-Gw):clapper:
 * Ou sur [Twitter](https://twitter.com/KevFR2):bird:
 
+<hr>
+
 ## Fonctionnalités
 
 Fonctionnalités |
@@ -20,7 +22,7 @@ Animations sympa 🖥️ |
 Rapide & Fluide :fast_forward:| 
 Et bien plus 👍 | 
 
-
+<hr>
 
 ## Crédits
 :smiley: FireAqua n'aurrait jamais vu le jour sans ses développeurs:
@@ -28,6 +30,8 @@ Et bien plus 👍 |
 * zai-tm [[GitHub](https://github.com/zai-tm)]
 * markverb1 [[GitHub](https://github.com/markverb1)]
 * luihum [[GitHub](https://github.com/luihum)]
+
+<hr>
 
 **© kCorp's 2022**
 
