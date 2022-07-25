@@ -305,8 +305,8 @@ html {
   bottom: 0;
   left: -10px;
   width: 105%;
-  height: 300px;
-  background: linear-gradient(rgba(153, 0, 153, 0.726), #00009c);
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.555);
   overflow: hidden;
   box-shadow: 0 22px 10px rgba(44, 44, 44, 0.445);
 }
@@ -442,6 +442,16 @@ nav.center2 {
 
 .section-3 {
   text-decoration: none !important;
+}
+
+.section-2 {
+  border: 2px solid rgba(34, 34, 34, 0.781);
+  background: linear-gradient(rgba(255, 0, 179, 0.568), rgb(0, 0, 255));
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0.25);
+  border-radius: 3px;
+  transition: 0.2s all ease-in-out;
+  align-content: center;
+  padding: 40px;
 }
 
 .pop {
@@ -608,12 +618,3 @@ body {
   background-attachment: fixed;
   animation: transitionIn 0.75s;
 }
-
-/* .part-2 {
- 
-}
-
-.header-about {
-} */
-
-/* Animation pack CSS */
