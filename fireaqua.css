@@ -31,9 +31,26 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   line-height: 1.5;
-  overflow: hidden;
   background-size: cover;
   position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-attachment: fixed;
+  animation: transitionIn 0.75s;
+}
+
+main {
+  margin: 0;
+  background-image: url("./images/bg/wallpaper1.jpg");
+  height: 100%;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  line-height: 1.5;
+  background-size: cover;
+  position: absolute;
+  overflow: hidden;
   bottom: 0;
   width: 100%;
   background-attachment: fixed;
