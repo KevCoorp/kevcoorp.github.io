@@ -31,6 +31,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   line-height: 1.5;
+  overflow: hidden;
   background-size: cover;
   position: absolute;
   bottom: 0;
@@ -59,6 +60,7 @@ nav {
   width: 100%;
   height: 50px;
   table-layout: fixed;
+  text-shadow: 0 5px 7px #000;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
   background-color: rgba(255, 255, 255, 0.322);
   -webkit-backdrop-filter: blur(15px);
@@ -86,7 +88,7 @@ select {
 .titre {
   font-size: 100px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: solid #333 10px;
+  text-shadow: solid rgb(27, 27, 27) 10px;
   text-shadow: 1px 1px 10px #000;
 }
 
@@ -99,6 +101,7 @@ select {
 
 a {
   color: #fff;
+  text-shadow: 1px 1px 10px #000;
   text-decoration: none;
   cursor: pointer;
 }
@@ -180,7 +183,7 @@ footer {
   bottom: 0 !important;
   position: fixed;
   width: 100%;
-  overflow: hidden;
+  overflow: hidden !important;
   left: 0;
   background-color: rgba(0, 0, 0, 0.45);
 }
@@ -228,7 +231,7 @@ footer {
 }
 
 .twiter {
-  padding: 0 6px;
+  padding: 0 10px;
   cursor: pointer;
   transition: all ease-in-out 0.5s;
 }

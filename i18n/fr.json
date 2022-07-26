@@ -3,7 +3,7 @@
   "news-link": "<div style='display:inline-block' class='icon_fugue_feed'></div> AquaNews",
   "about-link": "<div style='display:inline-block' class='icon_fugue_information-frame'></div> À propos",
   "home-page": "<div style='display:inline-block' class='icon_fugue_home'></div> Page d'accueil",
-  "welcome-main": "<h1 class='titre'><a href='build'>Bienvenue</a> sur <span class='titre2'>FireAqua</span></h2>",
+  "welcome-main": "<h1 class='titre'>Bienvenue sur <span class='titre2'>FireAqua</span></h1>",
   "retour": "<div style='display:inline-block' class='icon_fugue_arrow-curve-180'></div> Retour",
   "a-propos": "À propos de <strong style='color:blue'>FireAqua</strong>",
   "histoire-title": "L'histoire de FireAqua",
