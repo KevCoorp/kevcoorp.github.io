@@ -32,7 +32,6 @@
   "vista-bg": "Wallpaper",
   "firewave-end-title": "FireWave shutdown reminder",
   "introduction": "Hello, and welcome to FireAqua! I'm KevFR, the creator of the site. I make videos on computing and tutorials on installation of old Windows versions! You can find \"Packs\". They can contain ISOs, or themes based around Progressbar95! Packs are free and available to everyone! Don't hesitate to visit other pages, the site benefits from an English translation! So, what are you waiting for?",
-  "branding": "&copy All rights reserved, kCorp's 2016 - 2022",
   "rasp-title": "Is it worth buying a Raspberry Pi in 2022?",
   "rasp-desc": "The Raspberry Pi is a small and cheap microcomputer, is it a good idea to buy one? ",
   "a-propos-title": "About FireAqua",
@@ -64,6 +63,5 @@
   "5jiji": "Developer, translator",
   "#Guigui": "Help",
   "translate-title": "Announcement concerning the translation of FireAqua",
-  "translate-desc": "This is an announcement about the translation of FireAqua. Please read it carefully.",
-  "thx-zai": "Site translated with the help of Zai"
+  "translate-desc": "This is an announcement about the translation of FireAqua. Please read it carefully."
 }
