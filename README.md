@@ -31,8 +31,4 @@ Et bien plus 👍 |
 * markverb1 [[GitHub](https://github.com/markverb1)]
 * luihum [[GitHub](https://github.com/luihum)]
 
-<hr>
-
 **© kCorp's 2022**
-
-![image](https://user-images.githubusercontent.com/70813133/175997676-efcaa3f2-2da5-47c6-9136-9ef75d772680.png)
