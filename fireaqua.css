@@ -195,12 +195,12 @@ span {
   margin: auto;
 }
 
-footer {
+.footer {
   height: 50px;
   bottom: 0 !important;
   position: fixed;
   width: 100%;
-  overflow: hidden !important;
+  overflow: hidden;
   left: 0;
   background-color: rgba(0, 0, 0, 0.45);
 }

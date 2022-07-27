@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./images/misc/icon.png" />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css">
     <link rel="stylesheet" href="./sprite/fugue/icons_fugue_16x16.css" />
     <title data-i18n-key="contact-main-title">Me contacter</title>
 </head>
 
-<body style="background-image: url(./images/bg/wallpaper5.jpg)"></body>
-<nav style="background-color: rgba(58, 58, 58, 0.5);" class="center2 short">
+<body style="background-image: url(./images/bg/wallpaper5.jpg)" style="overflow:scroll;">
+<nav style="background-color: rgb(93, 195, 209);" class="center2 short">
     <a href="./" class="nav-item center2" data-i18n-key="home-page">
         <div class="icon icon_fugue_home"></div>Page d'acceuil
     </a>
@@ -27,7 +28,7 @@
       <p style="color: rgb(202, 0, 0);" data-i18n-key="rc3">&#9989;Appliquez-vous lorsque vous écrivez, nous ne lisons pas de choses illisibles.</li>
       <p style="color: rgb(255, 0, 0);" data-i18n-key="rc4">Merci de bien suivre ces trois règles, si contre votre demande serra rejetée.</p>
 
-<div id="curseur" class="infobulle" onclick="cache();"></div>
+              <div id="curseur" class="infobulle" onclick="cache();"></div>
 <a onclick="montre('&#128233; contactkevfr@gmail.com')">Affichez l'addresse email</a>
 
 <script>
@@ -40,10 +41,18 @@ function cache() {
 	document.getElementById("curseur").style.display="none"; 
 }
 </script>
+
+<footer>
+    <div id="link-2">
+
 </body>
-<footer id="footer-msn">
-           <a href="#" onclick="location.reload() = true;">
-          <img src="./images/misc/navbar-logo2.png" alt="FireAqua">
-          </a>
-  </footer>
+        <a href="https://www.youtube.com/channel/UCCPSET9zTIvoaK-WwoAe-Gw" class="youtube"><i class="fab fa-youtube"
+            style="color: red;"></i>Youtube</a>
+        <a href="https://twitter.com/KevFR2" class="twiter"><i class="fab fa-twitter"
+            style="color:#1D9BF0"></i>Twitter</a>
+        <a href="https://github.com/KevFR8" class="git"><i class="fab fa-github"
+            style="color:rgb(255, 255, 255)"></i>Github</a></li>
+    </div> 
+    </footer>       
+
   </html>
