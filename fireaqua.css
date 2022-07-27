@@ -49,6 +49,7 @@ main {
   background-repeat: no-repeat;
   line-height: 1.5;
   background-size: cover;
+  background-size: 100%;
   position: absolute;
   overflow: hidden;
   bottom: 0;
@@ -200,7 +201,6 @@ span {
   bottom: 0 !important;
   position: fixed;
   width: 100%;
-  overflow: hidden;
   left: 0;
   background-color: rgba(0, 0, 0, 0.45);
 }
@@ -641,4 +641,10 @@ body {
   background-image: url("/images/bg/wallpaper2.jpg");
   background-attachment: fixed;
   animation: transitionIn 0.75s;
+}
+
+.navbar-icons {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
 }
