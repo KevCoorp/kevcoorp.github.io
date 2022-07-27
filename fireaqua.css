@@ -447,6 +447,7 @@ hr {
 nav.center2 {
   padding: 15px;
   color: #fff;
+  background-color: rgba(34, 34, 34, 0.247);
   transition: all ease-in-out 0.5s;
   animation: fadein 3s;
   text-align: center;
