@@ -17,9 +17,6 @@
 
 * {
   scrollbar-width: thin;
-}
-
-* {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -95,12 +92,6 @@ nav {
 
 .nav-item:hover {
   color: #c7c7c7;
-}
-
-select {
-  position: relative;
-  left: auto;
-  top: 15px;
 }
 
 .titre {
@@ -638,10 +629,4 @@ body {
   background-image: url("/images/bg/wallpaper2.jpg");
   background-attachment: fixed;
   animation: transitionIn 0.75s;
-}
-
-.navbar-icons {
-  width: 16px;
-  height: 16px;
-  display: inline-block;
 }
