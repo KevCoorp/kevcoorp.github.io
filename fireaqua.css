@@ -235,16 +235,13 @@ span {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
-#link {
-  display: flex;
-  float: right;
-  height: 40px;
-  padding: 15px;
-  justify-content: space-between;
-  cursor: pointer;
-  color: #fff;
-  transition: all ease-in-out 0.5s;
-  margin-left: 50px;
+.link {
+  height: 45px;
+  bottom: 0 !important;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.45);
 }
 
 .twiter {
