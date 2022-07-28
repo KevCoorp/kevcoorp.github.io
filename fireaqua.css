@@ -37,7 +37,7 @@ body {
 
 main {
   margin: 0;
-  background-image: url("./images/bg/wallpaper1.jpg");
+  background-image: url("./images/bg/wallpaper1.png");
   height: 100%;
   color: #fff;
   text-shadow: 1px 1px 2px #000;
@@ -449,11 +449,7 @@ nav.center2 {
   left: auto;
 }
 
-.section-3 {
-  text-decoration: none !important;
-}
-
-.section-2 {
+.section-about {
   border: 2px solid rgba(34, 34, 34, 0.781);
   background: linear-gradient(rgba(255, 0, 179, 0.568), rgb(0, 0, 255));
   box-shadow: 0 0 25px 0 rgba(0, 0, 0.25);
@@ -461,6 +457,15 @@ nav.center2 {
   transition: 0.2s all ease-in-out;
   align-content: center;
   padding: 40px;
+}
+
+.section-3 {
+  text-decoration: none !important;
+}
+
+.section-2 {
+  transition: 0.2s all ease-in-out;
+  align-content: center;
 }
 
 .pop {
@@ -625,7 +630,7 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-image: url("/images/bg/wallpaper2.jpg");
+  background-image: url("/images/bg/wallpaper2.png");
   background-attachment: fixed;
   animation: transitionIn 0.75s;
 }
