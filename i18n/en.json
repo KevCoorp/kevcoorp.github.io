@@ -48,5 +48,6 @@
   "rc4": "Please follow these three rules, otherwise your application will be rejected.",
   "translate-title": "Announcement concerning the translation of FireAqua",
   "translate-desc": "This is an announcement about the translation of FireAqua. Please read it carefully.",
-  "contact-main-title": "Contact me"
+  "contact-main-title": "Contact me",
+  "packs-check": "<img class='navbar-icon' src='images/misc/security.png'>The packs have been analyzed and are free of malware</img>"
 }

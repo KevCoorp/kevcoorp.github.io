@@ -54,5 +54,6 @@
   "rc4": "Merci de bien suivre ces trois règles, si contre votre demande serra rejetée.",
   "translate-title": "Annonce concernant la traduction de FireAqua",
   "translate-desc": "Ceci est une annonce concernant la traduction de FireAqua. Merci de le lire attentivement.",
-  "trad-title-2": "Annonce concernant la traduction du site"
+  "trad-title-2": "Annonce concernant la traduction du site",
+  "packs-check": "<img class='navbar-icon' src='images/misc/security.png'>Les packs ont étaient analysées et ne présente aucun virus.</img>"
 }
