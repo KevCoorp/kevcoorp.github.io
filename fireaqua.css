@@ -637,3 +637,8 @@ body {
   background-attachment: fixed;
   animation: transitionIn 0.75s;
 }
+
+.check {
+  text-shadow: rgb(0, 0, 0);
+   font-family: Roboto Thin;
+}
