@@ -510,11 +510,14 @@ td.right {
 .img-btn {
   width: 300px;
   border-radius: 20px;
-  transition: transform 0.1s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .img-btn:hover {
   transform-origin: center;
+  border: rgba(255, 255, 255, 0.575) solid 6px;
+  box-shadow: #000;
   transform: scale(calc(75 / 70));
 }
 
