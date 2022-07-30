@@ -371,7 +371,7 @@ html {
   justify-content: center;
   position: fixed;
   font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 5.5vw;
+  font-size: 5vw;
   text-shadow: solid #333 10px;
   text-shadow: 1px 1px 10px #000;
   position: relative;
@@ -640,5 +640,5 @@ body {
 
 .check {
   text-shadow: rgb(0, 0, 0);
-   font-family: Roboto Thin;
+  font-family: Roboto Thin;
 }
