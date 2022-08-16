@@ -642,3 +642,12 @@ body {
   text-shadow: rgb(0, 0, 0);
   font-family: Roboto Thin;
 }
+
+.news-game {
+  text-align: left;
+  background-image: linear-gradient(to right, blue, green, red);
+}
+
+h2.title-game {
+  text-align: center;
+}
