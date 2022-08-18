@@ -645,7 +645,7 @@ body {
 
 .news-game {
   text-align: left;
-  background-image: linear-gradient(to right, blue, green, red);
+  background-image: url("./images/bg/news-bg/game-wallpaper.png");
 }
 
 h2.title-game {
