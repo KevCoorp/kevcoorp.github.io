@@ -234,30 +234,35 @@ span {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
-.twiter {
+.discord {
   padding: 0 10px;
   cursor: pointer;
   transition: all ease-in-out 0.5s;
 }
 
-.twiter:hover {
-  color: #1da1f2;
+.discord:hover {
+  color: #5865f2;
+  text-shadow: #000 1 2px;
 }
 
 .youtube {
+  cursor: pointer;
   transition: all ease-in-out 0.5s;
 }
 
 .youtube:hover {
   color: red;
+  text-shadow: rgb(255, 255, 255) 1 2px;
 }
 
 .git {
+  cursor: pointer;
   transition: all ease-in-out 0.5s;
 }
 
 .git:hover {
-  color: #000;
+  color: rgb(90, 90, 90);
+  text-shadow: rgb(255, 255, 255) 1 2px;
 }
 
 .company {
