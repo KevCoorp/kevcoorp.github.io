@@ -678,3 +678,39 @@ section.new-packs {
   text-align: left;
   padding: 0 15px;
 }
+
+@media screen and (max-width: 1024px) {
+  main {
+    margin: 0;
+    background: url("./images/bg/wallpaper1.png");
+    background-size: cover !important;
+    background-size: 100% !important;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 1.5;
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+  }
+  .titre {
+    font-size: 50px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: solid rgb(27, 27, 27) 10px;
+    text-shadow: 1px 1px 10px #000;
+  }
+  .titre2 {
+    color: #0026ff;
+    font-size: 75px;
+    text-shadow: 5px 10px 10px #000766;
+  }
+  .nav-item {
+    padding: 3px;
+    left: 100%;
+    color: #fff;
+    transition: all ease-in-out 0.3s;
+    margin: 0 6px;
+  }
+}
