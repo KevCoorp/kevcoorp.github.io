@@ -680,9 +680,35 @@ section.new-packs {
 }
 
 @media screen and (max-width: 1024px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-button {
+    width: 8px;
+    height: 0;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #424141;
+    border: thin solid rgba(31, 31, 31, 0.562);
+    box-shadow: 0 0 3px #616161 inset;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #7a7a7a;
+    border: thin solid rgba(31, 31, 31, 0.562);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #535353;
+  }
+
   main {
     margin: 0;
-    background: url("./images/bg/wallpaper1.png");
+    background: url("./images/bg/phone/wallpaper1.png");
     background-size: cover !important;
     background-size: 100% !important;
     color: #fff;
@@ -712,5 +738,36 @@ section.new-packs {
     color: #fff;
     transition: all ease-in-out 0.3s;
     margin: 0 6px;
+  }
+
+  nav.center2 {
+    padding: 15px;
+    color: #fff;
+    background-color: rgba(34, 34, 34, 0.247);
+    transition: all ease-in-out 0.5s;
+    animation: fadein 3s;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+  }
+
+  .nav-item.center2 {
+    text-align: center;
+    position: relative;
+    left: auto;
+  }
+
+  .titre-small {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-shadow: solid #333 10px;
+    text-shadow: 1px 1px 10px #000;
+    position: relative;
+    z-index: 2000;
   }
 }
