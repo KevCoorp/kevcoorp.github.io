@@ -8,7 +8,6 @@
 ## Introduction
 :wave:Bienvenue sur le répo de FireAqua, où se trouve les fichiers sources du site et les potentielles annonces du site. FireAqua est un site internet crée en début novembre 2021, et sortie le 24 juin 2022. Le thème est autour du domaine de l'informatique.
 * N'hésitez-pas à me suivre sur [YouTube](https://www.youtube.com/channel/UCCPSET9zTIvoaK-WwoAe-Gw):clapper:
-* Ou sur [Twitter](https://twitter.com/KevFR2):bird:
 
 <hr>
 
