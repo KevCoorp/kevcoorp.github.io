@@ -19,22 +19,6 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-  margin: 0;
-  height: 100%;
-  color: #fff;
-  text-shadow: 1px 1px 2px #000;
-  background-position: center;
-  background-repeat: no-repeat;
-  line-height: 1.5;
-  background-size: cover;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-attachment: fixed;
-  animation: transitionIn 0.75s;
-}
-
 main {
   margin: 0;
   background-image: url("./images/bg/wallpaper1.png");
@@ -682,6 +666,8 @@ section.new-packs {
   text-align: left;
   padding: 0 15px;
 }
+
+/* Phone device here */
 
 @media screen and (max-width: 1024px) {
   ::-webkit-scrollbar {
