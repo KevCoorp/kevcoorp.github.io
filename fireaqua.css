@@ -221,18 +221,8 @@ span {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
-.discord {
-  padding: 0 10px;
-  cursor: pointer;
-  transition: all ease-in-out 0.5s;
-}
-
-.discord:hover {
-  color: #5865f2;
-  text-shadow: #000 1 2px;
-}
-
 .youtube {
+  padding: 0 10px;
   cursor: pointer;
   transition: all ease-in-out 0.5s;
 }
