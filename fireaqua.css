@@ -180,16 +180,6 @@ span {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
-#footer-404 {
-  position: fixed;
-  height: 50px;
-  bottom: 0;
-  width: 100%;
-  overflow: hidden;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.45);
-}
-
 #footer-msn {
   position: absolute;
   height: 50px;
@@ -208,38 +198,6 @@ span {
   overflow: hidden;
   left: 0;
   background-color: rgba(0, 0, 0, 0.45);
-}
-
-.link {
-  height: 45px;
-  bottom: 0 !important;
-  position: fixed;
-  border-radius: 10vw;
-  overflow: hidden;
-  width: 100%;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.45);
-}
-
-.youtube {
-  padding: 0 10px;
-  cursor: pointer;
-  transition: all ease-in-out 0.5s;
-}
-
-.youtube:hover {
-  color: red;
-  text-shadow: rgb(255, 255, 255) 1 2px;
-}
-
-.git {
-  cursor: pointer;
-  transition: all ease-in-out 0.5s;
-}
-
-.git:hover {
-  color: rgb(90, 90, 90);
-  text-shadow: rgb(255, 255, 255) 1 2px;
 }
 
 .company {
