@@ -251,58 +251,17 @@ html {
 .section {
   position: relative;
   bottom: 0;
-  left: -10px;
-  width: 105%;
+  border-radius: 100px;
+  width: 80%;
   height: 100%;
+  margin: 30px;
   background-color: rgba(0, 0, 0, 0.555);
   overflow: hidden;
   box-shadow: 0 22px 10px rgba(44, 44, 44, 0.445);
 }
 
-.wave {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  background: url(images/misc/wave.png);
-  background-size: 1000px 100px;
-}
-
-.wave.wave1 {
-  animation: wave-animate 15s linear infinite;
-  z-index: 10;
-  opacity: 1;
-  animation-delay: 0;
-  position: absolute;
-  bottom: 0;
-}
-
-.wave.wave4 {
-  animation: wave-animate2 5s linear infinite;
-  z-index: 8;
-  opacity: 0.5;
-  animation-delay: -5s;
-  position: absolute;
-  bottom: 20px;
-}
-
-@keyframes wave-animate {
-  0% {
-    background-position-x: 0;
-  }
-  100% {
-    background-position-x: 1000px;
-  }
-}
-
-@keyframes wave-animate2 {
-  0% {
-    background-position-x: 0;
-  }
-  100% {
-    background-position-x: -1000px;
-  }
+.company-2 {
+  text-shadow: 0 1.5px #000;
 }
 
 .titre-small {
@@ -391,12 +350,13 @@ nav.center2 {
 
 .section-about {
   border: 2px solid rgba(34, 34, 34, 0.781);
-  background: linear-gradient(rgba(255, 0, 179, 0.568), rgb(0, 0, 255));
+  color: white;
+  background: linear-gradient(rgba(255, 0, 179, 0.473), rgb(0, 0, 255, 0.473));
   box-shadow: 0 0 25px 0 rgba(0, 0, 0.25);
-  border-radius: 3px;
+  border-radius: 150px;
   transition: 0.2s all ease-in-out;
   align-content: center;
-  padding: 40px;
+  padding: 30px;
 }
 
 .section-3 {
