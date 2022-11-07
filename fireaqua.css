@@ -252,10 +252,12 @@ html {
   position: relative;
   bottom: 0;
   border-radius: 50px;
-  width: 50%;
-  height: 75%;
+  width: 45%;
+  height: 65%;
   margin: 30px;
-  background-color: rgba(0, 0, 0, 0.555);
+  border: 10px solid #ab9783;
+  color: white;
+  background-color: #a5806d;
   overflow: hidden;
 }
 
