@@ -15,7 +15,7 @@
 Fonctionnalités |
 ------------ | 
 Deux langues supportés 🚩 | 
-Packs & Actualités 📰 |
+Packs gratuits :smile: |
 Responsive :iphone: | 
 Rapide & Fluide :fast_forward:| 
 Et bien plus 👍 | 
