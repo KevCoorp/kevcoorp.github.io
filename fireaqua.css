@@ -325,7 +325,10 @@ html {
 
 .dev-img:hover {
   height: 57px;
-  box-shadow: 0 0 10px #000;
+  transform-origin: center;
+  border: #fff solid 2px;
+  transform: scale(calc(75 / 70));
+  box-shadow: 0 5 7px #fff;
 }
 
 hr {
