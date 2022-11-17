@@ -204,12 +204,20 @@ span {
 }
 
 .build {
-  position: fixed;
-  text-align: center;
-  height: 50px;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  color: #fff;
+  opacity: 1 !important;
+  background-color: rgba(0, 0, 0, 0.425);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.61);
+  backdrop-filter: blur(15px);
+  padding: 5px;
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 8px;
+  width: 25%;
+  height: 85%;
+}
+
+.build::before {
+  filter: blur(2px);
 }
 
 ::-webkit-scrollbar {
@@ -254,10 +262,16 @@ html {
   width: 45%;
   height: 65%;
   margin: 30px;
-  border: 10px solid #ab9783;
+  background-color: rgba(0, 0, 0, 0.425);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.61);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   color: white;
-  background-color: #a5806d;
   overflow: hidden;
+}
+
+.section::before {
+  filter: blur(2px);
 }
 
 .about-title {
@@ -362,15 +376,20 @@ nav.center2 {
 }
 
 .section-about {
-  border: 10px solid #59a4cd;
   width: 50%;
   color: white;
-  background-color: #438dc1;
-  box-shadow: 5px #313639;
+  background-color: rgba(0, 0, 0, 0.425);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.781);
   border-radius: 150px;
   transition: 0.3s all ease-in-out;
   align-content: center;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
   padding: 30px;
+}
+
+.section-about::before {
+  filter: blur(2px);
 }
 
 .section-3 {
@@ -727,4 +746,3 @@ section.new-packs {
   border-radius: 5px;
   background-color: rgba(107, 0, 0, 0.135);
 }
-
