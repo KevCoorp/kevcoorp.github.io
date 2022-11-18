@@ -14,6 +14,17 @@
   scrollbar-color: rgba(255, 255, 255, 0.575) rgba(0, 0, 0, 0.966);
 }
 
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
 * {
   scrollbar-width: thin;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -749,3 +760,4 @@ section.new-packs {
   border-radius: 5px;
   background-color: rgba(107, 0, 0, 0.135);
 }
+
