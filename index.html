@@ -29,15 +29,13 @@
 </head>
 
 <main class="index">
+  
     <center>
     <nav class="items" style="background: rgba(4, 0, 34, 0.418);">
         <a href="./" onclick="location.reload() = true;">
             <img src="./images/misc/navbar-logo2.png" alt="Logo" class="logoaqua"></a>
         <a data-i18n-key="packs-link" href="./packs" class="nav-item right2">
             <div class="icon icon_fugue_drive-download"></div> Mes packs
-        </a>
-        <a data-i18n-key="contact" href="./contact" class="nav-item right2">
-            <img class="navbar-icon" src="images/misc/nav-item-1.png"> Me conctacter
         </a>
         <a data-i18n-key="about-link" href="./about" class="nav-item right2">
             <div class="icon icon_fugue_information-frame"></div> A propos
@@ -57,11 +55,34 @@
         </div>
 
         <p class="company">&copy; kCorp's, 2022</p>
-
-
         
-</main>
+        
 
+        <a href="#popup" class="mail"><i class="fa-solid fa-paper-plane" style="color:#02a6d8">
+            </i><strong>Contact</strong> </a>
+
+        <div id="#popup" class="overlay">
+            <div class="popup">
+                <a href="#" class="cross">&times;</a>
+                <p data-i18n-key="contact-intro">Vous souhaitez contribuer au développement de ma chaine Youtube ? Vous avez des questions ou vous avez des suggestions ? <br> Vous pouvez me contactez facilement par email </p>
+                <center>
+                     <div class="box">
+                    <strong>
+                        <p style="color: rgb(202, 0, 0);" data-i18n-key="rc1">&#9989;Ne pas m'envoyez de questions qui n'est pas en raport avec mon contenu.</li>
+                        <p style="color: rgb(202, 0, 0); "data-i18n-key="rc2">&#9989;Soyez courtois, et ne pas écrire comme un imbécile.</li>
+                        <p style="color: rgb(202, 0, 0);" data-i18n-key="rc3">&#9989;Appliquez-vous lorsque vous écrivez, nous ne lisons pas de choses illisibles.</li>
+                    </div>
+                </center>
+            </div>
+        </div>
+
+    <a href="https://www.youtube.com/channel/UCCPSET9zTIvoaK-WwoAe-Gw" class="youtube"><i class="fab fa-youtube"
+            style="color: red;"></i> Youtube</a>
+
+    <a href="https://github.com/KevFR8" class="git"><i class="fab fa-github"
+            style="color:rgb(255, 255, 255)"></i> Github</a></li>
+</main>
+    <div class="link" style="overflow: hidden;"></div>
     <script type="text/javascript" src="./js/translate.js"></script>
 
 </html>

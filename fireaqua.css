@@ -211,6 +211,15 @@ span {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
+.mail {
+  padding: 0 5px;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+.mail:hover {
+  color: #037699;
+}
+
 .company {
   font-family: Roboto Thin;
 }
@@ -327,7 +336,6 @@ html {
 }
 
 .dev-img {
-  margin: 0 20px 0 0;
   align-items: flex-end;
   height: 50px;
   border-radius: 50px;
@@ -762,3 +770,29 @@ section.new-packs {
   background-color: rgba(107, 0, 0, 0.135);
 }
 
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0.7);
+  transition: opacity 0.4s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 6rem auto;
+  padding: 2rem;
+  background: #fff;
+  width: 40%;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  opacity: 1;
+}
