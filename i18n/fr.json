@@ -1,4 +1,4 @@
-{
+﻿{
   "packs-link": "<div style='display:inline-block' class='icon_fugue_drive-download'></div> Mes packs",
   "about-link": "<div style='display:inline-block' class='icon_fugue_information-frame'></div> À propos",
   "home-page": "<div style='display:inline-block' class='icon_fugue_home'></div> Page d'accueil",
@@ -29,6 +29,5 @@
   "rc2": "Soyez courtois, et ne pas écrire comme un imbécile.",
   "rc3": "Appliquez-vous lorsque vous écrivez, nous ne lisons pas de choses illisibles.",
   "rc4": "Merci de bien suivre ces trois règles, si contre votre demande serra rejetée.",
-  "packs-check": "<img class='navbar-icon' src='images/misc/security.png'>Les packs ont étaient analysées et ne présente aucun virus.</img>",
-  "enderman": "Fond d'écran"
+  "packs-check": "<img class='navbar-icon' src='images/misc/security.png'>Les packs ont étaient analysées et ne présente aucun virus.</img>"
 }
