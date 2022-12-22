@@ -23,8 +23,7 @@ Et bien plus 👍 |
 <hr>
 
 ## Crédits
-:smiley: FireAqua n'aurrait jamais vu le jour sans ses développeurs:
-* moi [[YouTube](https://www.youtube.com/channel/UCCPSET9zTIvoaK-WwoAe-Gw), [GitHub](https://github.com/KevFR8)]
+:smiley: FireAqua n'aurrait jamais vu le jour sans l'aide de: 
 * zai-tm [[GitHub](https://github.com/zai-tm)]
 * markverb1 [[GitHub](https://github.com/markverb1)]
 * luihum [[GitHub](https://github.com/luihum)]
