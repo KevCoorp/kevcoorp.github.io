@@ -762,37 +762,3 @@ section.new-packs {
     z-index: 2000;
   }
 }
-
-.box {
-  width: 500px;
-  border: 3px solid red;
-  border-radius: 5px;
-  background-color: rgba(107, 0, 0, 0.135);
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0.7);
-  transition: opacity 0.4s;
-  visibility: hidden;
-  opacity: 0;
-}
-
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup {
-  margin: 6rem auto;
-  padding: 2rem;
-  background: #fff;
-  width: 40%;
-  position: relative;
-  transition: all 0.4s ease-in-out;
-  opacity: 1;
-}
