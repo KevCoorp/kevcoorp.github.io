@@ -232,8 +232,8 @@ span {
   backdrop-filter: blur(15px);
   padding: 5px;
   -webkit-backdrop-filter: blur(15px);
-  border-radius: 8px;
-  width: 25%;
+  border-radius: 7px;
+  width: 30%;
   height: 85%;
 }
 
@@ -344,11 +344,13 @@ html {
 }
 
 .dev-img:hover {
+  cursor: pointer;
   height: 57px;
   transform-origin: center;
   border: #fff solid 2px;
   transform: scale(calc(75 / 70));
   box-shadow: 0 5 7px #fff;
+  box-shadow: 0 1 30px rgb(206, 206, 206);
 }
 
 hr {
@@ -403,7 +405,7 @@ nav.center2 {
   color: white;
   background-color: rgba(0, 0, 0, 0.425);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.781);
-  border-radius: 150px;
+  border-radius: 135px;
   transition: 0.3s all ease-in-out;
   align-content: center;
   backdrop-filter: blur(15px);
@@ -471,7 +473,6 @@ td.right {
   margin-left: auto;
   max-width: 150px;
   text-align: center;
-
   border: 2px solid #bbbbbb60;
   background-color: rgba(29, 29, 29, 0.623);
   box-shadow: 0 0 25px 0 rgba(0, 0, 0.25);
@@ -480,11 +481,31 @@ td.right {
   align-content: center;
 }
 
+.social-border {
+  width: 25%;
+  color: white;
+  opacity: 1 !important;
+  background-color: rgba(0, 0, 0, 0.267);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.534);
+  border-radius: 15px;
+  transition: 0.3s all ease-in-out;
+  align-content: center;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  margin: 20px;
+  padding: 5px;
+}
+
+.social-border::before {
+  filter: blur(2px);
+}
+
 .youtube {
   cursor: pointer;
   padding: 0 10px;
   transition: all ease-in-out 0.5s;
 }
+
 .youtube:hover {
   color: red;
   text-shadow: rgb(255, 255, 255) 1 2px;
