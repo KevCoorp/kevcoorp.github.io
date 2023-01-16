@@ -487,12 +487,12 @@ td.right {
   opacity: 1 !important;
   background-color: rgba(0, 0, 0, 0.267);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.534);
-  border-radius: 15px;
+  border-radius: 20px;
   transition: 0.3s all ease-in-out;
   align-content: center;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  margin: 20px;
+  margin: 25px;
   padding: 5px;
 }
 
@@ -622,15 +622,6 @@ body {
   animation: transitionIn 0.75s;
 }
 
-.news-game {
-  text-align: left;
-  background-image: url("./images/bg/news-bg/game-wallpaper.png");
-}
-
-h2.title-game {
-  text-align: center;
-}
-
 .title-pack {
   text-align: left;
   padding: 0 15px;
@@ -716,12 +707,29 @@ section.new-packs {
     backdrop-filter: blur(15px);
   }
 
+  .social-border {
+    width: 50%;
+    color: white;
+    opacity: 1 !important;
+    background-color: rgba(0, 0, 0, 0.267);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.534);
+    border-radius: 20px;
+    transition: 0.3s all ease-in-out;
+    align-content: center;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    margin: 25px;
+    padding: 5px;
+  }
+
+  .social-border::before {
+    filter: blur(2px);
+  }
+
   main.index {
     margin: 0;
     background: url("./images/bg/phone/wallpaper1.png");
-    background-size: cover !important;
     background-size: 100% !important;
-    background-position: 100% !important;
     color: #fff;
     text-shadow: 1px 1px 2px #000;
     background-position: center;
@@ -740,9 +748,10 @@ section.new-packs {
     text-shadow: 1px 1px 10px #000;
   }
   .titre2 {
-    color: #0026ff;
+    color: #0021de;
     font-size: 75px;
-    text-shadow: 5px 10px 10px #000766;
+    box-shadow: 0 1 5px #000;
+    text-shadow: 5px 10px 10px #000765;
   }
   .nav-item {
     padding: 1px;
