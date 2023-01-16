@@ -231,6 +231,7 @@ span {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.61);
   backdrop-filter: blur(15px);
   padding: 5px;
+  margin: 25px;
   -webkit-backdrop-filter: blur(15px);
   border-radius: 7px;
   width: 30%;
@@ -310,6 +311,17 @@ html {
 
 .company-2 {
   text-shadow: 0 1.5px #000;
+  color: #fff;
+  opacity: 1 !important;
+  background-color: rgba(0, 0, 0, 0.425);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.61);
+  backdrop-filter: blur(15px);
+  padding: 5px;
+  margin: 25px;
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 7px;
+  width: 25%;
+  height: 85%;
 }
 
 .titre-small {
@@ -603,8 +615,6 @@ title-contact {
   font-size: 35px;
 }
 
-/* ABOUT */
-
 body {
   margin: 0;
   height: 100%;
@@ -691,6 +701,23 @@ section.new-packs {
     background: #535353;
   }
 
+  .section-about {
+    width: 75%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.781);
+    border-radius: 75px;
+    transition: 0.3s all ease-in-out;
+    align-content: center;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 30px;
+  }
+
+  .section-about::before {
+    filter: blur(2px);
+  }
+
   nav {
     background-repeat: no-repeat;
     background-size: cover;
@@ -705,6 +732,20 @@ section.new-packs {
     background-color: rgba(37, 37, 37, 0.733);
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
+  }
+
+  .build {
+    color: #fff;
+    opacity: 1 !important;
+    background-color: rgba(0, 0, 0, 0.425);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(15px);
+    padding: 5px;
+    margin: 25px;
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 7px;
+    width: 50%;
+    height: 85%;
   }
 
   .social-border {
