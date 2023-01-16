@@ -569,34 +569,6 @@ nav {
   backdrop-filter: blur(15px);
 }
 
-body {
-  margin: 0;
-  backdrop-filter: blur(2px);
-  text-align: center;
-  justify-content: center;
-  height: 100%;
-  color: #fff;
-  text-shadow: 1px 1px 2px #000;
-  background-position: center;
-  background-repeat: no-repeat;
-  line-height: 1.5;
-  background-size: cover;
-  background-attachment: fixed;
-  animation: transitionIn 0.75s;
-}
-
-title-contact {
-  box-shadow: 0 0 33px -4px #000;
-  text-shadow: 0 0 33px -4px #000;
-}
-
-.infobulle {
-  height: auto;
-  display: none;
-  padding: 5px;
-  font-size: 20px;
-}
-
 .li-changelog {
   font-size: 20px;
 }
@@ -780,6 +752,23 @@ section.new-packs {
     overflow: scroll;
     bottom: 0;
     width: 100%;
+  }
+
+  body {
+    margin: 0;
+    height: 100%;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 1.5;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url("/images/bg/phone/wallpaper2.png");
+    background-attachment: fixed;
+    animation: transitionIn 0.75s;
   }
 
   .titre {
