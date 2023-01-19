@@ -211,15 +211,6 @@ span {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
-.mail {
-  padding: 0 5px;
-  cursor: pointer;
-  transition: all ease-in-out 0.5s;
-}
-.mail:hover {
-  color: #037699;
-}
-
 .company {
   font-family: Roboto Thin;
 }
