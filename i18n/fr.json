@@ -19,15 +19,5 @@
   "a-propos-title": "À propos de FireAqua",
   "free": "Les packs sont t-il gratuit ?",
   "yes-free": "Oui, les packs sont gratuit",
-  "why-pass": "Pourquoi avoir mis un mot de passe ?",
-  "main-contact-title": "Me contacter",
-  "contact": "<img class='navbar-icon' src='/images/misc/nav-item-1.png'> Me conctacter",
-  "emai": "Mon adresse email de contact - contactkevfr@gmail.com",
-  "contact-title": "Me contacter",
-  "contact-main-title": "Me contacter",
-  "rc1": "Ne pas m'envoyez de questions qui n'est pas en raport avec mon contenu.",
-  "rc2": "Soyez courtois, et ne pas écrire comme un imbécile.",
-  "rc3": "Appliquez-vous lorsque vous écrivez, nous ne lisons pas de choses illisibles.",
-  "rc4": "Merci de bien suivre ces trois règles, si contre votre demande serra rejetée.",
-  "packs-check": "<img class='navbar-icon' src='images/misc/security.png'>Les packs ont étaient analysées et ne présente aucun virus.</img>"
+  "why-pass": "Pourquoi avoir mis un mot de passe ?"
 }
