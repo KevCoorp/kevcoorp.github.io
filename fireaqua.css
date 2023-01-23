@@ -332,6 +332,7 @@ html {
   padding: 15px;
   color: #fff;
   margin: 0 6px;
+  transition: 0.3s ease-in-out;
 }
 
 .nav-item:hover {
