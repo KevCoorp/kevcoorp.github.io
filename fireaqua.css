@@ -555,6 +555,7 @@ body {
 .faq-pop {
   background-color: rgba(0, 0, 0, 0.432);
   border: 5px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 1 4px solid #fff;
   border-radius: 40px;
   position: sticky;
   -webkit-backdrop-filter: blur(10px);
@@ -608,6 +609,19 @@ section.new-packs {
 
   ::-webkit-scrollbar-thumb:hover {
     background: #535353;
+  }
+
+  .about-title {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5vw;
+    text-shadow: solid #333 10px;
+    text-shadow: 1px 1px 10px #000;
+    position: relative;
+    z-index: 2000;
   }
 
   .section-about {
