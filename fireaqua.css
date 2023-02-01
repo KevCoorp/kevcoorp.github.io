@@ -409,7 +409,8 @@ td.right {
 
 .img-btn:hover {
   transform-origin: center;
-  border: rgba(255, 255, 255, 0.575) solid 6px;
+  animation: fadein 3s;
+  border: rgba(255, 255, 255, 0.923) solid 6px;
   box-shadow: #000;
   transform: scale(calc(75 / 70));
 }
@@ -503,20 +504,6 @@ nav {
   background-color: rgba(37, 37, 37, 0.733);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-}
-
-.li-changelog {
-  font-size: 20px;
-}
-
-.changelog-strong {
-  color: #0000ff;
-}
-
-.intro-changelog {
-  border: dashed #fff;
-  border-radius: 30px;
-  text-shadow: 0 0 5px black;
 }
 
 .dev-title {
