@@ -50,6 +50,19 @@ main {
   animation: transitionIn 0.75s;
 }
 
+hr {
+  height: 1px;
+  width: 45%;
+  background-color: #fff;
+}
+
+.line {
+  height: 3px;
+  margin-left: 18px !important;
+  width: 35%;
+  background: linear-gradient(#fff, rgba(255, 255, 255, 0.099));
+}
+
 header {
   text-align: center;
   display: flex;
@@ -306,13 +319,6 @@ html {
   box-shadow: 0 1 30px rgb(206, 206, 206);
 }
 
-hr {
-  height: 1px;
-  border: none;
-  background-color: #fff;
-  box-shadow: 5px 5px 5px #000;
-}
-
 .table-padding {
   padding: 10px;
 }
@@ -555,18 +561,48 @@ body {
 }
 
 section.old-packs {
+  background-color: rgba(0, 0, 0, 0.432);
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 1 4px solid #fff;
+  border-radius: 40px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: left;
-  padding: 0 15px;
+  padding: 10px;
+  margin: 45px;
 }
 
 section.best-packs {
+  background-color: rgba(0, 0, 0, 0.432);
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 1 4px solid #fff;
+  border-radius: 40px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: left;
-  padding: 0 15px;
+  padding: 10px;
+  margin: 45px;
 }
 
 section.new-packs {
+  background-color: rgba(0, 0, 0, 0.432);
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 1 4px solid #fff;
+  border-radius: 40px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: left;
-  padding: 0 15px;
+  padding: 10px;
+  margin: 45px;
 }
 
 /* Phone device here */
@@ -650,11 +686,11 @@ section.new-packs {
     background-color: rgba(0, 0, 0, 0.425);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.61);
     backdrop-filter: blur(15px);
-    padding: 5px;
+    padding: 15px;
     margin: 25px;
     -webkit-backdrop-filter: blur(15px);
     border-radius: 7px;
-    width: 50%;
+    width: 75%;
     height: 85%;
   }
 
