@@ -28,4 +28,4 @@ Et bien plus 👍 |
 * markverb1 [[GitHub](https://github.com/markverb1)]
 * luihum [[GitHub](https://github.com/luihum)]
 
-**© kCorp's 2023**
+**© kCorp 2023**
