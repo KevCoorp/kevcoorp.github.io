@@ -605,7 +605,7 @@ section.new-packs {
   right: 0;
   text-align: left;
   padding: 20px;
-  margin: 45px;
+  margin: 50px;
 }
 
 /* Phone device here */
@@ -709,7 +709,7 @@ section.new-packs {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     margin: 25px;
-    padding: 5px;
+    padding: 7px;
   }
 
   .social-border::before {
