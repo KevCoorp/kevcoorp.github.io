@@ -1,5 +1,6 @@
 ﻿{
   "packs-link": "<div style='display:inline-block' class='icon_fugue_drive-download'></div> Mes packs",
+  "faq-link": "<div style='display:inline-block' class='icon_fugue_notebook'></div> FAQ",
   "about-link": "<div style='display:inline-block' class='icon_fugue_information-frame'></div> À propos",
   "home-page": "<div style='display:inline-block' class='icon_fugue_home'></div> Page d'accueil",
   "welcome-main": "<h1 class='titre'>Bienvenue sur <span class='titre2'>FireAqua</span></h1>",
@@ -15,7 +16,7 @@
   "news-title": "Actualités",
   "torrent-title": "Pourquoi les fichiers sont en .torrent ?",
   "torrent-why": "Les fichiers qui sont supérieur à plus de 100MO sont en .torrent, pour deux raisons.<br> La première est que notre site est hébergée sur Github, et contrairement à d'autres sites, Github refuse des tailles importantes de fichiers. <br> <strong> <span> Je vous recommande d'utiliser qBittorent. Certains clients torrent, comme μTorrent, sont remplis de publicité et pour certains, des virus.</strong></span> <br> Et, la deuxième raison, est l'espace de stockage, en effet, nous souhaitons travaillez sur un dossier qui ne fait pas plusieurs GO.",
-  "introduction": "Salut, bienvenue sur mon site internet, du nom de FireAqua ! Je suis KevFR créateur du site, et je réalise des vidéos sur l'informatique et de nombreux tutoriels sur l'installation d'ancienne version de Windows ! Tu peux retrouvez des packs comme, des iSOs, ou des thèmes pour Progressbar95. Les packs, sont gratuit et accessible à tous ! N'hésitez pas à consulter les différentes pages, le site bénéficie d'une traduction en anglais ! Alors qu'attendez-vous ?",
+  "introduction": "FireAqua est un site internet crée par KevFR qui offre l’accès à des contenus tels que des guides, des mods ou encore des jeux-vidéos qui sont mis à votre disposition. Le site est en français et en anglais. De plus il est sécurisé et fluide.",
   "a-propos-title": "À propos de FireAqua",
   "free": "Les packs sont t-il gratuit ?",
   "yes-free": "Oui, les packs sont gratuit",
