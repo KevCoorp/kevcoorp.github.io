@@ -1,5 +1,5 @@
 ﻿{
-  "packs-link": "<div style='display:inline-block' class='icon_fugue_drive-download'></div> My packs",
+  "packs-link": "<div style='display:inline-block' class='icon_fugue_drive-download'></div> Packs",
   "about-link": "<div style='display:inline-block' class='icon_fugue_information-frame'></div> About",
   "home-page": "<div style='display:inline-block' class='icon_fugue_home'></div> Home page",
   "welcome-main": "<h1 class='titre'>Welcome to <span class='titre2'>FireAqua</span></h1>",
@@ -9,7 +9,7 @@
   "markverb": "Helper",
   "zai": "Translator",
   "luihum": "Helper",
-  "packs-title": "My packs",
+  "packs-title": "Packs",
   "password": "<strong>For security reasons, I've decided to put a password. The password is <span class='conseil'>kevfriscool</span></strong>",
   "torrent": "<strong><span class='conseil'>Files larger than 100MB are in .torrent</span>. Thank you for your understanding.</p></strong>",
   "news-title": "News",
