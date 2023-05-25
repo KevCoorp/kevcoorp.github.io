@@ -285,7 +285,7 @@ html {
   padding: 5px;
   margin: 25px;
   -webkit-backdrop-filter: blur(15px);
-  border-radius: 7px;
+  border-radius: 10px;
   width: 25%;
   height: 85%;
 }
@@ -311,11 +311,10 @@ html {
 
 .dev-img:hover {
   cursor: pointer;
-  height: 57px;
+  height: 53px;
   transform-origin: center;
-  border: #fff solid 2px;
+  border: #fff solid 4px;
   transform: scale(calc(75 / 70));
-  box-shadow: 0 5 7px #fff;
   box-shadow: 0 1 30px rgb(206, 206, 206);
 }
 
@@ -451,7 +450,7 @@ td.right {
   text-align: center;
   align-items: center;
   margin: 25px;
-  padding: 5px;
+  padding: 10px;
 }
 
 .social-border::before {

@@ -1,5 +1,5 @@
 ﻿{
-  "packs-link": "<div style='display:inline-block' class='icon_fugue_drive-download'></div> Mes packs",
+  "packs-link": "<div style='display:inline-block' class='icon_fugue_drive-download'></div> Packs",
   "faq-link": "<div style='display:inline-block' class='icon_fugue_notebook'></div> FAQ",
   "about-link": "<div style='display:inline-block' class='icon_fugue_information-frame'></div> À propos",
   "home-page": "<div style='display:inline-block' class='icon_fugue_home'></div> Page d'accueil",
@@ -10,7 +10,7 @@
   "markverb": "Aide",
   "zai": "Traducteur",
   "luihum": "Aide",
-  "packs-title": "Mes packs",
+  "packs-title": "Packs",
   "password": "<strong>Pour des raisons de sécuritée, nous avons décidée de mettre un mot de passe. Le mot de passe utilisée est <span class='conseil'>kevfriscool</span></strong>",
   "torrent": "<strong><span class='conseil'>Les fichiers qui sont supérieur à 100MO, sont en .torrent</span>. Merci de votre compréhension</p></strong>",
   "news-title": "Actualités",
