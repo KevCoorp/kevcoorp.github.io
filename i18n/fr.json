@@ -16,7 +16,7 @@
   "news-title": "Actualités",
   "torrent-title": "Pourquoi les fichiers sont en .torrent ?",
   "torrent-why": "Les fichiers qui sont supérieur à plus de 100MO sont en .torrent, pour deux raisons.<br> La première est que notre site est hébergée sur Github, et contrairement à d'autres sites, Github refuse des tailles importantes de fichiers. <br> <strong> <span> Je vous recommande d'utiliser qBittorent. Certains clients torrent, comme μTorrent, sont remplis de publicité et pour certains, des virus.</strong></span> <br> Et, la deuxième raison, est l'espace de stockage, en effet, nous souhaitons travaillez sur un dossier qui ne fait pas plusieurs GO.",
-  "introduction": "FireAqua est un site internet crée par KevFR qui offre l’accès à des contenus tels que des guides, des mods ou encore des jeux-vidéos qui sont mis à votre disposition. Le site est en français et en anglais. De plus il est sécurisé et fluide.",
+  "introduction": "FireAqua est un site internet qui offre l’accès à des contenus tels que des guides, des mods ou encore des jeux-vidéos qui sont mis à votre disposition. Le site est en français et en anglais. De plus il est sécurisé et fluide.",
   "a-propos-title": "À propos de FireAqua",
   "free": "Les packs sont t-il gratuit ?",
   "yes-free": "Oui, les packs sont gratuit",

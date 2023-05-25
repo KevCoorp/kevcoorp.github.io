@@ -437,8 +437,8 @@ td.right {
 }
 
 .social-border {
-  width: 20%;
-  height: 30%;
+  width: 10%;
+  height: 25%;
   color: white;
   opacity: 1 !important;
   background-color: rgba(0, 0, 0, 0.267);
@@ -458,16 +458,6 @@ td.right {
   filter: blur(2px);
 }
 
-.youtube {
-  cursor: pointer;
-  padding: 0 10px;
-  transition: all ease-in-out 0.5s;
-}
-
-.youtube:hover {
-  color: red;
-  text-shadow: rgb(255, 255, 255) 1 2px;
-}
 .git {
   cursor: pointer;
   transition: all ease-in-out 0.5s;
@@ -698,18 +688,18 @@ section.new-packs {
   }
 
   .social-border {
-    width: 50%;
+    width: 15%;
     color: white;
     opacity: 1 !important;
     background-color: rgba(0, 0, 0, 0.267);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.534);
-    border-radius: 20px;
+    border-radius: 10px;
     transition: 0.3s all ease-in-out;
     align-content: center;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    margin: 25px;
-    padding: 7px;
+    margin: 10px;
+    padding: 2px;
   }
 
   .social-border::before {
