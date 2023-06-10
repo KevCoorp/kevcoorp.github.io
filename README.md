@@ -7,7 +7,6 @@
 
 ## Introduction
 :wave:Bienvenue sur le répertoire de FireAqua, où se trouve les fichiers sources du site et les annonces de développement. FireAqua est un site internet sortie le 24 juin 2022. Le thème est autour du domaine de l'informatique.
-* :clapper: N'hésitez-pas à me suivre sur [YouTube](https://www.youtube.com/channel/UCCPSET9zTIvoaK-WwoAe-Gw)
 <hr>
 
 ## Fonctionnalités
@@ -15,10 +14,8 @@
 Fonctionnalités |
 ------------ | 
 Deux langues supportés 🚩 | 
-Packs gratuits :smile: |
 Responsive :iphone: | 
-Rapide & Fluide :fast_forward:| 
-Et bien plus 👍 | 
+Rapide & Fluide :fast_forward:|  
 
 <hr>
 
