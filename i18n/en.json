@@ -10,11 +10,6 @@
   "zai": "Translator",
   "luihum": "Helper",
   "packs-title": "Packs",
-  "password": "<strong>For security reasons, I've decided to put a password. The password is <span class='conseil'>kevfriscool</span></strong>",
-  "torrent": "<strong><span class='conseil'>Files larger than 100MB are in .torrent</span>. Thank you for your understanding.</p></strong>",
-  "news-title": "News",
-  "torrent-title": "Why are files in .torrent?",
-  "torrent-why": "Files larger than 100MB are in .torrent for 2 reasons.<br>The first reason is that our site is hosted on GitHub Pages, and they don't allow large file sizes. <br><strong>I recommend using qBitTorrent. Some torrent clients, like µTorrent are filled with ads and some can even be filled with viruses.</strong><br>The second reason is to reduce storage space. I don't want a folder that's several GB large.",
   "introduction": "FireAqua is a website that offers access to content such as guides, mods and video games that are available to you. The site is in French and English. Moreover it is secure and fast.",
   "a-propos-title": "About FireAqua",
   "free": "Are the packs free?",
@@ -22,5 +17,5 @@
   "why-pass": "Why is there a password?",
   "best-packs": "Best packs",
   "old-packs": "Oldest packs",
-  "latest-packs": "Latest packs"
+  "games": "Games"
 }
