@@ -36,24 +36,28 @@
      </center>
      
         <section class="new-packs">
-      <h1 class="title-pack" data-i18n-key="games">Jeux</h1>
-       
-      
-         <a href="#popup"><img src="./images/bg/bg-pack/firespace.png" alt="my first video game" class="img-btn">&times;</a>
-         <div class="popup">
-           <div class="popup-content">
-         <a href="https://github.com/kCorp-s/FireSpace/releases/download/v1.3/FireSpace.for.Linux.gz"><img src="./images/bg/bg-pack/sub/firespace-linux.png" alt="my first video game" class="img-btn"></a>  
-         <a href="https://github.com/kCorp-s/FireSpace/releases/download/v1.3/FireSpace.for.Windows.zip"><img src="./images/bg/bg-pack/sub/firespace-windows.png" alt="my first video game" class="img-btn"></a>    
-         </div>    
+            <h1 class="title-pack" data-i18n-key="games">Jeux</h1>
+         <a data-modal-target="#modal"><img src="./images/bg/bg-pack/firespace.png" alt="my first video game" class="img-btn"></a>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <button data-close-button class="close-button">&times;</button>
     </div>
+    <div class="modal-body">
+          <a href="https://github.com/kCorp-s/FireSpace/releases/download/v1.3/FireSpace.for.Windows.zip"><img src="./images/bg/bg-pack/sub/firespace-windows.png" alt="my first video game" class="img-btn"></a>    
+      <a href="https://github.com/kCorp-s/FireSpace/releases/download/v1.3/FireSpace.for.Linux.gz"><img src="./images/bg/bg-pack/sub/firespace-linux.png" alt="my first video game" class="img-btn"></a>  
+    
+    </div>
+  </div>
+  <div id="overlay"></div>
+ 
+
+ 
+
          </section>
 
-
-
-
-
-        
+            
     <script type="text/javascript" src="./js/translate.js"></script>
+    <script type="text/javascript" src="./js/popup.js"></script>
+     
 </body>
-
 </html>
