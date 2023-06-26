@@ -69,7 +69,6 @@ main {
   background-size: cover;
   background-size: 100%;
   position: absolute;
-  overflow: hidden;
   bottom: 0;
   width: 100%;
   background-attachment: fixed;
@@ -93,8 +92,6 @@ header {
   min-width: 500px;
   width: 110%;
 }
-
-
 
 .titre {
   font-size: 75px;
