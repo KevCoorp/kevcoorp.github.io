@@ -1,22 +1,8 @@
 ﻿{
   "packs-link": "<div style='display:inline-block' class='icon_fugue_drive-download'></div> Packs",
-  "faq-link": "<div style='display:inline-block' class='icon_fugue_notebook'></div> FAQ",
-  "about-link": "<div style='display:inline-block' class='icon_fugue_information-frame'></div> À propos",
   "home-page": "<div style='display:inline-block' class='icon_fugue_home'></div> Page d'accueil",
   "welcome-main": "<h1 class='titre'>Bienvenue sur FireAqua</h1>",
   "retour": "<div style='display:inline-block' class='icon_fugue_arrow-curve-180'></div> Retour",
-  "a-propos": "À propos de <strong style='color:blue'>FireAqua</strong>",
-  "kevfr": "Créateur de FireAqua",
-  "markverb": "Aide",
-  "zai": "Traducteur",
-  "luihum": "Aide",
-  "packs-title": "Packs",
-  "introduction": "FireAqua est un site internet qui offre l’accès à des contenus tels que des mods ou encore des jeux-vidéos qui sont mis à votre disposition. Le site est en français et en anglais. De plus il est sécurisé et fluide.",
-  "a-propos-title": "À propos de FireAqua",
-  "free": "Les packs sont t-il gratuit ?",
-  "yes-free": "Oui, les packs sont gratuit",
-  "why-pass": "Pourquoi avoir mis un mot de passe ?",
-  "best-packs": "Les meilleures packs",
-  "old-packs": "Les packs les plus anciens",
-  "games": "Jeux"
+  "mods-link": "Mods",
+  "games-link": "Jeux"
 }
