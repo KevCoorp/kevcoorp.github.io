@@ -2,7 +2,7 @@
   "packs-link": "<div style='display:inline-block' class='icon_fugue_drive-download'></div> Packs",
   "about-link": "<div style='display:inline-block' class='icon_fugue_information-frame'></div> About",
   "home-page": "<div style='display:inline-block' class='icon_fugue_home'></div> Home page",
-  "welcome-main": "<h1 class='titre'>Welcome to <span class='titre2'>FireAqua</span></h1>",
+  "welcome-main": "<h1 class='titre'>Welcome to FireAqua</h1>",
   "retour": "<div style='display:inline-block' class='icon_fugue_arrow-curve-180'></div> Back",
   "a-propos": "About <strong style='color:blue'>FireAqua</strong>",
   "kevfr": "Creator of FireAqua",
