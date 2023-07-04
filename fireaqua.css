@@ -157,9 +157,6 @@ span {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
-.company {
-  font-family: Roboto Thin;
-}
 
 html {
   max-width: 100%;
@@ -179,31 +176,15 @@ html {
   margin: 30px;
   background-color: rgba(0, 0, 0, 0.425);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.61);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
   color: white;
   overflow: hidden;
-}
-
-.section::before {
-  filter: blur(2px);
-}
-
-.company-2 {
-  color: #fff;
-  opacity: 1 !important;
-  background-color: rgba(0, 0, 0, 0.425);
-  padding: 5px;
-  margin: 25px;
-  border-radius: 10px;
-  width: 25%;
-  height: 85%;
 }
 
 .nav-item {
   padding: 15px;
   color: #fff;
   margin: 0 6px;
+  text-align: left;
   transition: 0.3s ease-in-out;
 }
 
@@ -267,23 +248,12 @@ select.short {
   left: -20px;
 }
 
-td.right {
-  max-width: 400px !important;
-  right: 50px;
-}
 
 .img-btn {
   width: 300px;
   border-radius: 20px;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
-}
-
-.img-btn:hover {
- transform-origin: center;
-  border: #ffffff95 solid 5px;
-  transform: scale(calc(75 / 70));
-  box-shadow: 0 1 30px rgb(206, 206, 206);
 }
 
 
@@ -320,9 +290,6 @@ nav {
   background-color: #0E0E0E;
 }
 
-.dev-title {
-  font-size: 35px;
-}
 
 body {
   margin: 0;

@@ -4,5 +4,7 @@
   "welcome-main": "<h1 class='titre'>Welcome to FireAqua</h1>",
   "retour": "<div style='display:inline-block' class='icon_fugue_arrow-curve-180'></div> Back",
   "games-link": "Games",
-  "mods-link": "Mods"
+  "mods-link": "Mods",
+  "games-title": "Games",
+  "mods-title": "Mods"
 }
