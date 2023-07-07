@@ -2,6 +2,7 @@
   font-family: Roboto Thin;
   src: url(font/roboto-thin.ttf);
 }
+
 @font-face {
   font-family: Roboto Regular;
   src: url(font/roboto-regular.ttf);
@@ -129,9 +130,9 @@ h2 {
   align-items: center;
   justify-content: center;
   position: fixed;
-  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
   font-size: 3vw;
   color: #000;
+  font-family: Roboto Regular;
   position: relative;
   z-index: 2000;
 }
@@ -143,6 +144,7 @@ span {
 
 .logoaqua {
   float: left;
+  padding-right: 15px;
   width: 120px;
   height: 50px;
   margin: auto;
@@ -156,7 +158,6 @@ span {
   left: 0;
   background-color: rgba(0, 0, 0, 0.45);
 }
-
 
 html {
   max-width: 100%;
@@ -181,49 +182,26 @@ html {
 }
 
 .nav-item {
+  color: #8F8F8F;
   padding: 15px;
-  color: #fff;
-  margin: 0 6px;
-  text-align: left;
+  display : inline-block;
+  vertical-align : top;
+  text-align: left !important;
   transition: 0.3s ease-in-out;
 }
 
 .nav-item:hover {
-  color: #aaa;
+ color: #fff;
 }
 
 .table-padding {
   padding: 10px;
 }
 
-.right {
-  text-align: right;
-}
-
 .center {
   margin-left: auto;
   margin-right: auto;
 }
-
-.right2 {
-  float: right;
-}
-
-nav.center2 {
-  padding: 15px;
-  color: #fff;
-  background: #0E0E0E;
-  transition: all ease-in-out 0.5s;
-  animation: fadein 3s;
-  text-align: center;
-}
-
-.nav-item.center2 {
-  text-align: center;
-  position: relative;
-  left: auto;
-}
-
 
 .section-3 {
   text-decoration: none !important;
@@ -249,9 +227,10 @@ select.short {
 }
 
 
-.img-btn {
+.shooter {
   width: 300px;
-  border-radius: 20px;
+  border-radius: 20px !important;
+  padding: 150px;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
@@ -307,17 +286,6 @@ body {
   animation: transitionIn 0.75s;
 }
 
-.title-pack {
-  text-align: center;
-  padding: 0 15px;
-  position: fixed;
-  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 30px;
-  color: #000;
-  position: relative;
-  
-}
-
 
 /* Popup */
 
@@ -331,7 +299,7 @@ body {
   border-radius: 10px;
   z-index: 10;
   background-color: rgba(0, 0, 0, 0.411);
-  width: 650px;
+  width: 450px;
   max-width: 80%;
 }
 
@@ -452,43 +420,18 @@ body {
     animation: transitionIn 0.75s;
   }
 
-  .titre {
-    font-size: 50px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  .home-title {
+  color: #000;
+  font-family: Roboto Regular; 
   }
   
   .nav-item {
-    padding: 1px;
-    text-align: center;
-    color: #fff;
-    transition: all ease-in-out 0.3s;
-    margin: 0 6px;
-  }
-
-  nav.center2 {
-    padding: 15px;
-    color: #fff;
-    background: #0E0E0E;
-    transition: all ease-in-out 0.5s;
-    animation: fadein 3s;
-    text-align: center !important;
-  }
-
-  .nav-item.center2 {
-    text-align: center;
-    position: relative;
-    left: auto;
-  }
-
-  .titre-small {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
-    position: relative;
-    z-index: 2000;
+  color: #8F8F8F;
+  padding: 15px;
+  display : inline-block;
+  vertical-align : top;
+  text-align: left !important;
+  transition: 0.3s ease-in-out;
   }
 }
 
