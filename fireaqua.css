@@ -229,12 +229,16 @@ select.short {
 
 .shooter {
   width: 300px;
-  border-radius: 20px !important;
+  border-radius: 175px;
   padding: 150px;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
 
+
+h1.title-2 {
+  color: black;
+}
 
 body {
   margin: 0;
