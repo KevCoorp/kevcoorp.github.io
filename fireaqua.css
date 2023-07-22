@@ -55,6 +55,7 @@
 
 * {
   scrollbar-width: thin;
+  margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -92,6 +93,8 @@ header {
   min-width: 500px;
   width: 110%;
 }
+
+
 
 .titre {
   font-size: 75px;
@@ -227,9 +230,12 @@ select.short {
 }
 
 
-.shooter {
+section.latest {
   width: 300px;
-  border-radius: 175px;
+  object-fit: cover;
+  position: absolute;
+  top: 140px;
+  width: 426px;
   padding: 150px;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
@@ -237,10 +243,17 @@ select.short {
 
 
 h1.title-2 {
-  color: black;
+  color: #000;
+  font-weight: 70px;
+  left: 90px;
+  top: 200px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  width: 781px;
 }
 
-body {
+body.games {
   margin: 0;
   height: 100%;
   color: #fff;
