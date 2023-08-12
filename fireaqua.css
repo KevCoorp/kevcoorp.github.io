@@ -56,7 +56,6 @@ a:hover {
 .item {
   width: 100px;
   vertical-align : top;
-  text-align: left;
   order: 3;
 }
 
