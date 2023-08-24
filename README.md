@@ -3,10 +3,10 @@
 ### Sommaire
 * [Introduction](#introduction)
 * [Fonctionnalités](#fonctionnalités)
-* [Crédits](#crédits)
+* [Crédit](#crédit)
 
 ## Introduction
-:wave:Bienvenue sur le répertoire de FireAqua, où se trouve les fichiers sources du site et les annonces de développement. FireAqua est un site internet sortie le 24 juin 2022. Le thème est autour du domaine de l'informatique.
+:wave:Bienvenue, FireAqua est un site internet qui propose des mods et des jeux réalisé par kevCorp. N'hésitez pas à venir consulter notre site !   
 <hr>
 
 ## Fonctionnalités
@@ -19,8 +19,8 @@ Rapide & Fluide :fast_forward:|
 
 <hr>
 
-## Crédits
-:smiley: FireAqua n'aurrait jamais vu le jour sans l'aide de: 
+## Crédit
+:smiley: Le projet original de FireAqua n'aurrait pas vu le jour sans: 
 * zai-tm [[GitHub](https://github.com/zai-tm)]
 * markverb1 [[GitHub](https://github.com/markverb1)]
 * luihum [[GitHub](https://github.com/luihum)]
