@@ -8,33 +8,27 @@ body {
 }
 
 
-
-
 /* Navbar */
 
-
-.topnav {
+nav {
   background-color: #0E0E0E;
   overflow: hidden;
   padding: 10px;
 }
 
-.topnav a {
+nav a {
 float: left;
-color: #D9D9D9;
+color: #8F8F8F;
 font-family: Roboto;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
 
-.topnav a:hover {
+nav a:hover {
   color: white;
 }
 
-.topnav-right {
-float: right;
-}
 
 .logo {
   float: left;
@@ -44,5 +38,11 @@ float: right;
   margin: auto;
 }
 
-/* Navbar */
+/* Titre de la page index.html */
 
+.main-title {
+  color: black;
+  font-weight: 900;
+  padding: 30px 50px;
+  font-size: 50px;
+}
