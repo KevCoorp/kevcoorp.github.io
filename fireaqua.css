@@ -46,3 +46,10 @@ nav a:hover {
   padding: 30px 50px;
   font-size: 50px;
 }
+
+.mini-title {
+  color: black;
+  font-weight: 700;
+  padding: 30px 10px;
+  font-size: 30px;
+}
