@@ -8,7 +8,7 @@ body {
 }
 
 
-/* Navbar */
+/* Barre de navigation */
 
 nav {
   background-color: #0E0E0E;
@@ -52,4 +52,29 @@ nav a:hover {
   font-weight: 700;
   padding: 30px 10px;
   font-size: 30px;
+}
+
+/* Button de la page des mods */
+
+#mod-btn {
+  font-size: 12px;
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background-color: black;
+  cursor: pointer;
+}
+
+.mod-text {
+  color: rgb(219, 219, 219);
+  text-decoration: none;
+  list-style: none;
+  transition: all ease-in-out 0.3s;
+}
+
+.mod-text:hover {
+  color: #ffffff;
+  list-style: none;
 }
