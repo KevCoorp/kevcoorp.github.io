@@ -25,4 +25,4 @@ Rapide & Fluide :fast_forward:|
 * markverb1 [[GitHub](https://github.com/markverb1)]
 * luihum [[GitHub](https://github.com/luihum)]
 
-**© kCorp 2023**
+**© kevCorp 2023**
