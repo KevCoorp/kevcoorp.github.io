@@ -62,9 +62,15 @@ nav a:hover {
   margin: 0.25em;
   border-radius: 1em;
   border: none;
+  transition: all ease-in-out 0.3s;
   outline: none;
-  background-color: black;
+  background-color: #0E0E0E;
   cursor: pointer;
+}
+
+#mod-btn:hover {
+  padding: 0.5em 1.2em;
+  background-color: black;
 }
 
 .mod-text {
