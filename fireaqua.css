@@ -29,13 +29,18 @@ nav a:hover {
   color: white;
 }
 
-
+/* Logo */
 .logo {
   float: left;
   padding-right: 15px;
   width: 120px;
   height: 50px;
   margin: auto;
+}
+
+.logo-page {
+  float: right;
+  bottom: 100%;
 }
 
 /* Titre de la page index.html */
@@ -55,7 +60,6 @@ nav a:hover {
 }
 
 /* Button de la page des mods */
-
 
 
 #mod-images {
