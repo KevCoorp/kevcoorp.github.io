@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/* Corps de la page (index) */
 
 body {
   background-color: #D9D9D9;
@@ -30,6 +31,7 @@ nav a:hover {
 }
 
 /* Logo */
+
 .logo {
   float: left;
   padding-right: 15px;
@@ -39,8 +41,10 @@ nav a:hover {
 }
 
 .logo-page {
-  float: right;
   bottom: 100%;
+  float: right;
+  width: 256px;
+  height: 256px;
 }
 
 /* Titre de la page index.html */
@@ -48,12 +52,14 @@ nav a:hover {
 .main-title {
   color: black;
   font-weight: 900;
+  font-weight: bold;
   padding: 30px 50px;
   font-size: 50px;
 }
 
 .mini-title {
   color: black;
+  font-weight: bold;
   font-weight: 700;
   padding: 30px 10px;
   font-size: 30px;
