@@ -111,3 +111,14 @@ nav a:hover {
   color: white;
 }
 
+span.fireaqua {
+  color: #0E0E0E;
+  
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+span.fireaqua:hover {
+  color: #0026FF;
+  font-weight: 900;
+}
