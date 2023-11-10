@@ -18,12 +18,13 @@ nav {
 }
 
 nav a {
-float: left;
-color: #8F8F8F;
-font-family: Roboto;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+  float: left;
+  color: #8F8F8F;
+  font-family: Roboto;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all .2s;
 }
 
 nav a:hover {
