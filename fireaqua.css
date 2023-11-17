@@ -123,3 +123,10 @@ span.fireaqua:hover {
   color: #0026FF;
   font-weight: 900;
 }
+
+/* Footer */
+
+.footer-container {
+  background: #0E0E0E;
+  padding: 4em;
+}
