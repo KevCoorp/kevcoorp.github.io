@@ -126,7 +126,56 @@ span.fireaqua:hover {
 
 /* Footer */
 
-.footer-container {
-  background: #0E0E0E;
-  padding: 4em;
+
+.footerContainer {  
+  background-color: #0E0E0E;
+  width: 100%;
+  bottom: 0 !important;
+  position: fixed;
+  padding: 1rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all ease-in-out 0.4s;
+}
+
+
+.social a i {
+  font-size: 1.5em;
+  color: black;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+.social a i:hover {
+  color: #0026FF;
+}
+
+
+.footerBottom {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+span.kevcoorp {
+  color: white;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+span.kevcoorp:hover {
+  color: #8F8F8F;
 }
