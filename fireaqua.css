@@ -27,6 +27,7 @@ nav a {
   transition: all .2s;
 }
 
+
 nav a:hover {
   color: white;
 }
@@ -162,7 +163,6 @@ span.fireaqua:hover {
 .social a i:hover {
   color: #0026FF;
 }
-
 
 .footerBottom {
   color: white;
