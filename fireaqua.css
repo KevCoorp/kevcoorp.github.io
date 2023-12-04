@@ -32,6 +32,37 @@ nav a:hover {
   color: white;
 }
 
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all ease-in-out 0.4s;
+}
+
+
+.social a i {
+  font-size: 1.5em;
+  color: black;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+.social a i:hover {
+  color: #0026FF;
+}
+
+
+
 /* Logo */
 
 .logo {
@@ -115,7 +146,6 @@ nav a:hover {
 
 span.fireaqua {
   color: #0E0E0E;
-  
   cursor: pointer;
   transition: all ease-in-out 0.3s;
 }
@@ -125,8 +155,8 @@ span.fireaqua:hover {
   font-weight: 900;
 }
 
-/* Footer */
 
+/* Footer */
 
 .footerContainer {  
   background-color: #0E0E0E;
@@ -136,39 +166,13 @@ span.fireaqua:hover {
   padding: 1rem;
 }
 
-.social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social a {
-  text-decoration: none;
-  padding: 10px;
-  background-color: white;
-  margin: 10px;
-  cursor: pointer;
-  border-radius: 50%;
-  transition: all ease-in-out 0.4s;
-}
-
-
-.social a i {
-  font-size: 1.5em;
-  color: black;
-  cursor: pointer;
-  transition: all ease-in-out 0.4s;
-}
-
-.social a i:hover {
-  color: #0026FF;
-}
-
 .footerBottom {
   color: white;
   display: flex;
+  padding: 3px;
   align-items: center;
 }
+
 
 span.kevcoorp {
   color: white;
