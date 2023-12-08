@@ -163,7 +163,7 @@ span.fireaqua:hover {
   width: 100%;
   bottom: 0 !important;
   position: fixed;
-  padding: 1rem;
+  padding: 0.6rem;
 }
 
 .footerBottom {
@@ -173,6 +173,9 @@ span.fireaqua:hover {
   align-items: center;
 }
 
+p.info {
+  color: white;
+}
 
 span.kevcoorp {
   color: white;
