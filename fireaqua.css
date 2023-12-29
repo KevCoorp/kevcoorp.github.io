@@ -173,6 +173,12 @@ span.fireaqua:hover {
 
 /* Footer */
 
+.ver {
+  display: block;
+  text-align: center;
+  position: fixed;
+}
+
 .footerContainer {  
   background-color: #0E0E0E;
   width: 100%;
