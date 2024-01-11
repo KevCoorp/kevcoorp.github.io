@@ -14,7 +14,8 @@ body {
 nav {
   background-color: #0E0E0E;
   overflow: hidden;
-  padding: 10px;
+  padding: 15px;
+  
 }
 
 nav a {
@@ -101,7 +102,9 @@ nav a:hover {
 .main-title {
   color: black;
   font-weight: 900;
-  font-weight: bold;
+  font-weight: normal;
+  line-height: normal;
+  font-family: "Roboto";
   padding: 30px 50px;
   font-size: 50px;
 }
@@ -109,6 +112,7 @@ nav a:hover {
 .mini-title {
   color: black;
   font-weight: bold;
+  line-height: normal;
   font-weight: 700;
   padding: 30px 10px;
   font-size: 30px;
@@ -167,7 +171,6 @@ span.fireaqua {
 
 span.fireaqua:hover {
   color: #0026FF;
-  font-weight: 900;
 }
 
 
