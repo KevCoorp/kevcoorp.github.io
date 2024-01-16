@@ -62,22 +62,6 @@ nav a:hover {
 }
 
 
-/* Section pack */
-
-.container {
-  border-spacing: 20px;
-  width: 50%;
-  border-radius: 13px;
-  padding: 30px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 150px;
-  text-align: center;
-  background-color: rgb(29, 29, 29);
-  border-radius: 15 rgba(0, 0, 0, 0.623);
-  transition: 0.2s all ease-in-out;
-}
-
 
 /* Logo */
 
@@ -209,4 +193,23 @@ span.kevcoorp {
 
 span.kevcoorp:hover {
   color: #8F8F8F;
+}
+
+/* Boutton */
+
+.ttmod {
+  color: #000;
+  font-family: "Roboto";
+  font-weight: 900;
+}
+
+.pb95pos {
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.container {
+  height: 40px;
+  margin: 70px;
 }
