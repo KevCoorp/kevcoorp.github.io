@@ -14,7 +14,7 @@ Fonctionnalités |
 ------------ | 
 Deux langues supportés 🚩 | 
 Responsive :iphone: | 
-Différent thème :fast_forward:|  
+Interface minimaliste 🎨|  
 
 <hr>
 
