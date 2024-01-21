@@ -5,7 +5,7 @@
 * [Fonctionnalités](#fonctionnalités)
 * [Contributeur](#contributeur)
 ## Introduction
-:wave:Bienvenue, FireWave est un Web OS qui propose différent thème basé sur différentes versions de Windows 
+:wave:Bienvenue, FireAqua est un site internet qui vous permet de télécharger les mods ou les jeux faient par la kevCorp !
 <hr>
 
 ## Fonctionnalités
@@ -14,7 +14,7 @@ Fonctionnalités |
 ------------ | 
 Deux langues supportés 🚩 | 
 Responsive :iphone: | 
-Différent thème :fast_forward:|  
+Interface minimaliste 🎨|  
 
 <hr>
 
