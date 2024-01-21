@@ -202,13 +202,18 @@ span.kevcoorp:hover {
   color: #000;
   font-family: "Roboto";
   font-weight: 900;
+  font-size: 4vh;
 }
 
 .pb95pos {
   text-align: center;
   border-radius: 20px;
   padding: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
+
+
 
 .container {
   height: 40px;
