@@ -12,10 +12,18 @@ body {
 /* Barre de navigation */
 
 nav {
-  background-color: #0E0E0E;
+  background: repeating-linear-gradient( 
+  45deg,
+  #111111 0px,
+  #111111 20px,
+  #020202 20px,
+  #020202 40px
+);
+  background-size: cover;
+  background-attachment: fixed;
   overflow: hidden;
   padding: 15px;
-  
+
 }
 
 nav a {
@@ -105,20 +113,6 @@ nav a:hover {
 
 /* Button de la page des mods */
 
-
-#mod-images {
-  width: 375px;
-  border-radius: 10px;
-  transition: all 0.5s ease-in-out;
-  cursor: pointer;
-}
-
-#mod-images:hover {
-  transform-origin: center;
-  border: rgba(255, 255, 255, 0.575) solid 6px;
-  box-shadow: #000;
-  transform: scale(calc(75 / 70));
-}
 
 /* Button page d'acceuil */
 
