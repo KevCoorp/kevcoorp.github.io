@@ -170,7 +170,7 @@ span.fireaqua:hover {
 .footerContainer {  
   background-color: #0E0E0E;
   width: 100%;
-  bottom: 0 !important;
+  bottom: 0;
   position: fixed;
   padding: 0.6rem;
 }
@@ -213,9 +213,8 @@ span.kevcoorp:hover {
   transition: all 0.3s;
 }
 
-
-
 .container {
   height: 40px;
+  display: block;
   margin: 70px;
 }
