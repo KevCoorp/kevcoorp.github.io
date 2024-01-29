@@ -6,6 +6,7 @@ body {
   background-color: #D9D9D9;
   font-family: Roboto;
   margin: 0 auto;
+  overflow: auto;
 }
 
 
@@ -166,6 +167,7 @@ span.fireaqua:hover {
   width: 100%;
   bottom: 0;
   position: fixed;
+  overflow: h;
   padding: 0.6rem;
 }
 
