@@ -31,7 +31,6 @@ nav {
   background-attachment: fixed;
   overflow: hidden;
   padding: 15px;
-
 }
 
 nav a {
@@ -226,4 +225,35 @@ span.kevcoorp:hover {
   height: 40px;
   display: block;
   margin: 70px;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 1024px) {
+  nav {
+    background: repeating-linear-gradient( 
+    45deg,
+    #111111 0px,
+    #111111 20px,
+    #020202 20px,
+    #020202 40px
+  );
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    padding: 7px;
+  }
+
+  .pb95pos {
+    text-align: center;
+    width: 226px;
+    height: 140px;
+    border-radius: 15px;
+    padding: 3px;
+  }
+  
+  .pb95pos:hover {
+    transform-origin: center;
+    transform: scale(calc(75 / 70));
+  }
 }
