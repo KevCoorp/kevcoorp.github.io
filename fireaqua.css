@@ -219,7 +219,9 @@ span.kevcoorp:hover {
 .pb95pos:hover {
   transform-origin: center;
   transform: scale(calc(75 / 70));
+  background-color: #0000000a;
 }
+
 
 .container {
   height: 40px;
