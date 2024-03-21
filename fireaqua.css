@@ -5,10 +5,10 @@
 body {
   background-color: #eee;
   background-image:
-    linear-gradient(45deg, #d9d9d918 25%, transparent 25%, 
-      transparent 75%, #d9d9d918  75%, #d9d9d918 ),
-    linear-gradient(45deg, #d9d9d918  25%, transparent 25%, 
-      transparent 75%, #d9d9d918  75%, #d9d9d918 );
+    linear-gradient(45deg, #d9d9d919 25%, transparent 25%, 
+      transparent 75%, #d9d9d919  75%, #d9d9d919 ),
+    linear-gradient(45deg, #d9d9d919  25%, transparent 25%, 
+      transparent 75%, #d9d9d919  75%, #d9d9d919 );
   background-size: 60px 60px;
   background-position: 0 0, 30px 30px;
   font-family: Roboto;
@@ -23,9 +23,9 @@ nav {
   background: repeating-linear-gradient( 
   45deg,
   #111111 0px,
-  #111111 20px,
-  #020202 20px,
-  #020202 40px
+  #111111 40px,
+  #020202 0px,
+  #020202 80px
 );
   background-size: cover;
   background-attachment: fixed;
@@ -125,7 +125,15 @@ nav a:hover {
 
 .home-button {
   border: 0;
-  background-color: #0E0E0E;
+  background: repeating-linear-gradient( 
+  45deg,
+  #111111 0px,
+  #111111 20px,
+  #212121 20px,
+  #212121 40px
+);
+  background-size: cover;
+  background-attachment: fixed;
   padding: 15px 46px;
   left: 50px;
   border-radius: 30px;
@@ -146,6 +154,13 @@ nav a:hover {
 
 .home-button:hover {
   transform: translate(0, -3px);
+  background: repeating-linear-gradient( 
+  45deg,
+  #111111 0px,
+  #111111 20px,
+  #020202 20px,
+  #020202 40px
+);
   color: white;
 }
 
