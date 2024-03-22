@@ -166,13 +166,16 @@ nav a:hover {
 
 span.fireaqua {
   color: #0E0E0E;
+  font-weight: 500;
   cursor: pointer;
   transition: all ease-in-out 0.3s;
 }
 
 span.fireaqua:hover {
   color: #0026FF;
-  font-size: 55px;
+  text-shadow: 1px 0px 2px rgba(31, 0, 168, 0.3), 
+  0px -2px 4px rgba(0, 4, 255, 0.363);
+  font-weight: 575;
 }
 
 
