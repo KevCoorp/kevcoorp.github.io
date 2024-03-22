@@ -5,7 +5,7 @@
 * [Fonctionnalités](#fonctionnalités)
 * [Contributeur](#contributeur)
 ## Introduction
-:wave:Bienvenue, FireAqua est un site internet qui vous permet de télécharger les mods ou les jeux faient par la kevCorp !
+:wave:Bienvenue, FireAqua est un site internet de partage de mod ou des jeux produits par KevCoorp !
 <hr>
 
 ## Fonctionnalités
