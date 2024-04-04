@@ -40,6 +40,7 @@ nav a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  display: flex;
   transition: all .2s;
 }
 
@@ -78,6 +79,18 @@ nav a:hover {
 }
 
 
+/* Positionement de l'îcone de traduction */
+
+
+.selectlang {
+  cursor: pointer;
+  display: flex;
+  float: right;
+  margin: 0 auto;
+  justify-content: space-between; 
+
+}
+ 
 
 /* Logo */
 
