@@ -25,4 +25,4 @@ Interface minimaliste 🎨|
 * markverb1 [[GitHub](https://github.com/markverb1)]
 * luihum [[GitHub](https://github.com/luihum)]
 
-**© KevCoorp, 2024**
+** ©2024 KevCoorp**
