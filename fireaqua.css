@@ -94,13 +94,12 @@ nav a:hover {
   cursor: pointer;
   display: flexbox;
   justify-content: space-between; 
-  background-color: rebeccapurple;
- 
 }
 
 .listlang {
   display: none;
   position: absolute;
+  left: 320px;
   background: repeating-linear-gradient( 
     45deg,
     #fefefe 0px,

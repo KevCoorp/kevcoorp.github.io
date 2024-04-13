@@ -3,5 +3,7 @@
  "mods": "mods",
  "title": "Welcome to FireAqua",
  "discover": "Discover my latest mods",
- "back": "back"
+ "back": "back",
+ "selectFR": "French",
+ "selectUS": "English"
 }

@@ -49,3 +49,4 @@ function isSupported(locale) {
 function supportedOrDefault(locales) {
     return locales.find(isSupported) || defaultLocale;
 }
+
