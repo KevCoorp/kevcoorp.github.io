@@ -123,6 +123,7 @@ nav a:hover {
   color: #9b9b9b;
 }
 
+
 .selectlang:hover .listlang{
   display: block;
 }
@@ -285,16 +286,14 @@ span.kevcorp:hover {
 
 .pb95pos {
   text-align: center;
-  border-radius: 20px;
   padding: 7px;
   cursor: pointer;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out .1s;
 }
 
 .pb95pos:hover {
   transform-origin: center;
   transform: scale(calc(75 / 70));
-  background-color: #0000000a;
 }
 
 
@@ -325,7 +324,6 @@ span.kevcorp:hover {
     text-align: center;
     width: 226px;
     height: 140px;
-    border-radius: 15px;
     padding: 3px;
   }
   
