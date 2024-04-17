@@ -50,3 +50,12 @@ function supportedOrDefault(locales) {
     return locales.find(isSupported) || defaultLocale;
 }
 
+
+function changeLanguage(lang) {
+	document.get()
+	location.reload();
+}
+		// Define the language reload anchors
+let language = {
+    };
+}
