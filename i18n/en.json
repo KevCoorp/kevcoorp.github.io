@@ -1,9 +1,9 @@
 ﻿{
- "games": "jeux",
- "mods": "mods",
- "title": "Welcome to FireAqua",
- "discover": "Discover my latest mods",
- "back": "back",
- "selectFR": "French",
- "selectUS": "English"
+    "games": "jeux",
+    "mods": "mods",
+    "title": "Welcome to FireAqua",
+    "discover": "Discover our games",
+    "back": "back",
+    "selectFR": "French",
+    "selectUS": "English"
 }
