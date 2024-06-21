@@ -9,10 +9,10 @@
 body {
   background-color: #eee;
   background-image:
-    linear-gradient(45deg, #d9d9d919 25%, transparent 25%, 
-      transparent 75%, #d9d9d919  75%, #d9d9d919 ),
-    linear-gradient(45deg, #d9d9d919  25%, transparent 25%, 
-      transparent 75%, #d9d9d919  75%, #d9d9d919 );
+    linear-gradient(45deg, #d9d9d919 25%, transparent 25%,
+      transparent 75%, #d9d9d919 75%, #d9d9d919),
+    linear-gradient(45deg, #d9d9d919 25%, transparent 25%,
+      transparent 75%, #d9d9d919 75%, #d9d9d919);
   background-size: 60px 60px;
   background-position: 0 0, 30px 30px;
   font-family: Roboto;
@@ -24,13 +24,11 @@ body {
 /* Barre de navigation */
 
 nav {
-  background: repeating-linear-gradient( 
-  45deg,
-  #111111 0px,
-  #111111 40px,
-  #020202 0px,
-  #020202 80px
-);
+  background: repeating-linear-gradient(45deg,
+      #111111 0px,
+      #111111 40px,
+      #020202 0px,
+      #020202 80px);
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
@@ -93,26 +91,24 @@ nav a:hover {
 .selectlang {
   cursor: pointer;
   display: flexbox;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .listlang {
   display: none;
   position: absolute;
   left: 320px;
-  background: repeating-linear-gradient( 
-    45deg,
-    #fefefe 0px,
-    #fefefe 40px,
-    #fafafa 0px,
-    #fafafa 80px
-  );
+  background: repeating-linear-gradient(45deg,
+      #fefefe 0px,
+      #fefefe 40px,
+      #fafafa 0px,
+      #fafafa 80px);
   background-size: cover;
   background-attachment: fixed;
   list-style: none;
   border: #000 solid 0.5px;
   padding: 7px 3px;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .listlang a {
@@ -124,10 +120,10 @@ nav a:hover {
 }
 
 
-.selectlang:hover .listlang{
+.selectlang:hover .listlang {
   display: block;
 }
- 
+
 
 /* Logo */
 
@@ -175,13 +171,11 @@ nav a:hover {
 
 .home-button {
   border: 0;
-  background: repeating-linear-gradient( 
-  45deg,
-  #111111 0px,
-  #111111 20px,
-  #212121 20px,
-  #212121 40px
-);
+  background: repeating-linear-gradient(45deg,
+      #111111 0px,
+      #111111 20px,
+      #212121 20px,
+      #212121 40px);
   background-size: cover;
   background-attachment: fixed;
   padding: 15px 46px;
@@ -204,13 +198,11 @@ nav a:hover {
 
 .home-button:hover {
   transform: translate(0, -3px);
-  background: repeating-linear-gradient( 
-  45deg,
-  #111111 0px,
-  #111111 20px,
-  #020202 20px,
-  #020202 40px
-);
+  background: repeating-linear-gradient(45deg,
+      #111111 0px,
+      #111111 20px,
+      #020202 20px,
+      #020202 40px);
   color: white;
 }
 
@@ -223,8 +215,8 @@ span.fireaqua {
 
 span.fireaqua:hover {
   color: #0026FF;
-  text-shadow: 1px 0px 2px rgba(31, 0, 168, 0.3), 
-  0px -2px 4px rgba(0, 4, 255, 0.363);
+  text-shadow: 1px 0px 2px rgba(31, 0, 168, 0.3),
+    0px -2px 4px rgba(0, 4, 255, 0.363);
   font-weight: 575;
 }
 
@@ -237,14 +229,12 @@ span.fireaqua:hover {
   position: fixed;
 }
 
-.footerContainer {  
-  background: repeating-linear-gradient( 
-  45deg,
-  #111111 0px,
-  #111111 40px,
-  #010101 0px,
-  #010101 80px
-);
+.footerContainer {
+  background: repeating-linear-gradient(45deg,
+      #111111 0px,
+      #111111 40px,
+      #010101 0px,
+      #010101 80px);
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -307,13 +297,11 @@ span.kevcorp:hover {
 
 @media screen and (max-width: 1024px) {
   nav {
-    background: repeating-linear-gradient( 
-    45deg,
-    #111111 0px,
-    #111111 20px,
-    #020202 20px,
-    #020202 40px
-  );
+    background: repeating-linear-gradient(45deg,
+        #111111 0px,
+        #111111 20px,
+        #020202 20px,
+        #020202 40px);
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
@@ -326,7 +314,7 @@ span.kevcorp:hover {
     height: 140px;
     padding: 3px;
   }
-  
+
   .pb95pos:hover {
     transform-origin: center;
     transform: scale(calc(75 / 70));
