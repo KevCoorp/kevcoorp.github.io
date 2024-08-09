@@ -97,7 +97,7 @@ nav a:hover {
 .listlang {
   display: none;
   position: absolute;
-  left: 320px;
+  left: 245px;
   background: repeating-linear-gradient(45deg,
       #fefefe 0px,
       #fefefe 40px,
@@ -107,7 +107,7 @@ nav a:hover {
   background-attachment: fixed;
   list-style: none;
   border: #000 solid 0.5px;
-  padding: 7px 3px;
+  padding: 3px 3px;
   z-index: 1;
 }
 
