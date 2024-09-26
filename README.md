@@ -3,7 +3,6 @@
 ### Sommaire
 * [Introduction](#introduction)
 ## Introduction
-💾Le site de KevCorp vous proposera à pouvoir vous rediriger sur nos jeux, des actualités et bien plus !
-<hr>
+💾Le site de KevCorp vous proposera à pouvoir vous redirigez sur nos jeux, des actualitées et plus !
 
 **©2024 KevCoorp**
