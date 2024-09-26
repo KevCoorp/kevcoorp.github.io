@@ -85,45 +85,18 @@ nav a:hover {
 }
 
 
-/* Positionement de l'îcone de traduction */
+/* Firespace icon */
 
-
-.selectlang {
-  cursor: pointer;
-  display: flexbox;
-  justify-content: space-between;
+.firespaceIcon {
+  position: absolute !important;
+  width: 200px;
+  height: 200px;
+  top: 35%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  margin-left: -40px;
+  transition: all 0.3s;
 }
-
-.listlang {
-  display: none;
-  position: absolute;
-  left: 245px;
-  background: repeating-linear-gradient(45deg,
-      #fefefe 0px,
-      #fefefe 40px,
-      #fafafa 0px,
-      #fafafa 80px);
-  background-size: cover;
-  background-attachment: fixed;
-  list-style: none;
-  border: #000 solid 0.5px;
-  padding: 3px 3px;
-  z-index: 1;
-}
-
-.listlang a {
-  color: #000;
-}
-
-.listlang a:hover {
-  color: #9b9b9b;
-}
-
-
-.selectlang:hover .listlang {
-  display: block;
-}
-
 
 /* Logo */
 
