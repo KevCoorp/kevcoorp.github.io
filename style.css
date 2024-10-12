@@ -142,15 +142,9 @@ nav a:hover {
 
 /* Button page d'acceuil */
 
-.home-button {
+.homeButton {
   border: 0;
-  background: repeating-linear-gradient(45deg,
-      #111111 0px,
-      #111111 20px,
-      #212121 20px,
-      #212121 40px);
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #212121;
   padding: 15px 46px;
   left: 50px;
   border-radius: 30px;
@@ -162,20 +156,8 @@ nav a:hover {
   transition: all .2s;
 }
 
-.home-button::after {
-  content: "";
-  width: 200px;
-  height: 200px;
-  transition: all .2s;
-}
-
-.home-button:hover {
+.homeButton:hover {
   transform: translate(0, -3px);
-  background: repeating-linear-gradient(45deg,
-      #111111 0px,
-      #111111 20px,
-      #020202 20px,
-      #020202 40px);
   color: white;
 }
 
