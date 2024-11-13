@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0026FF">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="FireAqua">
-    <meta property="og:description" content="Official website of KevCorp!.">
+    <meta property="og:title" content="KevCorp">
+    <meta property="og:description" content="Official website of KevCorp!">
     <meta property="og:url" content="https://kevcoorp.github.io/">
     <meta property="og:image" content="./images/misc/icon.png">
     <meta property="og:image:secure_url" content="./images/misc/icon.png">
@@ -27,13 +27,10 @@
 </head>
 
 <body>
-    <!-- Nav -->
     <nav>
-        <!-- Items  -->
-        <img src="./images/misc/navbar-logo2.png" alt="Logo FireAqua" class="logo"></a>
-        <a href="./games" data-i18n-key="games">jeux</a>
-
-        <!-- Social network -->
+        <img src="./assets/images/misc/navLogo.png" alt="KevCorp logo" class="logo"></a>
+        <a href="./games" data-i18n-key="games">nos jeux</a>
+        <a href="./news" data-i18n-key="news">actualité</a>
 
         <div class="navsocial">
             <a href="https://github.com/KevCoorp"><i class="fa-brands fa-github"></i></a>
@@ -42,16 +39,19 @@
     </nav>
 
     <!-- Main -->
-    <h1 class="mainTitle" data-i18n-key="titlemain">Télécharger notre premier jeu</h1>
+    <center>
+        <h1>Firespace</h1>
+        <video controls="controls">
+            <source src="./assets/videos/fsHOME.mp4">
+        </video>
+    </center>
 
-    <button onclick="window.location='https://kevfr8.itch.io/firespace'" class="homeButton" data-i18n-key="discover">
-        <img src="./images/content/games/Firespace/icon.png" alt="icon" height="18px" width="18px">Tester Firespace
-        maintenant !</button>
-
-    <a href="./games"><img src="./images/content/games/Firespace/icon.png" height="128px" width="128px" alt="Firespace"
-            class="firespaceIcon"></a>
-
+    <div class="center">
+        <button onclick="window.location='https://kevfr8.itch.io/firespace'" class="homeButton"
+            data-i18n-key="discover">Tester Firespace maintenant !</button>
+    </div>
 </body>
+
 
 <!-- Footer -->
 <footer>
@@ -63,11 +63,8 @@
         </div>
     </div>
 </footer>
-<center>
-
-</center>
 <script src="./js/translate.js"></script>
 
 </html>
 
-<!-- Beta 1.3 - 1.6020.kc_dev.2024 -->
+<!-- Beta 1.3.1 - 1.6300.kc_exp.2024 -->
