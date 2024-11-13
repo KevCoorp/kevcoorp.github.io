@@ -1,6 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 /* Corps de la page (index) */
+
+.oxygen-light {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.oxygen-regular {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oxygen-bold {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
 * {
   margin: 5 auto;
@@ -15,7 +34,7 @@ body {
       transparent 75%, #d9d9d919 75%, #d9d9d919);
   background-size: 60px 60px;
   background-position: 0 0, 30px 30px;
-  font-family: Roboto;
+  font-family: Oxygen;
   margin: 0 auto;
   overflow: auto;
 }
@@ -38,7 +57,7 @@ nav {
 nav a {
   float: left;
   color: #8F8F8F;
-  font-family: Roboto;
+  font-family: Oxygen;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -118,17 +137,17 @@ nav a:hover {
 
 /* Titre de la page index.html */
 
-.main-title {
+.mainTitle {
   color: black;
   font-weight: 900;
   font-weight: normal;
   line-height: normal;
-  font-family: "Roboto";
+  font-family: "Oxygen";
   padding: 30px 50px;
   font-size: 50px;
 }
 
-.mini-title {
+.miniTitle {
   color: black;
   font-weight: bold;
   line-height: normal;
@@ -159,20 +178,6 @@ nav a:hover {
 .homeButton:hover {
   transform: translate(0, -3px);
   color: white;
-}
-
-span.fireaqua {
-  color: #0E0E0E;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all ease-in-out 0.3s;
-}
-
-span.fireaqua:hover {
-  color: #0026FF;
-  text-shadow: 1px 0px 2px rgba(31, 0, 168, 0.3),
-    0px -2px 4px rgba(0, 4, 255, 0.363);
-  font-weight: 575;
 }
 
 
@@ -222,13 +227,6 @@ span.kevcorp:hover {
 
 /* Boutton */
 
-.ttmod {
-  color: #000;
-  font-family: "Roboto";
-  font-weight: 900;
-  font-size: 4vh;
-}
-
 .pb95pos {
   text-align: center;
   padding: 7px;
@@ -240,7 +238,6 @@ span.kevcorp:hover {
   transform-origin: center;
   transform: scale(calc(75 / 70));
 }
-
 
 .container {
   height: 40px;
