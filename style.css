@@ -26,15 +26,12 @@
 }
 
 body {
-  background-color: #f0f0f0;
+  background-color: #EEEEEE;
   font-family: Oxygen;
   flex-direction: column;
   margin: 0 auto;
   scroll-behavior: smooth;
 }
-
-
-/* Barre de navigation */
 
 nav {
   background-color: #010101;
@@ -52,7 +49,6 @@ nav a {
   display: flex;
   transition: all .2s;
 }
-
 
 nav a:hover {
   color: white;
@@ -87,9 +83,6 @@ nav a:hover {
 
 }
 
-.social a i:hover {
-  color: #0026FF;
-}
 
 /* KevCorp logo */
 
@@ -129,7 +122,7 @@ nav a:hover {
 .homeButton {
   border: 0;
   background-color: #080808;
-  padding: 15px 46px;
+  padding: 12px 30px;
   position: relative;
   border-radius: 30px;
   color: #8F8F8F;
@@ -140,18 +133,18 @@ nav a:hover {
 }
 
 .homeButton:hover {
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   color: white;
 }
 
 
 .videoPlayer {
   cursor: pointer;
-  transition: all .2s;
+  transition: all ease-in-out .3s;
 }
 
 .videoPlayer:hover {
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 
 /* Footer */
