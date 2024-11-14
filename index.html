@@ -22,6 +22,7 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="/images/misc/fav.ico">
+
     <link rel="stylesheet" href="./style.min.css" />
     <title>KevCorp - Acceuil</title>
 </head>
@@ -38,22 +39,26 @@
         </div>
     </nav>
 
-    <!-- Main -->
+
     <center>
         <h1>Firespace</h1>
-        <video controls="controls">
-            <source src="./assets/videos/fsHOME.mp4">
+        <video autoplay>
+            <source src="./assets/videos/fsHOME.mp4" type="video/mp4">
         </video>
     </center>
 
-    <div class="center">
+    <style>
+        .container {
+            height: 200px;
+            text-align: center;
+            overflow: auto;
+        }
+    </style>
+    <div class="container">
         <button onclick="window.location='https://kevfr8.itch.io/firespace'" class="homeButton"
             data-i18n-key="discover">Tester Firespace maintenant !</button>
     </div>
 </body>
-
-
-<!-- Footer -->
 <footer>
     <div class=" footerContainer">
         <div class="social">
@@ -63,6 +68,7 @@
         </div>
     </div>
 </footer>
+
 <script src="./js/translate.js"></script>
 
 </html>

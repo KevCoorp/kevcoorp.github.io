@@ -26,30 +26,18 @@
 }
 
 body {
-  background-color: #eee;
-  background-image:
-    linear-gradient(45deg, #d9d9d919 25%, transparent 25%,
-      transparent 75%, #d9d9d919 75%, #d9d9d919),
-    linear-gradient(45deg, #d9d9d919 25%, transparent 25%,
-      transparent 75%, #d9d9d919 75%, #d9d9d919);
-  background-size: 60px 60px;
-  background-position: 0 0, 30px 30px;
+  background-color: #f0f0f0;
   font-family: Oxygen;
+  flex-direction: column;
   margin: 0 auto;
-  overflow: auto;
+  scroll-behavior: smooth;
 }
 
 
 /* Barre de navigation */
 
 nav {
-  background: repeating-linear-gradient(45deg,
-      #111111 0px,
-      #111111 40px,
-      #020202 0px,
-      #020202 80px);
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #010101;
   overflow: hidden;
   padding: 15px;
 }
@@ -103,21 +91,7 @@ nav a:hover {
   color: #0026FF;
 }
 
-
-/* Firespace icon */
-
-.firespaceIcon {
-  position: absolute !important;
-  width: 200px;
-  height: 200px;
-  top: 35%;
-  left: 85%;
-  transform: translate(-50%, -50%);
-  margin-left: -40px;
-  transition: all 0.3s;
-}
-
-/* Logo */
+/* KevCorp logo */
 
 .logo {
   float: left;
@@ -128,12 +102,6 @@ nav a:hover {
   margin: auto;
 }
 
-.logo-page {
-  bottom: 100%;
-  float: right;
-  width: 256px;
-  height: 256px;
-}
 
 /* Titre de la page index.html */
 
@@ -162,16 +130,19 @@ nav a:hover {
   border: 0;
   background-color: #080808;
   padding: 15px 46px;
-  bottom: -5vh;
-  left: 85vh;
   position: relative;
   border-radius: 30px;
   color: #8F8F8F;
   cursor: pointer;
   font-size: 1em;
   transition: all .2s;
-
   margin: 0;
+}
+
+.container {
+  height: 200px;
+  text-align: center;
+  overflow: auto;
 }
 
 .homeButton:hover {
@@ -189,18 +160,11 @@ nav a:hover {
 }
 
 .footerContainer {
-  background: repeating-linear-gradient(45deg,
-      #111111 0px,
-      #111111 40px,
-      #010101 0px,
-      #010101 80px);
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #010101;
   width: 100%;
   bottom: 0;
   position: fixed;
-  overflow: hidden;
-  padding: 0.6rem;
+  padding: 0.4rem;
 }
 
 .footerBottom {
@@ -248,13 +212,7 @@ span.kevcorp:hover {
 
 @media screen and (max-width: 1024px) {
   nav {
-    background: repeating-linear-gradient(45deg,
-        #111111 0px,
-        #111111 20px,
-        #020202 20px,
-        #020202 40px);
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #010101;
     overflow: hidden;
     padding: 7px;
   }
