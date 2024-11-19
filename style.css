@@ -185,15 +185,24 @@ span.kevcorp:hover {
 
 /* Boutton */
 
+.ttgames {
+  color: #000;
+  font-family: "Oxygen";
+  font-weight: 900;
+  font-size: 4vh;
+}
+
 .pb95pos {
   text-align: center;
+  border-radius: 15px;
   padding: 7px;
   cursor: pointer;
-  transition: all ease-in-out .1s;
+  transition: all ease-in-out .3s;
 }
 
 .pb95pos:hover {
   transform-origin: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   transform: scale(calc(75 / 70));
 }
 
