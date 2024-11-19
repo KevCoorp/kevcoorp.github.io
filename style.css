@@ -188,7 +188,7 @@ span.kevcorp:hover {
 .ttgames {
   color: #000;
   font-family: "Oxygen";
-  font-weight: 900;
+  font-weight: 800;
   font-size: 4vh;
 }
 
@@ -218,7 +218,15 @@ span.kevcorp:hover {
   nav {
     background-color: #010101;
     overflow: hidden;
-    padding: 7px;
+    padding-left: 10px;
+  }
+
+  nav a {
+    float: left;
+    color: #8F8F8F;
+    font-family: Oxygen;
+    text-align: center;
+    padding: 14px 10px;
   }
 
   .pb95pos {
@@ -231,5 +239,16 @@ span.kevcorp:hover {
   .pb95pos:hover {
     transform-origin: center;
     transform: scale(calc(75 / 70));
+  }
+
+  .videoPlayer {
+    width: 380px;
+    height: 280px;
+  }
+
+  .homeButton {
+    border: 0;
+    background-color: #080808;
+    padding: 12px 15px;
   }
 }
