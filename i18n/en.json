@@ -1,7 +1,26 @@
-﻿{
-    "games": "KevCorp - Games",
-    "mods": "mods",
-    "title": "Welcome to FireAqua",
-    "discover": "Discover our games",
-    "back": "back"
+{
+    "our games": "our games",
+    "about us": "about",
+    "QD-slogan": "Jump, collect coins <br> and reach the flag!",
+    "FS-slogan": "Control a spaceship, shoot and make the highest score!",
+    "try": "Try the game now!",
+    "aboutFooter": "About",
+    "titleGames": "Our games",
+    "titleAbout": "About us",
+    "price": "Free",
+    "quest1": "Why my game is considered as a virus?",
+    "quest2": "What tools did you use for design your games?",
+    "quest3": "Why « kevfr8.itch.io »?",
+    "quest4": "How to support us?",
+    "answer1": "If your game is detected as malware by Windows, it is likely a false positive. <br> A false positive refers to software incorrectly identified as malicious by antivirus programs. <br> This occurs because our games are not digitally signed  with a certificate recognized  by Windows, which can trigger security alerts.",
+    "answer3": "We chose the team name 'KevCorp' because the team is currently composed of just one member. Additionally, linking to itch.io directly associates the project with its creator while simplifying the distribution of video games.",
+    "answer4": "The best way to help us is to play at our games, share yours feedbacks and talk all around!",
+    "dev-tools": "&bullet; Development: Godot Engine or GB Studio (game engine).",
+    "graphics-tools": "&bullet; Graphic design: Aseprite, Figma, Paint.NET.",
+    "video-tools": "&bullet; Video: OBS Studio (record) and Adobe Premiere Pro (editing).",
+    "ressources-tools": "&bullet; Ressources: royalty-free music banks.",
+    "who": "Who are we?",
+    "tools": "Our tools",
+    "desc1": "Founded in 2021, <span>KevCorp</span> is a small French development team whose goal is to create video games. <br><span>We aim to design entertaining and captivating games!</span>",
+    "desc2": "We prioritize the use of free software for designing our games. We use tools like <span>Godot Engine</span> to develop our games, <span>Aseprite</span> to create graphical assets, or <span>Audacity</span>."
 }

@@ -1,7 +1,26 @@
-﻿{
-    "games": "KevCorp - jeux",
-    "news": "Actualité",
-    "titlemain": "Bienvenue sur FireAqua",
-    "discover": "Découvrez nos jeux",
-    "back": "retour"
+{
+    "our games": "nos jeux",
+    "about us": "à propos de nous",
+    "QD-slogan": "Sauter, collecter des pièces <br> et atteigner le drapeau!",
+    "FS-slogan": "Contrôler un vaisseau spatial, tirer et marquer le meilleur score!",
+    "try": "Essayer le jeu dès maintentant!",
+    "aboutFooter": "À propos",
+    "titleGames": "Nos jeux",
+    "titleAbout": "À propos de nous",
+    "price": "Gratuit",
+    "quest1": "Pourquoi mon jeu est-il considéré comme un virus ?",
+    "quest2": "Avec quels outils concevez-vous vos jeux ?",
+    "quest3": "Pourquoi « kevfr8.itch.io » ?",
+    "quest4": "Comment nous soutenir ?",
+    "answer1": "Si votre jeu est détecté comme un virus par Windows, il s’agit d’un faux positif. <br> Un faux positif désigne un programme identifié à tort comme malveillant par un antivirus. <br> Cela survient car nos jeux ne sont pas signés numériquement par un certificat reconnu par Windows, ce qui peut déclencher des alertes de sécurité.",
+    "answer3": "Nous avons choisi ce nom car l’équipe de KevCorp n’est actuellement composée que d’un seul membre. <br> De plus, le lien avec itch.io permet d’associer directement le projet à son créateur, tout en simplifiant la distribution des jeux.",
+    "answer4": "Le meilleur soutien est de jouer à nos jeux, de partager vos retours et d’en parler autour de vous !",
+    "dev-tools": "&bullet; Développement: Godot Engine ou GB Studio (moteurs de jeu).",
+    "graphics-tools": "&bullet; Conception graphiques: Aseprite, Figma, Paint.NET.",
+    "video-tools": "&bullet; Vidéo: OBS Studio (capture) et Adobe Premiere Pro (montage).",
+    "ressources-tools": "&bullet; Ressources: banques de musique libres de droits.",
+    "who": "Qui nous-sommes ?",
+    "tools": "Nos outils",
+    "desc1": "Fondée en 2021, la <span>KevCorp</span> est une petite équipe de développement française qui a pour objectif, <br> la création de jeux-vidéos. <span>Nous souhaitons concevoir des jeux divertissants et captivants !</span>",
+    "desc2": "Nous privilégions l'usage de logiciels libres pour la conception de nos jeux. Nous usons de logiciels comme <span>Godot Engine</span> pour développer nos jeux, <span>Aseprite</span> pour créer des assets graphiques ou bien <span>Audacity</span>."
 }

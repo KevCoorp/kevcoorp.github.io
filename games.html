@@ -2,49 +2,63 @@
 <html lang="fr">
 
 <head>
-    <!-- meta -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#0026FF">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="FireAqua">
-    <meta property="og:description" content="Official website of KevCorp!.">
-    <meta property="og:url" content="https://kevcoorp.github.io/">
-    <meta property="og:image" content="./images/misc/icon.png">
-    <meta property="og:image:secure_url" content="./images/misc/icon.png">
-    <meta property="og:image:width" content="256">
-    <meta property="og:image:height" content="256">
-    <meta property="og:image:alt" content="KevCorp.io">
-
-    <!-- Link -->
-    <link rel="icon" href="./assets/images/misc/fav.ico">
-    <link rel="stylesheet" href="./style.min.css" />
-    <title data-i18n-key="games">KevCorp - Jeux</title>
+    <title>KevCorp - Games</title>
 </head>
 
-<body>
+<header>
+    <div class="diamond-shape"></div>
     <nav>
-        <img src="./assets/images/misc/navLogo.png" alt="KevCorp logo" class="logo"></a>
-        <a href="./index" data-i18n-key="back">retour</a>
-        <div class="navsocial">
+        <a href="./index.html"><img src="./assets/images/logo/navLogo.png" alt="KevCorp logo" class="logo"></a>
+        <ul class="navLink">
+            <li><a href="./games.html" style="font-weight: bold;" data-i18n-key="our games">our games</a></li>
+            <li><a href="./about.html" data-i18n-key="about us">about us</a></li>
+            <li><a href="./faq.html">faq</a></li>
+        </ul>
+        <div class="navSocialIcon">
             <a href="https://github.com/KevCoorp"><i class="fa-brands fa-github"></i></a>
             <a href="https://www.instagram.com/kevc0rp/"><i class="fa-brands fa-instagram"></i></a>
         </div>
     </nav>
-    <center>
+</header>
 
-        <section class="gamesContainer">
-            <h2 class="ttgames">Firespace</h2>
-            <a href="https://kevfr8.itch.io/firespace"><img src="./assets/images/content/games/Firespace/firespace.png"
-                    alt="Firespace" class="pb95pos"></a>
+<body>
+    <h1 class="title2" data-i18n-key="titleGames">Our games</h1>
+    <!-- Qube Dash Card -->
+    <div class="card-container">
+        <div class="card" onclick="window.location='https://kevfr8.itch.io/qube-dash'">
+            <img src="./assets/images/games/qubedash.png" alt="">
+            <div class="card-content">
+                <h3>Qube Dash</h3>
+                <p data-i18n-key="QD-slogan">Jump, collect coins and <br> reach the flag!</p>
+                <p class="btn-2"><i class="fa-brands fa-windows"></i>
+                    <i class="fa-brands fa-linux"></i>
+                </p>
+                <p class="btn-2">Plateformer</p>
+                <p class="btn-2" data-i18n-key="price">Free</p>
+            </div>
+        </div>
 
-            <h2 class="ttgames">Qube Dash</h2>
-            <a href="https://kevfr8.itch.io/qube-dash"><img src="./assets/images/content/games/Qube Dash/qubedash.png"
-                    alt="Qube Dash DEMO" class="pb95pos"></a>
-        </section>
-
-    </center>
+        <!-- FireSpace Card -->
+        <div class="card" onclick="window.location='https://kevfr8.itch.io/firespace'">
+            <img src="./assets/images/games/firespace.png" alt="">
+            <div class="card-content">
+                <h3>FireSpace</h3>
+                <p data-i18n-key="FS-slogan">Control a spaceship, shoot and make the highest score!</p>
+                <p class="btn-2"><i class="fa-brands fa-windows"></i>
+                    <i class="fa-brands fa-linux"></i>
+                </p>
+                <p class="btn-2">Space-shooter</p>
+                <p class="btn-2" data-i18n-key="price">Free</p>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="./js/translate.js"></script>
 
 </html>

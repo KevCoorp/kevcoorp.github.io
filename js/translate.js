@@ -30,15 +30,15 @@ function translatePage() {
 }
 
 function translateElement(element) {
-  const key = element.getAttribute("data-i18n-key");
-  const translation = translations[key];
-  element.innerHTML = translation;
-  document.getElementsByTagName('html')[0].lang = locale;
+    const key = element.getAttribute("data-i18n-key");
+    const translation = translations[key];
+    element.innerHTML = translation;
+    document.getElementsByTagName('html')[0].lang = locale;
 }
 
 function browserLocales(languageCodeOnly = false) {
     return navigator.languages.map((locale) =>
-      languageCodeOnly ? locale.split("-")[0] : locale,
+        languageCodeOnly ? locale.split("-")[0] : locale,
     );
 }
 
@@ -52,10 +52,10 @@ function supportedOrDefault(locales) {
 
 
 function changeLanguage(lang) {
-	document.get()
-	location.reload();
+    document.get()
+    location.reload();
 }
-		// Define the language reload anchors
+// Define the language reload anchors
 let language = {
-    };
-}
+};
+
