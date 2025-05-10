@@ -1,8 +1,5 @@
 # 👋Bienvenue !
-
-### Sommaire
-* [Introduction](#introduction)
-## Introduction
-💾Le site de KevCorp vous proposera à pouvoir vous redirigez sur nos jeux, des actualitées et plus !
+Rendez-vous sur notre site internet pour en apprendre plus ! 
+https://kevcoorp.github.io
 
 **©2025 KevCoorp**
