@@ -7,16 +7,37 @@
     <link rel="icon" href="/images/misc/icon-2.ico">
 
     <link rel="stylesheet" href="./style.min.css" />
-    <title>FireAqua</title>
+    <title>KevCorp</title>
 </head>
 
 <body>
-    <nav>
-        <img src="./images/misc/navbar-logo2.png" alt="Logo FireAqua" class="logo"></a>
-    </nav>
+    <header>
+        <nav>
+            <a href="./index.html"><img src="./assets/images/logo/navLogo.png" alt="KevCorp logo" class="logo"></a>
+            <ul class="navLink">
+                <li><a href="./games.html" style="font-weight: bold;" data-i18n-key="our games">our games</a></li>
+                <li><a href="./about.html" data-i18n-key="about us">about us</a></li>
+                <li><a href="./faq.html">faq</a></li>
+            </ul>
+            <div class="navSocialIcon">
+                <a href="https://github.com/KevCoorp"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/kevc0rp/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </nav>
+    </header>
     <center>
-        <h1 style="font-weight: 800;">Une erreur s'est produite.</h1>
-        <h1 style="font-weight: 800;">An error has occured.</h1>
+        <h1 id="centered">404 not found :(</h1>
     </center>
+
+
+    <style>
+        #centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</body>
 
 </html>
